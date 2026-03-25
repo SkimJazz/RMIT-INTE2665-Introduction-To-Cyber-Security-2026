@@ -1,0 +1,158 @@
+THIS IS A TRANSCRIPT FOR THE PODCAST
+
+How are symmetric asymmetric encryption used
+
+PARTICIPANTS
+
+Prof Iqbal Gondal, FIEAust, GAICD, OELP (Oxford)|Associate Dean|CSS
+
+Dr Vaughan Shanks, Chief Executive Officer Cydarm Technologies
+
+[BEGINNING OF RECORDED MATERIAL]
+
+[RMIT University logo animation]
+
+Iqbal:Vaughan, thanks so much for joining us. Can you tell me about your background in 
+cybersecurity? Is that something you have always been interested in?
+
+Vaughan: During my computer science studies, I got quite interested in cryptography. While I was still at 
+uni, had a part time job working as a system administrator at a university. And we actually had 
+a security incident when someone trying to hack into one of our systems. And my colleague 
+and I took some countermeasures to prevent it happening again.
+
+Flash forward a few years. I did a PhD in computer science and got a job working at the 
+Department of Defence up in Canberra. So I spent nearly a decade there, including some time 
+across in the United States working with our allies over there. And then went on to work at a 
+private sector company in the Silicon Valley in their Australian office but headquartered in the 
+Silicon Valley where I learned all about how to develop products and how to run a product 
+company. And that's how I landed where I am now. So yeah, we've been in business for this is 
+our fifth year now. And we make software and we deploy that to customers and they pay us 
+for the software. And it's very stressful, but it's also a lot of fun.
+
+Iqbal: Can you talk about the skills that are needed to do what you do and also the skills that needed 
+to be a good analyst?
+
+Vaughan: So to be a good cryptanalyst, first of all, you want to be really good at mathematics. So being 
+very good at working with large numbers and thinking in the abstract. Beyond, that I think 
+having an element of creativity and also you need a lot of persistence. A lot of cryptanalytic 
+problems can take years to solve even in some cases. And also helps, I think, to have some 
+cultural awareness. So being able to understand the reasons people are sending or the 
+reasons people are using encryption and what they're using it for.
+
+You really need people thinking critically, being curious, applying the analytic mindset, and 
+thinking like the attacker saying, what would I do if someone had discovered my command 
+and control infrastructure? What would I do? How will I prevent people from finding out what 
+I'm doing to them? And then if you can think like the attacker, you can then use that to 
+construct a better Defence.
+
+
+Iqbal: Thank you. I want to talk to you now specifically about encryption. Can you tell us the 
+difference between the symmetric and asymmetric encryption schemes?
+
+Vaughan: Yes. The difference between symmetric and asymmetric encryption is in symmetric 
+encryption, both parties have a shared key. Symmetric encryption is very, very old. People 
+have been doing it for centuries. You distribute a key and then you send each other messages 
+and use the same key to encrypt the message as you do to decrypt it at the other side.
+
+So the way asymmetric encryption works is that you have a pair, a private and a public key. 
+The public key is distributed widely. Doesn't matter who has it. Your private key, you keep to 
+yourself. When you want to send a message to someone else, you have to obtain their public 
+key and use that to encrypt the data to send to them, which only they can decrypt using the 
+private key that corresponds to that public key. So it's a one way encryption process using a 
+public key and it's reversed at the other side by the receiver's private key.
+
+Now, where it gets interesting is that usually we combine both asymmetric and symmetric 
+encryption. So in practise, doing asymmetric operations is computationally expensive and 
+simply not feasible. So what we do is we use the other party's public key to encrypt a randomly 
+generated session key for this communication, which is in fact then a symmetric key. And we 
+transfer the symmetric key to the other party, encrypt it using their public key so that only 
+they can decrypt it using their private key. And then the rest of the communication uses that 
+shared symmetric key.
+
+Iqbal:How does your organisation choose between symmetric encryption or asymmetric 
+encryption?
+
+Vaughan: Knowing a bit about cryptography as I do, the very first thing to know is that you should not 
+roll your own encryption and you should rely on the advice of well established authorities to 
+choose what encryption choose what purpose. So I'd say in Australia, the best advice available 
+is the government information security manual. Another source of advice is in the US the 
+National Institute of Standards and Technology. So they provide recommendations on things 
+like key length, the type of cryptography, the mode in which it's deployed, different settings, 
+that sort of thing, even down to what random number generation system you should use for 
+that. And there's a famous saying which is a random number generation algorithm should not 
+be chosen at random. You really need to get this stuff right. And history is littered with people 
+who tried to make up their own encryption and failed.
+
+Iqbal: How efficient is Advanced Encryption Standard, which is AES, as compared to previous 
+encryption schemes?
+
+Vaughan: So the advanced encryption standard was developed in response to the increasing speed of 
+computers. And advanced encryption standard uses a 256-bit key, which is in fact 32 bytes of 
+data. And it replaced the Data Encryption Standard or DES, which was a 56-bit key, meaning 
+only seven bytes of data. So the key length is a lot longer. And what that means is that the 
+available number of possible keys is much greater. So if you're trying to reverse symmetric 
+encryption, one way to do it or a common approach is to do what's called a brute force attack 
+where you try and guess every possible key.
+
+And you would need a very big compute cluster of fast computers to do this. But with 56-bit 
+encryption, DES on a modern computer, that's actually fairly trivial to implement. AES on the 
+other hand at 256 bits, and there was an earlier 128-bit version, which I would not recommend 
+
+
+using, is much harder to crack. Many, many orders of magnitude larger, billions and billions of 
+possible keys. So it's a lot safer.
+
+Iqbal: How is encryption key management handled by large organisations that have to manage 
+large number of public keys?
+
+Vaughan: So typically encryption keys in a large organisation will be managed in some kind of key store. 
+And for a large enough organisation, you would actually run your own certifying authority. So 
+you'll see this a lot in government agencies or very large telecommunications companies, 
+banks, that sort of thing. What this means is they can make their own key-- or anyone can 
+make your own key pair.
+
+But the trick is, how do you verify the identity of a counterparty? And to do that, you need to 
+have a certifying authority which is able to sign the public keys before you distribute them so 
+that the receivers know that they are, in fact, encrypting data for the right counterparty. So for 
+example, if you have a public key that's given to you by an attacker and you use that to 
+encrypt data for your supposed recipient, then you could be encrypting data that then can be 
+decrypted by the attacker. So you need to verify these public keys are, in fact, the public keys 
+of the intended recipient of the information.
+
+In a large enough organisation, you would need a certifying authority so you can generate 
+these new key pairs or certificates at will. And very often for storing sensitive passphrase and 
+keys, you run something like a secret server, which is a type of service specifically designed to 
+store secrets. And you can have policies that enable certain people with the right level of 
+privilege to get access to those secrets to do a particular job. And you would rotate those 
+secrets frequently.
+
+Iqbal:So Vaughan, the future seems to be quantum computing. What vulnerabilities does quantum 
+computing create and what can we do about it?
+
+Vaughan: So quantum computing is being developed in a number of different countries. It's become 
+almost like an arms race to see who can develop the first functioning quantum computer. And 
+quantum computing, what it allows you to do is to represent many states at the same time. 
+And so to someone who's a skilled cryptanalyst, this immediately represents an opportunity to 
+crack keys a lot faster because you can cycle through billions of combinations of keys 
+simultaneously whereas previously you would have to do that across a supercomputer cluster 
+and test each key individually.
+
+So the danger is that any traffic that you send that's been encrypted or data that's been stored 
+using standard encryption technology is at risk of being decrypted by someone who has a 
+quantum computer in the future. And that future is actually not very far away. It could be as 
+little as five years away.
+
+So to mitigate against that, we need to have quantum resistant encryption algorithms. There's 
+a bunch of standards out there now that have been approved after mathematical scrutiny. 
+And I think every organisation should be having a look at that and deciding how they're going 
+to implement quantum resistant encryption so that the traffic they're sending today, which 
+could be being stored and recorded by an adversary, won't be cracked a few years from now.
+
+Iqbal:Vaughan, thanks for the insights into the future.
+
+
+[RMIT University logo animation]
+
+[END OF RECORDED MATERIAL]
+
+

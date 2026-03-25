@@ -1,0 +1,112 @@
+# ================================
+# General ignores
+# ================================
+
+# Consolidate and clean up
+# expected-output.md -> Kali terminal outputs => ignore/delete later
+inte2665_ass-2_industry-report/
+inte2665_security-report-and-reflection/
+
+# ================================
+# OS / Editor junk
+# ================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# ================================
+# Python / scripting caches
+# ================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ================================
+# Kali / Linux noise
+# ================================
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Command history / shells
+.bash_history
+.zsh_history
+.fish_history
+
+# ================================
+# Security-sensitive files
+# (DO NOT COMMIT THESE)
+# ================================
+
+# SSH keys
+.ssh/
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# GPG keys (private)
+.gnupg/
+
+# VPN / credentials
+*.ovpn
+*.crt
+*.p12
+*.kdbx
+*.env
+
+# Password lists / wordlists
+wordlists/
+rockyou.txt
+
+# ================================
+# Network captures & heavy outputs
+# ================================
+
+# Raw packet captures
+*.pcap
+*.pcapng
+
+# Asciinema recordings
+*.cast
+
+# ================================
+# Lab output handling
+# ================================
+
+# Ignore raw dumps by default
+outputs/raw/
+outputs/tmp/
+
+# Allow curated outputs
+!outputs/README.md
+
+
+# ================================
+# Virtualisation artefacts
+# ================================
+
+# VirtualBox
+*.vdi
+*.vbox
+*.vbox-prev
+
+# ================================
+# Logs
+# ================================
+
+*.log
+journal.txt

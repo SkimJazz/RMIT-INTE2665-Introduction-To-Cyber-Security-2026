@@ -1,0 +1,351 @@
+7.1 / Wireless Security 223 
+This chapter begins with a general overview of wireless security issues. We then focus 
+on the relatively new area of mobile device security, examining threats and countermeasures 
+for mobile devices used in the enterprise. Then, we look at the IEEE 802.11i 
+standard for wireless LAN security. This standard is part of IEEE 802.11, also referred 
+to as Wi-Fi. We begin the discussion with an overview of IEEE 802.11, and then we 
+look in some detail at IEEE 802.11i. 
+7.1 Wireless Security 
+Wireless networks, and the wireless devices that use them, introduce a host of security 
+problems over and above those found in wired networks. Some of the key factors 
+contributing to the higher security risk of wireless networks compared to wired 
+networks include the following [MA10]: 
+■■ Channel: Wireless networking typically involves broadcast communications, 
+which is far more susceptible to eavesdropping and jamming than wired 
+networks. Wireless networks are also more vulnerable to active attacks that 
+exploit vulnerabilities in communications protocols. 
+■■ Mobility: Wireless devices are, in principal and usually in practice, far more 
+portable and mobile than wired devices. This mobility results in a number of 
+risks, described subsequently. 
+■■ Resources: Some wireless devices, such as smartphones and tablets, have 
+sophisticated operating systems but limited memory and processing resources 
+with which to counter threats, including denial of service and malware. 
+■■ Accessibility: Some wireless devices, such as sensors and robots, may be left 
+unattended in remote and/or hostile locations. This greatly increases their 
+vulnerability 
+to physical attacks. 
+Learning Objectives 
+After studying this chapter, you should be able to: 
+◆ ◆ Present an overview of security threats and countermeasures for wireless 
+networks. 
+◆ ◆ Understand the unique security threats posed by the use of mobile devices 
+with enterprise networks. 
+◆ ◆ Describe the principal elements in a mobile device security strategy. 
+◆ ◆ Understand the essential elements of the IEEE 802.11 wireless LAN standard. 
+◆ ◆ Summarize the various components of the IEEE 802.11i wireless LAN security 
+architecture. 
+
+224 chapter 7 / Wireless Network Security 
+In simple terms, the wireless environment consists of three components that 
+provide point of attack (Figure 7.1). The wireless client can be a cell phone, a 
+Wi-
+Fi–enabled laptop or tablet, a wireless sensor, a Bluetooth device, and so on. 
+The wireless 
+access point provides a connection to the network or service. Examples 
+of access points are cell towers, Wi-Fi hotspots, and wireless access points to wired 
+local or wide area networks. The transmission medium, which carries the radio 
+waves for data transfer, is also a source of vulnerability. 
+Wireless Network Threats 
+[CHOI08] lists the following security threats to wireless networks: 
+■■ Accidental association: Company wireless LANs or wireless access points to 
+wired LANs in close proximity (e.g., in the same or neighboring buildings) 
+may create overlapping transmission ranges. A user intending to connect to 
+one LAN may unintentionally lock on to a wireless access point from a neighboring 
+network. Although the security breach is accidental, it nevertheless 
+exposes 
+resources of one LAN to the accidental user. 
+■■ Malicious association: In this situation, a wireless device is configured to 
+appear 
+to be a legitimate access point, enabling the operator to steal passwords 
+from legitimate users and then penetrate a wired network through a 
+legitimate wireless access point. 
+■■ Ad hoc networks: These are peer-to-peer networks between wireless computers 
+with no access point between them. Such networks can pose a security 
+threat due to a lack of a central point of control. 
+■■ Nontraditional networks: Nontraditional networks and links, such as personal 
+network Bluetooth devices, barcode readers, and handheld PDAs, pose a security 
+risk in terms of both eavesdropping and spoofing. 
+■■ Identity theft (MAC spoofing): This occurs when an attacker is able to eavesdrop 
+on network traffic and identify the MAC address of a computer with 
+network privileges. 
+■■ Man-in-the middle attacks: This type of attack is described in Chapter 3 in 
+the context of the Diffie–Hellman key exchange protocol. In a broader sense, 
+this attack involves persuading a user and an access point to believe that they 
+are talking to each other when in fact the communication is going through an 
+intermediate attacking device. Wireless networks are particularly vulnerable 
+to such attacks. 
+Figure 7.1 Wireless Networking Components 
+Endpoint Wireless medium Access point 
+
+7.1 / Wireless Security 225 
+■■ Denial of service (DoS): This type of attack is discussed in detail in Chapter 10. 
+In the context of a wireless network, a DoS attack occurs when an attacker 
+continually bombards a wireless access point or some other accessible wireless 
+port with various protocol messages designed to consume system resources. 
+The wireless environment lends itself to this type of attack, because it is so 
+easy for the attacker to direct multiple wireless messages at the target. 
+■■ Network injection: A network injection attack targets wireless access points 
+that are exposed to nonfiltered network traffic, such as routing protocol messages 
+or network management messages. An example of such an attack is 
+one in which bogus reconfiguration commands are used to affect routers and 
+switches to degrade network performance. 
+Wireless Security Measures 
+Following [CHOI08], we can group wireless security measures into those dealing 
+with wireless transmissions, wireless access points, and wireless networks (consisting 
+of wireless routers and endpoints). 
+Securing Wireless Transmiss ions The principal threats to wireless transmission 
+are eavesdropping, altering or inserting messages, and disruption. To deal with 
+eavesdropping, two types of countermeasures are appropriate: 
+■■ Signal-hiding techniques: Organizations can take a number of measures to 
+make it more difficult for an attacker to locate their wireless access points, 
+including turning off service set identifier (SSID) broadcasting by wireless 
+access 
+points; assigning cryptic names to SSIDs; reducing signal strength to the 
+lowest level that still provides requisite coverage; and locating wireless access 
+points in the interior of the building, away from windows and exterior walls. 
+Greater security can be achieved by the use of directional antennas and of 
+signal-shielding techniques. 
+■■ Encryption: Encryption of all wireless transmission is effective against eavesdropping 
+to the extent that the encryption keys are secured. 
+The use of encryption and authentication protocols is the standard method of 
+countering attempts to alter or insert transmissions. 
+The methods discussed in Chapter 10 for dealing with DoS apply to wireless 
+transmissions. Organizations can also reduce the risk of unintentional DoS attacks. 
+Site surveys can detect the existence of other devices using the same frequency 
+range, to help determine where to locate wireless access points. Signal strengths can 
+be adjusted and shielding used in an attempt to isolate a wireless environment from 
+competing nearby transmissions. 
+Securing Wireless Access Points The main threat involving wireless access 
+points is unauthorized access to the network. The principal approach for preventing 
+such access is the IEEE 802.1X standard for port-based network access control. The 
+standard provides an authentication mechanism for devices wishing to attach to a 
+LAN or wireless network. The use of 802.1X can prevent rogue access points and 
+other unauthorized devices from becoming insecure backdoors. 
+Section 5.3 provides an introduction to 802.1X. 
+
+226 chapter 7 / Wireless Network Security 
+Securing Wireless Netw orks [CHOI08] recommends the following techniques 
+for wireless network security: 
+1. Use encryption. Wireless routers are typically equipped with built-in encryption 
+mechanisms for router-to-router traffic. 
+2. Use antivirus and antispyware software, and a firewall. These facilities should 
+be enabled on all wireless network endpoints. 
+3. Turn off identifier broadcasting. Wireless routers are typically configured to 
+broadcast an identifying signal so that any device within range can learn of 
+the router’s existence. If a network is configured so that authorized devices 
+know the identity of routers, this capability can be disabled, so as to thwart 
+attackers. 
+4. Change the identifier on your router from the default. Again, this measure 
+thwarts attackers who will attempt to gain access to a wireless network using 
+default router identifiers. 
+5. Change your router’s pre-set password for administration. This is another prudent 
+step. 
+6. Allow only specific computers to access your wireless network. A router can 
+be configured to only communicate with approved MAC addresses. Of course, 
+MAC addresses can be spoofed, so this is just one element of a security strategy. 
+7.2 Mobile Device Security 
+Prior to the widespread use of smartphones, the dominant paradigm for computer 
+and network security in organizations was as follows. Corporate IT was tightly controlled. 
+User devices were typically limited to Windows PCs. Business applications 
+were controlled by IT and either run locally on endpoints or on physical servers 
+in data centers. Network security was based upon clearly defined perimeters that 
+separated trusted internal networks from the untrusted Internet. Today, there have 
+been massive changes in each of these assumptions. An organization’s networks 
+must accommodate the following: 
+■■ Growing use of new devices: Organizations are experiencing significant growth 
+in employee use of mobile devices. In many cases, employees are allowed to 
+use a combination of endpoint devices as part of their day-to-day activities. 
+■■ Cloud-based applications: Applications no longer run solely on physical 
+servers in corporate data centers. Quite the opposite, applications can run 
+anywhere—
+on traditional physical servers, on mobile virtual servers, or in the 
+cloud. Additionally, end users can now take advantage of a wide variety of 
+cloud-based applications and IT services for personal and professional use. 
+Facebook can be used for an employee’s personal profiles or as a component 
+of a corporate marketing campaign. Employees depend upon Skype to speak 
+with friends abroad or for legitimate business video conferencing. Dropbox 
+and Box can be used to distribute documents between corporate and personal 
+devices for mobility and user productivity. 
+
+7.2 / Mobile Device Security 227 
+■■ De-perimeterization: Given new device proliferation, application mobility, 
+and cloud-based consumer and corporate services, the notion of a static network 
+perimeter is all but gone. Now there are a multitude of network perimeters 
+around devices, applications, users, and data. These perimeters have also 
+become quite dynamic as they must adapt to various environmental conditions 
+such as user role, device type, server virtualization mobility, network location, 
+and time-of-day. 
+■■ External business requirements: The enterprise must also provide guests, 
+third-party contractors, and business partners network access using various 
+devices from a multitude of locations. 
+The central element in all of these changes is the mobile computing device. 
+Mobile devices have become an essential element for organizations as part of the 
+overall network infrastructure. Mobile devices such as smartphones, tablets, and 
+memory sticks provide increased convenience for individuals as well as the potential 
+for increased productivity in the workplace. Because of their widespread use 
+and unique characteristics, security for mobile devices is a pressing and complex 
+issue. In essence, an organization needs to implement a security policy through a 
+combination of security features built into the mobile devices and additional security 
+controls provided by network components that regulate the use of the mobile 
+devices. 
+Security Threats 
+Mobile devices need additional, specialized protection measures beyond those 
+implemented 
+for other client devices, such as desktop and laptop devices that are 
+used only within the organization’s facilities and on the organization’s networks. 
+SP 800-14 (Guidelines for Managing and Securing Mobile Devices in the Enterprise, 
+July 2012) lists seven major security concerns for mobile devices. We examine each 
+of these in turn. 
+Lack of Physical Security Controls Mobile devices are typically under the complete 
+control of the user, and are used and kept in a variety of locations outside the 
+organization’s control, including off premises. Even if a device is required to remain 
+on premises, the user may move the device within the organization between secure 
+and nonsecured locations. Thus, theft and tampering are realistic threats. 
+The security policy for mobile devices must be based on the assumption that 
+any mobile device may be stolen or at least accessed by a malicious party. The threat 
+is twofold: A malicious party may attempt to recover sensitive data from the device 
+itself, or may use the device to gain access to the organization’s resources. 
+Use of Untrust ed Mobile Devices In addition to company-issued and companycontrolled 
+mobile devices, virtually all employees will have personal smartphones 
+and/or tablets. The organization must assume that these devices are not trustworthy. 
+That is, the devices may not employ encryption and either the user or a third party 
+may have installed a bypass to the built-in restrictions on security, operating system 
+use, and so on. 
+
+228 chapter 7 / Wireless Network Security 
+Use of Untrust ed Netw orks If a mobile device is used on premises, it can connect 
+to organization resources over the organization’s own in-house wireless networks. 
+However, for off-premises use, the user will typically access organizational resources 
+via Wi-Fi or cellular access to the Internet and from the Internet to the organization. 
+Thus, traffic that includes an off-premises segment is potentially susceptible to 
+eavesdropping or man-in-the-middle types of attacks. Thus, the security policy must 
+be based on the assumption that the networks between the mobile device 
+and the 
+organization are not trustworthy. 
+Use of App lications Created by Unknown Parties By design, it is easy to find 
+and install third-party applications on mobile devices. This poses the obvious risk of 
+installing malicious software. An organization has several options for dealing with 
+this threat, as described subsequently. 
+Interaction with Other Syst ems A common feature found on smartphones and 
+tablets is the ability to automatically synchronize data, apps, contacts, photos, and 
+so on with other computing devices and with cloud-based storage. Unless an organization 
+has control of all the devices involved in synchronization, there is considerable 
+risk of the organization’s data being stored in an unsecured location, plus the 
+risk of the introduction of malware. 
+Use of Untrust ed Content Mobile devices may access and use content that other 
+computing devices do not encounter. An example is the Quick Response (QR) 
+code, which is a two-dimensional barcode. QR codes are designed to be captured 
+by a mobile device camera and used by the mobile device. The QR code translates 
+to a URL, so that a malicious QR code could direct the mobile device to malicious 
+Web sites. 
+Use of Location Services The GPS capability on mobile devices can be used to 
+maintain a knowledge of the physical location of the device. While this feature 
+might be useful to an organization as part of a presence service, it creates security 
+risks. An attacker can use the location information to determine where the device 
+and user are located, which may be of use to the attacker. 
+Mobile Device Security Strategy 
+With the threats listed in the preceding discussion in mind, we outline the principal 
+elements of a mobile device security strategy. They fall into three categories: device 
+security, client/server traffic security, and barrier security (Figure 7.2). 
+Device Security A number of organizations will supply mobile devices for 
+employee 
+use and preconfigure those devices to conform to the enterprise security 
+policy. However, many organizations will find it convenient or even necessary 
+to adopt a bring-your-own-device (BYOD) policy that allows the personal mobile 
+devices of employees to have access to corporate resources. IT managers should be 
+able to inspect each device before allowing network access. IT will want to establish 
+configuration guidelines for operating systems and applications. For example, 
+“rooted” or “jail-broken” devices are not permitted on the network, and mobile 
+
+7.2 / Mobile Device Security 229 
+devices cannot store corporate contacts on local storage. Whether a device is owned 
+by the organization or BYOD, the organization should configure the device with 
+security controls, including the following: 
+■■ Enable auto-lock, which causes the device to lock if it has not been used for a 
+given amount of time, requiring the user to re-enter a four-digit PIN or a password 
+to re-activate the device. 
+■■ Enable password or PIN protection. The PIN or password is needed to unlock 
+the device. In addition, it can be configured so that e-mail and other data on 
+the device are encrypted using the PIN or password and can only be retrieved 
+with the PIN or password. 
+■■ Avoid using auto-complete features that remember user names or passwords. 
+■■ Enable remote wipe. 
+■■ Ensure that SSL protection is enabled, if available. 
+■■ Make sure that software, including operating systems and applications, is up 
+to date. 
+■■ Install antivirus software as it becomes available. 
+Figure 7.2 Mobile Device Security Elements 
+Firewall 
+Firewall limits 
+scope of data 
+and application 
+access 
+Authentication 
+and access control 
+protocols used to 
+verify device and user 
+and establish limits 
+on access 
+Mobile device is 
+congured with 
+security mechanisms and 
+parameters to conform to 
+organization security policy 
+Trac is encrypted; 
+uses SSL or IPsec 
+VPN tunnel 
+Authentication/ 
+access control 
+server 
+Mobile device 
+con
+guration 
+server 
+Application/ 
+database 
+server 
+
+230 chapter 7 / Wireless Network Security 
+■■ Either sensitive data should be prohibited from storage on the mobile device 
+or it should be encrypted. 
+■■ IT staff should also have the ability to remotely access devices, wipe the device 
+of all data, and then disable the device in the event of loss or theft. 
+■■ The organization may prohibit all installation of third-party applications, 
+implement 
+whitelisting to prohibit installation of all unapproved applications, 
+or implement a secure sandbox that isolates the organization’s data and applications 
+from all other data and applications on the mobile device. Any application 
+that is on an approved list should be accompanied by a digital signature 
+and a public-key certificate from an approved authority. 
+■■ The organization can implement and enforce restrictions on what devices can 
+synchronize and on the use of cloud-based storage. 
+■■ To deal with the threat of untrusted content, security responses can include 
+training of personnel on the risks inherent in untrusted content and disabling 
+camera use on corporate mobile devices. 
+■■ To counter the threat of malicious use of location services, the security policy 
+can dictate that such service is disabled on all mobile devices. 
+Traffic Security Traffic security is based on the usual mechanisms for encryption 
+and authentication. All traffic should be encrypted and travel by secure means, such 
+as SSL or IPv6. Virtual private networks (VPNs) can be configured so that all traffic 
+between the mobile device and the organization’s network is via a VPN. 
+A strong authentication protocol should be used to limit the access from the 
+device to the resources of the organization. Often, a mobile device has a single 
+device-
+specific authenticator, because it is assumed that the device has only one 
+user. A preferable strategy is to have a two-layer authentication mechanism, which 
+involves authenticating the device and then authenticating the user of the device. 
+Barrier Security The organization should have security mechanisms to protect 
+the network from unauthorized access. The security strategy can also include firewall 
+policies specific to mobile device traffic. Firewall policies can limit the scope 
+of data and application access for all mobile devices. Similarly, intrusion detection 
+and intrusion prevention systems can be configured to have tighter rules for mobile 
+device traffic. 
+7.3 IE 802.11 Wireless Lan Overview 
+IEEE 802 is a committee that has developed standards for a wide range of local area 
+networks (LANs). In 1990, the IEEE 802 Committee formed a new working group, 
+IEEE 802.11, with a charter to develop a protocol and transmission specifications 
+for wireless LANs (WLANs). Since that time, the demand for WLANs at different 
+frequencies and data rates has exploded. Keeping pace with this demand, the IEEE 
+802.11 working group has issued an ever-expanding list of standards. Table 7.1 
+briefly defines key terms used in the IEEE 802.11 standard. 
+

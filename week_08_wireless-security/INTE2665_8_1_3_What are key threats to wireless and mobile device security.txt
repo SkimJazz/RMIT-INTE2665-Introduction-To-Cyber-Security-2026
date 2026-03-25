@@ -1,0 +1,178 @@
+THIS IS A TRANSCRIPT FOR THE PODCAST
+
+What are key threats to wireless and mobile device security
+
+PARTICIPANTS
+
+Prof Iqbal Gondal, FIEAust, GAICD, OELP (Oxford)|Associate Dean|CSS
+
+Sean Duca, Vice President Regional Chief Security Officer Asia Pacific & Japan Palo Alto Networks
+
+[BEGINNING OF RECORDED MATERIAL]
+
+[RMIT University logo animation]
+
+Iqbal:Thank you, Sean, for joining us. Could you please tell us a bit about your work and your role 
+within the company?
+
+Sean:Hi. I'm Sean Duca, the chief security officer for Peloton Networks for the Asia-Pacific and Japan 
+region. I've been with the company now for a little over seven years. And my role is really to 
+help an organisation and executives at large to understand what are the cybersecurity 
+challenges that are actually out there, what their peers are actually doing to try and solve that, 
+and also help an organisation build a security strategy. And a security strategy is not simply a 
+shopping list of products, but more around, how do we actually start to think about better 
+ways to try and solve the security problems that they may or may not actually be aware of 
+today.
+
+Iqbal:OK, so what are the most common threats to wireless security and mobile device security?
+
+Sean:From a wireless standpoint, the most common ones typically are piggybacking. So 
+piggybacking on your neighbour's wireless access point. So if you think about it today, you 
+would-- if you'd need to actually get an internet connection, you'd go to your wireless settings, 
+and you'll end up seeing a range of different sort of connections that are actually out there. 
+Piggybacking is the most common one where you're simply just looking at anyone that 
+doesn't have a secured wireless access point that you simply go on and see can you actually 
+get on and get some free internet.
+
+That kind of leads me onto the second one, which is really around the concept of what's called 
+war driving. So if you drive around your streets and suburbs, you would actually be able to do 
+the same thing. So rather than actually being in a fixed location, that there's only going to be, 
+let's say, 10 wireless access points nearby, war driving allows you to start to collect and work 
+out who in your area has a open wireless access point that doesn't have any security that may 
+potentially be able to give you some free access to the internet.
+
+Once you're actually on there, the other wireless threats really start to pop up are really 
+around sniffing someone else's wireless traffic, getting access to maybe some of their 
+computers and systems that are actually on their own network. So if I'm connecting to 
+someone else's network, I may be able to start to see that they've got a couple of other 
+
+
+devices. It could be a network attached storage device that's actually out there. So all of their 
+photos, and videos, and things like that, I may be able to get access to it.
+
+The other wireless threats typically will end up being the theft of the actual mobile device 
+itself. If I start to break it down and think about it from the other side of it, which is around the 
+mobile device security threats and challenges that are actually out there, most common ones 
+typically would be data loss prevention, or data leakage from an actual malicious app.
+
+So today, when you actually build an app, whether it's on the Google or Apple App Store, 
+you're effectively saying, this app does x. They go through all their tests and rigour to work 
+out, does the actual app do what it's supposed to do? Sometimes, it can actually start to leak a 
+whole bunch of information. So there's been times where many years ago, researchers 
+created something like a flashlight before there was actually a flashlight or a torch that was 
+built into your phone. There's about 25 different flashlights that are actually available for 
+download from the App Store.
+
+Some of those actually downloaded your contacts and a whole bunch of other things that are 
+actually on your phone as well. So that would be an example of data leakage. Another one 
+would actually be the threats that relate to unsecure public Wi-Fi. I could actually start to 
+pretend like I am a, say, a wireless access point. You think, oh yeah. This looks like it's the 
+coffee shop's wireless access point. Well, I could actually have one sitting in my backpack 
+pretending to be one, I have a stronger connection, and you're going to automatically connect 
+to that one instead.
+
+So that would be one big threat mobile device that's actually out there. The other ones 
+typically come into poor password habits. A lot of the times, and I think everyone could 
+probably start to think about that they've got at least one username and password that's 
+probably re-used in multiple sites. If you're using the same username and password on 
+multiple sites, all it takes is an attacker to break into one of those sites and automatically 
+they've got access to, let's say, a hundred different other websites.
+
+It's common that once someone actually finds a username and password and they get the 
+complete list from a website, they will automatically go off and access a hundred, maybe even 
+a thousand of the most common popular websites that are actually out there. So if I'm using 
+the same username and password on a range of other sites, they probably now get access to 
+a couple of other sites as well.
+
+Iqbal:Why are domestic wireless LANs considered more vulnerable to drive by cyber attacks?
+
+Sean:Domestic wireless LAN are very vulnerable. And a lot of that really comes down to the fact that 
+no one really changes anything that they get from the devices that are actually provided by 
+their ISP. So if you think about it today, if I wanted to get an internet connection, I call up an 
+ISP, and you're going to be given a router. That router has a little sticker on the back that says, 
+this is the actual device settings. It's going to be the settings to actually get into the actual 
+product, or the user interface.
+
+Some of those are a little bit more sophisticated these days compared to how they used to be 
+in the old days, which was just simply admin admin. You can get the manual for every single 
+domestic wireless access point that's actually available today. And the username and 
+password is actually printed in those manuals.
+
+So it doesn't take too long to try and work out who's actually got an insecure wireless access 
+point, i.e., there's no security turned on. And then once you're actually in there, you can simply 
+say, if I've got an IP address from this particular device, if I found out what the router or the 
+gateway for that actual IP address, I could just grab that, and I'm going to simply put that into 
+
+
+my browser. And I can quickly work out what is the actual device type that's there. And then I 
+can just start playing around with admin passwords.
+
+So they are more vulnerable for the fact that there is no real sort of inherent security typically 
+that's turned on by default in those devices.
+
+Iqbal:OK, so how can wireless LAN drive by attacks be prevented?
+
+Sean:The best way to actually prevent a drive by attack is by simply turning on the security 
+functionality that's built into those wireless access points. So if you actually turn on the ability 
+that you could use WPA2 as an example, which is a protocol that's used to protect wireless 
+communication, that would be the best way.
+
+Changing the default username and password would be the best thing you could actually do 
+the moment you actually get any of these devices. You won't have to log into this thing every 
+single day. But making it complex is going to be one sure way that you can protect your home 
+and all those devices that are sitting behind that wireless access point.
+
+Iqbal:How can mobile devices be made secure to prevent cyber attacks on applications like e-
+banking?
+
+Sean:The best way to secure and protect your mobile device and prevent any type of cyber attack is 
+one, always ensure that you're providing the ability for your phone, your mobile device, 
+whatever it may be, to actually get the updates installed. Go into the App Store, make sure 
+that you automatically have the updates applied. If you're using an old phone, a lot of those 
+older ones, and even the older operating systems, they're going to force the ability to 
+automatically update software.
+
+Go off and force the installation of all those updates. Software was created by humans. And 
+sometimes, we could actually make a mistake. We could actually create some problem that's 
+actually there. Or someone inadvertently finds a problem that no one actually ever knew 
+about. And that's why we actually have patches come out for those applications. So making 
+sure that you update the applications, as well as the operating system, is probably the best 
+way to do it.
+
+Most of the applications these days typically have some form of protection built into the 
+application the way that it communicates to, let's say, a bank. A banking application secures 
+the communication between your app and the actual bank itself. Think about how you actually 
+connect to the internet. If there is a public Wi-Fi that's actually out there, think about what 
+type of things are you actually doing on that public Wi-Fi.
+
+If you're on a web browser as an example and you're actually sort of doing something where 
+you're sending some information there and you're not using any form of encryption that's 
+there, an encryption would actually be if you're on a website that's HTTP versus HTTPS, which 
+is the encrypted one.
+
+If you're on a HTTP website and you're on a public Wi-Fi, anyone who's on that public Wi-Fi 
+that is actually sniffing to see who else is actually on there, what type of traffic is actually out 
+there, they could actually capture any information you're sharing in that point. So just always 
+think about where you're connected to and what type of information you're sharing.
+
+The other key part is making sure that you just don't instal anything and everything from 
+anywhere. Google has the ability that you could actually start to access non Google Play 
+stores. And even though they are effectively a store that you can instal an application, they 
+give you the ability that you could basically instal something from the side. Apple themselves 
+
+
+effectively say if it's not stuff from the App Store, then nothing can be installed on the device. 
+Just always be very, very mindful of where you get your applications from if you are using a 
+non Apple device, as an example.
+
+And again, the other key part is making sure that you're using a very strong password. 
+Because again, if that's actually in the clear, because you've been sharing that with someone 
+else for some reason, someone else could actually capture that information.
+
+Iqbal:Thanks so much for joining us.
+
+[RMIT University logo animation]
+
+[END OF RECORDED MATERIAL]
+
+

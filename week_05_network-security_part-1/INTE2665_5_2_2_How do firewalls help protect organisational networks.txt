@@ -1,0 +1,82 @@
+THIS IS A TRANSCRIPT FOR THE VIDEO
+
+How do firewalls help protect organisational networks
+
+PARTICIPANTS
+
+Dr Vaughan Shanks, Chief Executive Officer Cydarm Technologies
+
+Sean Duca, Vice President Regional Chief Security Officer Asia Pacific & Japan Palo Alto Networks
+
+[BEGINNING OF RECORDED MATERIAL]
+
+[RMIT University logo animation]
+
+Vaughan Shanks: Defence in depth is the idea that we have controls operating at many layers throughout an 
+organisation. And what this means is that, not only at the perimeter, but if an attacker is able 
+to get inside the perimeter-- perhaps their even an insider threat, an employee of a company, 
+for example-- then they're still restricted in what resources they can access from a particular 
+vantage point in the network.
+
+Sean Duca: If an attacker wanted to come in, he would breach a system or parts of your Defence that's 
+actually in place, to actually get in. And if you've actually got a layered approach to say, well, if 
+this part can't catch it, something else is going to catch it here, that's effectively what Defence 
+in depth is all about.
+
+Vaughan Shanks: Now, you can have firewalls on the perimeter of an organisation. And that's very common for 
+stopping unwanted internet traffic from coming in, also for stopping unwanted connections 
+from going out, if an attacker is able to connect in and is seeking to exfiltrate data. You can 
+also have firewalls within an organisation to segregate networks from each other. And it is 
+very important to ensure-- and especially in the modern day, with this idea of zero trust, that 
+we segregate networks, so that traffic from one network can't simply flow into a network 
+where it's not supposed to be.
+
+Sean Duca: IPsec is a protocol that's actually used as part of a VPN, so virtual private network. So if you-- 
+an organisation, think of the concept of a headquarters, a branch office, or even branch office 
+to branch office. It's basically creating a secure tunnel or an encrypted tunnel between those 
+organisations or those particular offices.
+
+So if you think about it today, many people have actually got an internet connection. You 
+probably have a firewall connection sitting in front of those ones. You're effectively creating 
+just a secure connection between all of those different systems, all those different firewalls, 
+rather than simply just saying, it's "out in the open" internet and anyone and everyone could 
+actually see the traffic and the packets that are actually going between those sites.
+
+Vaughan Shanks: So firewalls are useful for controlling traffic flow between networks, so enabling traffic that is 
+useful to flow between networks and even, sometimes, guaranteeing quality of service on 
+
+
+particular types of traffic. What they can't do, though, is they can't look inside an endpoint. So 
+whether it be a workstation or a server, if you've got processes running on a system, the 
+firewall has nothing to do with that. It can only monitor the flow of traffic and prevent 
+unwanted traffic.
+
+Sean Duca: The weaknesses of a packet-filtering firewall, in a sense, really are you're effectively allowing-- 
+let's just say, a rule was set, from this machine, anything that's HTTP, allow that traffic to go 
+through to that particular site. So you're basically saying this is the-- the protocol is TCP, so the 
+TCP/IP protocol that's used in the web. You basically say HTTP traffic-- you're saying that's on 
+port 80 and it's simply going through. The weaknesses they actually come out of that is, well, I 
+can actually send malicious traffic through that port, and you've allowed that port, that 
+protocol to actually simply open up.
+
+The use of firewalls have really changed. In essence, now, where you've got a concept that 
+started many, many years ago called next-generation firewall-- and that was really around the 
+fact of understanding what's the application that's actually being used. Who's the user and the 
+topic context?
+
+So, for myself, I can create a rule to say, Sean is allowed to access these particular 25 
+applications. He can't use those other applications that are actually out there. So irrespective 
+of the network, the device, anything that I'm actually using, I'm simply only allowed to use 
+those particular applications.
+
+Vaughan Shanks:There's been a lot of talk about next-generation firewalls or firewalls that are equipped with 
+machine learning capabilities. So what this means is, instead of applying rigid rules about 
+where traffic is allowed to flow, they can actually apply some level of inspection on packets 
+and make determinations that are more sophisticated and nuanced, then, and could be even 
+comparing what's a normal flow against something that looks irregular.
+
+[RMIT University logo animation]
+
+[END OF RECORDED MATERIAL]
+
+

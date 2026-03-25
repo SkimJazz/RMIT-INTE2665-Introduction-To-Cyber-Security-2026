@@ -1,0 +1,89 @@
+THIS IS A TRANSCRIPT FOR THE VIDEO
+
+What are the key problems and solutions with malicious software
+
+PARTICIPANTS
+
+Sean Duca, Vice President Regional Chief Security Officer Asia Pacific & Japan Palo Alto Networks
+
+Dr Vaughan Shanks, Chief Executive Officer Cydarm Technologies
+
+[BEGINNING OF RECORDED MATERIAL]
+
+[RMIT University logo animation]
+
+Sean Duca: So the types of malicious software that's actually most often seen-- a range from everything 
+from viruses to Trojans to a range of different types of threats that are out there-- they 
+continue to keep on growing. But what we actually end up seeing, more often than not, are 
+not really viruses, per se, and a virus is something that actually infects a particular file, but 
+something that's more purpose-built, so a Trojan on a control infrastructure, a tool that's 
+actually used to try and scrape and pull information from a system.
+
+Vaughan Shanks: Very often, it'll execute, the moment you download it or if you're tricked into running software. 
+Usually, there'll be a first-stage downloader, which is it just runs. And its basic job is to retrieve 
+a second-stage downloader, which could be something like a Cobalt Strike remote access 
+system. That will then usually open what we call a reverse shell and give the attacker the 
+ability to execute commands on the host where the malware is installed.
+
+Sean Duca: It's opened it up, and it then starts to go through a process of trying to work out what's the 
+application, what are the vulnerabilities that you've actually got on that particular system, and 
+then trying to exploit that.
+
+Vaughan Shanks: The most common vulnerability exploited, from the user side, is actually the people, 
+themselves. Most attacks rely on some degree of social engineering. You still can, now and 
+again, find remote code exploitation, but it's hard.
+
+Far easier is to just call someone on the phone and say, hello, I am from your network 
+provider and we've detected malware on your computer. And I'm going to need you to instal 
+TeamViewer, so that I can access your computer remotely and remove the malware for you. A 
+lot of people will fall for this trick. Another one is a well-crafted email pretending to be from a 
+bank or, for example, a freight company, enticing you to click on a link. And if they can fool 
+you into clicking on that link and downloading some software or visiting an infected website, 
+that can be the first step towards getting a foothold on a victim's computer.
+
+Sean Duca: Countermeasures that can be used to counter malware attacks could range from, one, 
+patching your applications. First and foremost, I would always recommend that as a key thing. 
+Software always has to be updated, so if you think about whether it's your mobile device, 
+
+
+whether it's your actual laptop, desktop, there's always updates that actually come out. And 
+that's how a lot of the malware attacks typically are going to be exploited, so that's number 
+one. The other one is actually using some form of security software that allows you to identify 
+some brand new malicious type of code, see that has the ability to always be updated, always 
+be on, and always be up to date, as you try and stop the different types of malware attacks 
+that are out there.
+
+Vaughan Shanks: One of the simplest things you can do is what I've heard referred to as a Layer 8 firewall. And 
+Layer 8 is the people. So by educating people to be on their guard and to be suspicious of any 
+unsolicited approaches, you can reduce the chance they'll fall victim to a social engineering 
+attack.
+
+So if they get a phone call from someone asking them to instal software, and they're not 
+expecting a phone call, and they don't know who the caller is, the caller cannot verify 
+themselves, then they should immediately be on their guard. Similarly, an email pretending to 
+be a bank, with a link in it, that's telling you to follow the link and log into your bank account is 
+probably not going to be from your bank because banks don't do that. So I'd say education is 
+the first step.
+
+Sean Duca:The skills that are actually needed to do the analysis of malicious software really come down 
+to, probably, a bit of a programming background. And that really is an understanding of the 
+technical constructs of how does an application work, how does a machine work. Because at 
+the end of the day, a malicious software is, effectively, still software. It's actually trying to work 
+out how do I tap into the operating system, how do I tap into the applications that are actually 
+there, and try and work out how do I, then, exploit it. So you need to have the ability that you 
+can start to understand and read machine language, number one, and also, two, work out 
+how do you reverse engineer a piece of malware, as well.
+
+Vaughan Shanks: I'd say you need to understand how programmes execute. I think being able to read source 
+code is useful. Sometimes malicious software comes in the form of scripts, so being able to 
+read different scripting languages and understand, roughly, what they're doing. You don't 
+need to be a programmer to do this, by the way. The other more, I guess, deep technical skill 
+is reverse engineering. So using a tool like IDA Pro or Ghidra, being able to go through, 
+programme-- compile a programme binary, and identify which sections of the programme do 
+what, and to find artefacts of interest embedded in that code.
+
+[RMIT University logo animation]
+
+[END OF RECORDED MATERIAL]
+
+

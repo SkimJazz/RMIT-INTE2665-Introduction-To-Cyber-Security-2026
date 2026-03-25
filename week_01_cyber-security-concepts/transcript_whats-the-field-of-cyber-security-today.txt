@@ -1,0 +1,42 @@
+THIS IS A TRANSCRIPT FOR THE VIDEO
+
+What’s the field of Cyber security today
+
+PARTICIPANTS
+Sean Duca, Vice President Regional Chief Security Officer Asia Pacific & Japan Palo Alto Networks
+Dr Vaughan Shanks, Chief Executive Officer Cydarm Technologies
+Megan Storrar, Chief Executive Officer Event Horizon Security, INC
+
+
+[BEGINNING OF RECORDED MATERIAL]
+
+[RMIT University logo animation]
+
+Sean Duca: 		If I think about the job opportunities that are available in cybersecurity, it's take your pick. I think there's really sort of a range of different types of roles and jobs that are available. And that's everything from technical analysts that actually need to sit down and really play with the technology, the tools, and really sort of build all of the processes. There's people that are needed to really try and manage those processes and the people, as well.
+
+Vaughan Shanks: 	All the way from doing ethical hacking or penetration testing, and on the defensive side, doing digital forensics, incident response, network defence, all the way through to incident coordination, governance risk and compliance, and even policy and communications.
+
+Megan Storrar: 	It really is a perfect time to start working in IT, to start working in IT security, because there is that much focus on what is a trillion-dollar economy.
+
+Sean Duca: 	Cybersecurity is important to a business today for the fact that we're constantly connected with this ubiquitous connectivity that we've got. Every single business is actually online and connected.
+
+Vaughan Shanks: 	So we're talking about transport networks. We're talking about banking and finance that we depend on, any type of system where you're recording lots of personal information. All of it is connected to the internet and all of it is exposed unless we take adequate protection with cybersecurity.
+
+Megan Storrar: 	In the business, you'll have multiple silos. You'll have finance. You'll have HR. You'll have corporate security. You'll have service line deliverables. So if you think of the silos of a business, think of security as the foundation that sits below everything.
+
+Vaughan Shanks:	Cybersecurity is an important aspect of business continuity, because if an attacker can stop your business from functioning by attacking your computer networks or the systems you rely upon, they can shut down an entire company for as long as they want. So for example, if your payment network goes down and you're running a retail organisation, you stop making money.
+
+Megan Storrar: 	Business continuity now is critical, because the principal types of malware attacks we're seeing are ransomware. And one of the ways to recover from ransomware where you're in a country where you can't pay the ransom, so Australia-- you pay the ransom, you're party to the illegal action-- is recovery being able to pick up your business, get tapes of where you were yesterday, and be operating by the end of the afternoon or the next day. If you don't have that, your business will fail.
+
+Vaughan Shanks: 	A lot of larger companies will have their own internal cybersecurity services, but very often, if a company is not large enough, they'll need to hire outside expertise. Sometimes, this can be in the form of consulting, so GRC consulting or penetration testing. Sometimes, you can get what's called a managed security service provider, which is basically where they provide a security operations function.
+	So they're providing overwatch for your computers and will respond in the event of an incident. Even in companies that have their own inbuilt security operations team, we often have digital forensics and incident response people on retainer to provide specialised skills when necessary.
+	Risk-based security is one approach to security-- arguably, an effective approach, because we're trying to protect against security threats or risks. The other approach is compliance-based, which is more like where you're working through a checklist of security controls. Risk-based takes the approach that we're trying to minimise the risk to business.
+
+Sean Duca: 	Risk analysis is extremely important, because it's really a case of understanding what's the likely impact and probability of a threat, a challenge, that's actually there? There's no point sort of coming up with kind of pie in the sky, oh, this seems like a good thing. Let's actually do that.
+	Try and work out, what are the actual risks and challenges? What are the threats that potentially could impact your organisation? And then from there, work out, well, how do we actually start to mitigate it? Risk mitigation is really-- also, risk management-- is all around risk reduction.
+
+Vaughan Shanks: 	Because at the end of the day, security serves a purpose, which is to enable business. And so if you do the appropriate risk analysis, then you can you can ensure that the processes of your organisation have the least possible chance of interruption by a cybersecurity incident.
+
+[RMIT University logo animation]
+
+[END OF RECORDED MATERIAL]

@@ -1,0 +1,101 @@
+THIS IS A TRANSCRIPT FOR THE VIDEO
+
+What are the key issues in cyber-crime
+
+PARTICIPANTS
+
+Dr Vaughan Shanks, Chief Executive Officer Cydarm Technologies
+
+Sean Duca, Vice President Regional Chief Security Officer Asia Pacific & Japan Palo Alto Networks
+
+Megan Storrar, Chief Executive Officer Event Horizon Security, INC
+
+[BEGINNING OF RECORDED MATERIAL]
+
+[RMIT University logo animation]
+
+Vaughan Shanks: Some common types of cyber crime are ransomware-- and you'll read about this a lot. Usually, 
+once an organisation is ransomed, everyone knows about it, because they will stop 
+functioning until they solve the problem. Another one is business email compromise. This 
+often goes on unknown by the public because the victims are too ashamed to admit they were 
+swindled.
+
+Sean Duca: So you actually think that you're dealing with a legitimate provider or I could have tricked you 
+to say hey, you provide me with this information and I'll give you a $50 gift card. It's all about 
+how to actually try and take information from you. And that's actually used for identity theft.
+
+The other one would be some sort of financial fraud or financial information. And this is where 
+I'm tricking you into providing maybe credit card information, the CVV that's actually on your 
+credit card. And then I'll actually use that to do some sort of nefarious activity or for my own 
+sort of gains. The other one would really be just stealing information and then selling that on 
+to the dark web.
+
+Megan Storrar: At its most basic, at its most tragic, I will say, is it's a trillion-dollar economy. It's expected to be 
+valued somewhere near $4 trillion by halfway through next year.
+
+Sean Duca: Computer crimes are proved in a court of law, firstly, when there actually is a law that's 
+actually there. Globally, I think we've got about 20 countries around the world-- so about 150 
+odd countries, 20 of them have actually got any type of law that relates to computer crimes. 
+So again, when you start to think about that problem of law enforcement, if there's no laws in 
+place, it makes it a little bit harder for law enforcement to try and sort of track it down.
+
+Vaughan Shanks: Law enforcement agencies are traditionally very good at solving crimes in the physical world. 
+And I think it's only a relatively recent, maybe last 10 years, thing that they have a growing 
+number of people who understand crime in the electronic world. A big challenge they face is 
+the prevalence of end-to-end encryption. So this is happening everywhere. It's increasingly 
+hard to intercept data that's related to the commission of a crime, and very hard even, 
+sometimes, to find out who's doing the communicating.
+
+
+Megan Storrar: What we normally find is, a person acting with malicious intent will bounce themselves around 
+the world. They'll use a DNS relay, something like that. And the first IP you get to is not always 
+the IP that you're working with. So a way to look at this is grab the headers of any email that 
+you receive externally and look at all of the IP it's gone through.
+
+Vaughan Shanks:So there's a number of ethical considerations you have to think about when prosecuting cyber 
+crimes or investigating them. One is that you need to make sure that you know who the 
+offender is. Because it's cyberspace and it's being done over the internet, it's very easy for an 
+attacker to do what's called a false flag operation, to pretend that they are someone who 
+they're not.
+
+Megan Storrar: So one of the impacts-- precursors to arresting an individual for malicious cyber attacks-- and 
+you have legislation in place, it's clear the person has broken the law, they've taken the IP 
+back, they have all of the forensic evidence, you still have to put an individual behind the 
+keyboard. How do you do that in a home environment when you've got five people that live in 
+the household?
+
+Vaughan Shanks: The other issue is that even if you can attribute a crime to a threat actor, they often are 
+coming at you from a foreign country and it'll be out of your jurisdiction. And they know what 
+jurisdiction has extradition treaties, for example. And they will know to stay away from 
+jurisdictions where your law enforcement can actually reach them.
+
+Sean Duca: When you actually do have one cyber criminal that casts their net as far and as wide as they 
+possibly can, taking one person down actually is a pretty big thing. So it's not simply a case of, 
+well, only a few people have actually been convicted over the years. It's something that law 
+enforcement is getting better and better at as the years come by, and in turn, a lot of the laws 
+will continue to evolve and change to deal with computer crime laws.
+
+Vaughan Shanks: Deterring cyber crime is arguably best done by imposing costs upon the attacker. So one cost 
+is, for example, once you've correctly attributed a cyber crime and identified the suspect, you 
+put out a warrant through something like Interpol and you make sure that if they ever set foot 
+in a country that has an extradition treaty, they'll be very quickly arrested and brought to 
+justice.
+
+Sean DucaThe more that we can have public-private partnerships, the more that we can have threat 
+information sharing, the more that we can even start to think about how do we cyber secured 
+all of nation from petty cyber crime, so to speak? There's been a lot of discussion and talk 
+around concepts such as clean pipes, which is, every ISP comes together and says, why don't 
+we actually provide an all of nation protection to some of the basic cyber crime that's actually 
+out there?
+
+Megan StorrarI have to convince the industry to go from preventative security solutions to offensive cyber 
+security solutions. And some of you who do know something about this subject will be leaning 
+forward going, no, you can't do that. The law doesn't allow it. The laws may need to be 
+changed.
+
+[RMIT University logo animation]
+
+
+[END OF RECORDED MATERIAL]
+
+
