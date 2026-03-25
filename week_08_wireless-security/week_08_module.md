@@ -450,8 +450,57 @@ your understanding of this exam and support your preparation.
 
 #### 8.4.1 Prepare for Assessment 3
 
-TODO Exam Prep – Week 8
-
 - Points = 5
 - Questions = 5
 - No time limit
+
+
+**Question 1:**
+
+Which of the following involves targeting wireless access points that are exposed to non-filtered network
+traffic?
+
+- Network injection (ANS)
+- Man-in-the-middle attack 
+- Denial of service (DoS) 
+- MAC spoofing 
+
+
+**Question 2:**
+
+Which of the following is/are the main threats to wireless transmission?
+
+- Inserting messages (ANS)
+- Call dropping 
+- Unauthorised access 
+- Translating messages 
+
+
+**Question 3:**
+
+What is the Access Point (AP) in a wireless LAN?
+
+- A device that provides access to the distribution system via the wireless medium for associated wireless devices (ANS)
+- A device that contains an IEEE 802.11 conformant MAC and physical layer 
+- A device that interconnects LANs 
+- A system that interconnects a set of basic service sets (BSSs) 
+
+
+**Question 4: -> I got this one incorrect**
+
+What is the MAC control in the general IEEE 802 MPDU format?
+
+- It is protocol control information needed for the functioning of the MAC protocol. (RIGHT ANS)
+- It contains any protocol control information needed for the functioning of the MAC protocol. (WRONG ANS)
+- It contains data that is delivered as a unit between MAC users. 
+- It is the MAC header. 
+
+
+**Question 5:**
+
+Which of the following services is/are not provided by the IEEE 802.11i RSN?
+
+- Non-repudiation (ANS)
+- Authentication 
+- Access control 
+- Privacy with message integrity 
