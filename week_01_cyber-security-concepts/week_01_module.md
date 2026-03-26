@@ -1,7 +1,7 @@
-# 1.0.0 Week overview: Cyber security concepts
+# INTE2665 | Week 1 Module: Cyber security concepts
 
-Approx. 9 hours to complete all tasks in this week
 
+## 1.0.0 Week overview: Cyber security concepts
 
 ## Welcome to Week 1 of Introduction to Cyber Security
 
@@ -44,9 +44,7 @@ Assessment 2. This week you’ll start by practising basic commands in Kali Linu
 - Install Kali Linux and practise using basic commands.
 
 
-## 1.1.0 Activity: Exploring cyber security concepts
-
-Approx. 3 hours to complete all tasks in this activity
+### 1.1.0 Activity: Exploring cyber security concepts
 
 In this first activity you’ll explore some of the key concepts in cyber security. You’ll start by 
 watching a video of cyber security professionals discussing the field of cyber security. You’ll then 
@@ -57,11 +55,9 @@ some context for all your assessments and future weeks of learning. This content
 directly as part of your exam in Assessment 3.
 
 
-### 1.1.1 Learn from cyber security professionals
+#### 1.1.1 Learn from cyber security professionals
 
-Approx. 45 minutes to complete this task
-
-#### Watching interviews with cyber security professionals
+##### Watching interviews with cyber security professionals
 
 In this task you’ll watch interviews with cyber security professionals. These interviews should provide 
 some insight into what you might be doing in the near future and give you some inspiration going forward.
@@ -75,7 +71,7 @@ to investigate crime and business processes. The cyber security field provides a
 opportunities, from entry level to expert level. A dynamic environment, there are new challenges to address 
 every day, so there will never be a dull moment in the cyber professional’s life.
 
-#### Watch the video
+##### Watch the video
 
 "The cyber security field today" (4:44 min)
 
@@ -84,29 +80,25 @@ importance to business and how it operates in business today.
 
 As you watch, keep the following questions in mind.
 
-- Why is cyber security important in business today?
+- **Why is cyber security important in business today?**
 
     ```text
     Cyber security is important in business today because of the increased use of the internet, which creates more opportunities for cybercriminals. It is essential for protecting sensitive information, maintaining customer trust, and ensuring the smooth operation of business processes.
     ```
-- What is risk-based security?
+- **What is risk-based security?**
 
     ```text
     Risk-based security is an approach to cyber security that focuses on identifying and prioritizing risks to an organization's assets and implementing security measures based on the level of risk. It involves assessing the potential impact of threats and vulnerabilities and allocating resources to mitigate those risks effectively.
     ```
-- Which job opportunities in cyber security most excite you?
+- **Which job opportunities in cyber security most excite you?**
 
     ```text
     There are no job opportunities in Cyber Security! Companys will avoid hiring cyber security professionals because companies don't want to spend money on cyber security. If a company has a cyber attack, they can just pay the ransom and move on with their business.
     ```
 
+#### 1.1.2 Explore cyber security concepts
 
-### 1.1.2 Explore cyber security concepts
-
-Approx. 1 hour to complete this task
-
-
-#### Reading about key concepts in cyber security
+##### READ - key concepts in cyber security
 
 In this task you’ll read about key concepts in cyber security. This will give you a broad foundational 
 knowledge of the concepts explored in this course.
@@ -121,13 +113,13 @@ needed for a system:
 Collectively, they are known as the CIA triad. It is impossible to provide absolute solutions to systems, 
 so CIA concepts can be used to gauge the level of risk-based security for a given system.
 
-Read - The following reading introduces you to CIA and the cyber protection needed for a system.
+##### READ - The following reading introduces you to CIA and the cyber protection needed for a system.
 
-> Read pages 18-24 (Chapter 1) of: Network security essentials: applications and standards (Stallings 2017)Links to an external site.
+> Read Chapter 1 pages 18-24 from chapter-01_introduction.txt
 
 As you read, consider the following:
 
-- #### What are some examples of confidentiality, integrity and availability?
+- **What are some examples of confidentiality, integrity and availability?**
 
    - **Confidentiality**: student grade information should only be accessible to students, parents, and 
    authorized staff. The chapter also notes that enrollment information may have a moderate confidentiality 
@@ -142,7 +134,7 @@ As you read, consider the following:
    availability needs, and an online phone directory, which has relatively low availability requirements.
 
 
-- #### Are these three aspects always equally important to a company?
+- **Are these three aspects always equally important to a company?**
 
     So, Are they always equally important?
 
@@ -158,11 +150,9 @@ different impact levels, such as low, moderate, or high, depending on the busine
 obligations, safety risks, and operational consequences.
 
 
-### 1.1.3 Evaluate key concepts in cyber security
+#### 1.1.3 Evaluate key concepts in cyber security
 
-Approx. 30 minutes to complete this task
-
-#### Applying your understanding of the CIA triad
+##### Applying your understanding of the CIA triad
 
 In Task 1.1.2 you read about the CIA triad. In this task you’ll check your understanding of the three 
 key features of this model by looking at examples of each.
@@ -176,7 +166,7 @@ Review the three aspects of the CIA triad.
 **Availability:** => Ensuring that information is available to authorised people when they need it.
 
 
-#### Check your understanding of the CIA triad
+##### Check your understanding of the CIA triad
 
 Complete the task below to check your understanding of the CIA triad.
 
@@ -202,13 +192,14 @@ Although all three aspects offer full protection to a company, depending on the 
 may be more important than another and have a higher impact level. Read the following scenarios and 
 consider which may have the highest impact level and why.
 
-Which aspect may have the highest impact level for a social media company (e.g., Facebook) in terms of CIA triad?
+Which aspect may have the highest impact level for a social media company (e.g., Facebook) in terms of 
+CIA triad?
 
 - Confidentiality? or
 - Integrity? or
 - Availability?
 
-> Answer: Confidentiality => Users want to keep their information private
+>> Answer: Confidentiality => Users want to keep their information private
 
 Which aspect may have the highest impact level for a bank in terms of CIA triad?
 
@@ -216,7 +207,7 @@ Which aspect may have the highest impact level for a bank in terms of CIA triad?
 - Integrity? or
 - Availability?
 
-> Answer: Integrity => Customers want to be sure that their information is not altered by unauthorised people
+>> Answer: Integrity => Customers want to be sure that their information is not altered by unauthorised people
 
 Which aspect may have the highest impact level for a hospital in terms of CIA triad?
 
@@ -224,22 +215,17 @@ Which aspect may have the highest impact level for a hospital in terms of CIA tr
 - Integrity? or
 - Availability?
 
-> Answer: Confidentiality => Patients want to keep their medical information private
+>> Answer: Confidentiality => Patients want to keep their medical information private
 
 
-### 1.1.4 Discuss key concepts in cyber security
+#### 1.1.4 Discuss key concepts in cyber security
 
-Approx. 45 minutes to complete this task
-
-
-#### Applying your knowledge to an example company asset
+##### Applying your knowledge to an example company asset
 
 Now that you have examined the aspects of the CIA triad in more detail, you’ll apply your understanding
 to an example company asset and discuss your findings with your peers to consolidate your understanding.
 
 Discuss - Complete the following task:
-
-> Note that, I don't give a monkeys about other people's opinions on this topic!
 
 - Choose one of the assets of a company below (A or B).
 - Identify examples of each aspect of the CIA triad:
@@ -248,19 +234,15 @@ Discuss - Complete the following task:
   - integrity.
 - Assign a low, moderate or high impact level for the loss of each aspect.
 
-Share your ideas on the discussion board. Be sure to include a justification of your answers.
 
-Locate and read at least two posts by peers who chose the same asset as you.
+**Example A**
 
-- Compare your ideas. Did you agree?
-- Comment on any factors that might have been missed.
-
-##### Example A
 An information system used for large acquisitions in a contracting organisation contains both sensitive, 
 pre-solicitation phase contract information and routine administrative information. Assess the impact for 
 the two data sets separately and the information system as a whole.
 
-##### Example B
+**Example B**
+
 The examinations department of a university electronically stores details related to examination particulars
 (e.g., question papers of forthcoming examinations, grades obtained and examiner details). The university’s 
 administrative department electronically stores the students’ attendance particulars and internal assessment 
@@ -269,9 +251,7 @@ results. Assess the impact for the two data sets separately and the information 
 Source: Adapted from Problem 1.4 in Network security essentials: applications and standards (Stallings 2017), page 43.
 
 
-## 1.2.0 Activity: Examining security architecture and security attacks
-
-Approx. 3 hours 30 minutes to complete all tasks in this activity
+### 1.2.0 Activity: Examining security architecture and security attacks
 
 In **Activity 1.1** we looked at the CIA triad and the fundamentals of cyber security. In this activity 
 you’ll explore key areas of **Open Systems Interconnection (OSI) architecture**, including security attacks, 
@@ -281,11 +261,10 @@ You’ll conduct some research on passive and active attacks and discuss the cha
 and preventing them. Finally, you’ll reflect on your learning in this course so far. This will continue 
 to build your foundational knowledge in the field of cyber security.
 
-### 1.2.1 Examine security architecture and security attacks
 
-Approx. 1 hour to complete this task
+#### 1.2.1 Examine security architecture and security attacks
 
-#### Reading about security architecture and security attacks
+##### READ - about security architecture and security attacks
 
 In this task you’ll continue reading about key areas of cyber security, including security architecture 
 and security attacks. This will support your understanding of your tasks in all assessments.
@@ -294,13 +273,13 @@ Open Systems Interconnection (OSI) architecture provides flexible approaches in 
 needs of a system and then systematically determining the required security services to safeguard the system. 
 The OSI model can help when choosing risk-mitigation strategies for the resources of an organisation.
 
-Read - The following reading provides information on security attacks, mechanisms and services.
+##### Read - Security attacks, mechanisms and services
 
-> Read pages 24-32 (Chapter 1) of: Network security essentials: applications and standards (Stallings 2017).
+> Read Chapter 1 pages 24-32 from chapter-01_introduction.txt
 
 As you read, consider the following:
 
-- #### What are some examples of security architecture, security attacks, security mechanisms and security services?
+- **What are some examples of security architecture, security attacks, security mechanisms and security services?**
 
     - Security architecture:
         - The chapter uses the OSI security architecture, specifically ITU-T X.800, as a systematic framework for 
@@ -346,8 +325,7 @@ As you read, consider the following:
             - Nonrepudiation of destination => Ensuring the destination of data cannot be denied
         - Availability service => Ensuring the availability of resources
 
-
-- #### What are the differences between security threats and attacks?
+- **What are the differences between security threats and attacks?**
 
     - A threat is a potential for a security violation. It is a possible danger that could exploit a vulnerability 
       and cause harm.
@@ -357,7 +335,7 @@ As you read, consider the following:
         - Threat = possible danger
         - Attack = deliberate action taken to exploit that danger
 
-- #### What are the differences between passive and active attacks?
+- **What are the differences between passive and active attacks?**
 
     - Passive attacks:
         - Aim to learn or observe information without changing the system or data
@@ -395,20 +373,21 @@ information without changing it and are hard to detect, whereas active attacks t
 systems and are harder to prevent completely._
 
 
-### 1.2.2 Research examples of attacks (DISCUSSION)
+#### 1.2.2 Research examples of attacks (DISCUSSION)
 
-Approx. 45 minutes to complete this task
-
-#### Researching types of security attacks
+##### Research - types of security attacks
 
 In Task 1.2.1 you read about passive and active security attacks. In this task, you’ll research, 
 identify and share a real-life example of a cyber-attack. This will help you to relate course 
 subject materials to real-world problems.
 
-#### Research
+
+##### Research
+
 Identify and examine a real-life example of either a passive or an active cyber-attack by doing research online.
 
-#### Discuss
+
+##### Discuss
 
 Share your ideas on the discussion board. Be sure to include:
 
@@ -420,19 +399,16 @@ Are there any similarities between your attacks?
 Note: you’ll use this in Task 1.2.3.
 
 
-### 1.2.3 Compare types of attacks
+#### 1.2.3 Compare types of attacks
 
-Approx. 45 minutes to complete this task
-
-
-#### The challenges of cyber-attacks
+##### The challenges of cyber-attacks
 
 In Task 1.2.2, you researched examples of passive and active cyber-attacks. In this task you’ll 
 review the examples, compare and contrast the types of attacks, and discuss each type’s particular 
 challenges.
 
 
-#### Discuss
+##### Discuss
 
 Passive and active attacks each come with their own unique challenges. Review the posts made by 
 your peers in Task 1.2.2. Think about the difference between these two types of attacks.
@@ -443,19 +419,15 @@ Write a post comparing the different types of attacks. Consider the following:
 - Which type is more difficult to find? Which type is more difficult to prevent?
 
 
-### 1.2.4 Reflect on cyber security (REFECTION)
+#### 1.2.4 Reflect on cyber security (REFECTION)
 
-Approx. 1 hour to complete this task
-
-#### Reflecting on your relationship to cyber security
+##### Reflecting on your relationship to cyber security
 
 In this task you’ll reflect on your learning in this course so far. This will help you to consolidate 
 your foundational understanding for this course.
 
 
-#### Reflect
-
-> Too much reflection => Don't think, just do!
+##### Reflect
 
 As a university student, and later as a cyber security professional, it’s important to develop reflective 
 skills as this leads to more critical thinking.
@@ -477,4 +449,4 @@ You may wish to answer the following questions in your reflection:
 
 ---
 
-END OF WEEK 1 MODULE => Move on to Week 1-2 Lab/Workshop
+END OF WEEK 1 MODULE => MOVE ON TO WEEK 1-2 LAB WORKSHOPS
