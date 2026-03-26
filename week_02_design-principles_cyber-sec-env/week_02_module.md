@@ -1,9 +1,6 @@
-# INTE2665 - Week 02: Design Principles in a Cyber Security Environment
+# INTE2665 | Week 2: Design Principles for the Cyber Security Environment
 
 ## 2.0.0 Week overview: Design principles for the cyber security environment
-
-Approx. 8 hours 5 minutes to complete all tasks in this week
-
 
 ## Welcome to Week 2 of Introduction to Cyber Security
 
@@ -28,7 +25,6 @@ for Assessment 1 and Assessment 2.
 
 ## Week 2 activities
 
-
 - Read about security design principles for the cyber security environment
 - Apply design principles to a real-life scenario
 - Create an attack tree
@@ -37,9 +33,7 @@ for Assessment 1 and Assessment 2.
 - Practise using basic Kali Linux commands.
 
 
-## 2.1.0 Activity: Exploring security design principles
-
-Approx. 2 hours 10 minutes to complete all tasks in this activity
+### 2.1.0 Activity: Exploring security design principles
 
 In this activity you’ll explore security design principles and check your understanding before applying 
 your knowledge to a real-life scenario. Security design principles are developed based on industry 
@@ -47,12 +41,9 @@ experiences. Following design principles can result in the development of trustw
 systems. This is essential knowledge for any cyber security professional.
 
 
-### 2.1.1 Explore security design principles
+#### 2.1.1 Explore security design principles
 
-Approx. 40 minutes to complete this task
-
-
-#### What are security design principles?
+##### What are security design principles?
 
 In this task you’ll read about security design principles. This will provide the context for the 
 remaining tasks in this activity and will continue to build your foundational understanding of security 
@@ -69,7 +60,7 @@ Some of these principles are:
 
 Read - The following reading will help you learn about more security design principles.
 
-> Read pages 32-36 (Chapter 1) of: Network security essentials: applications and standards (Stallings 2017)
+>> Read Chapter 1 pages 32-36 from chapter-01_introduction.txt
 
 As you read, consider the following:
 
@@ -77,12 +68,9 @@ As you read, consider the following:
 - Which security design principles are most important? Why?
 
 
-### 2.1.2 Identifying security principles
+#### 2.1.2 Identifying security principles
 
-Approx. 30 minutes to complete this task
-
-
-#### Checking your understanding
+##### Checking your understanding
 
 In this task you’ll complete a short activity to check your understanding of the 13 security design 
 principles discussed in the reading. You’ll apply this knowledge in Task 2.1.3.
@@ -109,12 +97,9 @@ in the text box below.
 13. A program or user interface should behave in a predictable way. => **Least astonishment**
 
 
-### 2.1.3 Apply design principles
+#### 2.1.3 Apply design principles
 
-Approx. 1 hour to complete this task
-
-
-#### Relating design principles to a scenario
+##### Relating design principles to a scenario
 
 In Task 2.1.2 you reviewed the 13 security design principles discussed by Stallings (2017). In this 
 task you’ll apply these design principles to a real-life scenario. This will help you relate theory 
@@ -145,9 +130,7 @@ Consider the design principles from Task 2.1.2.
 Choose two to three design principles that might apply and justify your answers.
 
 
-## 2.2.0 Activity: Examining cyber-attack surfaces and attack trees
-
-Approx. 2 hours 30 minutes to complete all tasks in this activity
+### 2.2.0 Activity: Examining cyber-attack surfaces and attack trees
 
 In this activity you’ll read about cyber-attack surfaces and attack trees, and will practise creating 
 an attack tree. You’ll also reflect on the differences and similarities between attack surfaces and 
@@ -157,12 +140,9 @@ This is a key skill in cyber security. Skills in constructing attack trees can a
 interconnected information and operational systems to determine any dependency-linked cyber vulnerabilities.
 
 
-### 2.2.1 Examine cyber-attack surfaces and attack trees
+#### 2.2.1 Examine cyber-attack surfaces and attack trees
 
-Approx. 1 hour to complete this task
-
-
-#### What are cyber-attack surfaces and attack trees? (ASSESSMENT-3)
+##### What are cyber-attack surfaces and attack trees? (ASSESSMENT-3)
 
 In this task you’ll read about cyber-attack surfaces and attack trees. You’ll apply this knowledge in 
 Task 2.2.2 and Task 2.2.3. Your understanding of this information will be tested as part of your 
@@ -175,7 +155,7 @@ can be used to determine the attack paths and the level of risk to the system.
 
 Read - about cyber-attack surfaces and attack trees.
 
-> Read pages 36-39 (Chapter 1) of: Network security essentials: applications and standards (Stallings 2017)
+> Read Chapter 1 pages 36-39 from chapter-01_introduction.txt
 
 After reading, consider the following:
 
@@ -227,18 +207,15 @@ operating systems, and web server code. The human attack surface involves people
 such as social engineering, human error, and insider threats._
 
 
-### 2.2.2 Create an attack tree
+#### 2.2.2 Create an attack tree
 
-Approx. 1 hour to complete this task
-
-
-#### Designing an attack tree for a scenario
+##### Designing an attack tree for a scenario
 
 In Task 2.2.1 you read about attack trees. In this task you’ll design an attack tree in response to a 
 real-life scenario. This will demonstrate your understanding of attack trees.
 
 
-#### Create - Read the scenario below.
+##### Create - Read the scenario below.
 
 Develop an attack tree for a scenario in which the root node represents the disclosure of proprietary 
 secrets. Follow these rules:
@@ -248,7 +225,7 @@ secrets. Follow these rules:
 - The tree should have at least 15 leaf nodes.
 
 
-#### Scenario
+##### Scenario example
 
 _Consider a company whose operations are housed in two buildings on the same property; one building is 
 the headquarters, the other contains the network and computer services. The property is physically 
@@ -258,33 +235,65 @@ gate. The local networks are split between the headquarters’ LAN and the netwo
 users connect to the web server through a firewall. Dial-up users get access to a particular server 
 on the network services’ LAN._
 
-Answer - Below is an example of an attack tree for the scenario above presentend as text. You can 
-also draw the attack tree using a diagramming tool such as draw.io or Microsoft Visio.
+**Answer:** For the scenario above, the attack tree for the disclosure of proprietary secrets
 
+```answer
+We present the tree in text form. Call the company X:
+Survivability compromise: disclosure of X proprietary secrets
+
+OR
+
+1. Physically scavenge discarded items from X
+
+  OR
+
+  1. Inspect dumpster content on-site
+  2. Inspect refuse after removal from site
+
+2. Monitor emanations from X machines
+
+  AND
+
+  1. Survey physical perimeter to determine optimal monitoring position
+  2. Acquire necessary monitoring equipment
+  3. Setup monitoring site
+  4. Monitor emanations from site
+
+3. Recruit help of trusted X insider
+  
+  OR
+
+  1. Plant spy as trusted insider
+  2. Use existing trusted insider
+
+4. Physically access X networks or machines
+  
+  OR
+
+  1. Get physical, on-site access to intranet
+  2. Get physical access to external machines
+
+5. Attack X intranet using its connections with internet
+
+  OR
+
+  1. Monitor communications over internet for leakage
+  2. Get trusted process to send sensitive information to attacker over internet
+  3. Gain privileged access to web server
+
+6. Attack X intranet using its connections with public telephone network (PTN)
+
+  OR
+
+  1. Monitor communications over PTN for leakage of sensitive information
+  2. Gain privileged access to machines on intranet connected via internet
 ```
-Disclosure of proprietary secrets
-├── Physical attack
-│   ├── Break into the building
-│   ├── Steal a laptop
-│   └── Steal a hard drive
-├── Social engineering attack
-│   ├── Phishing email
-│   ├── Pretexting
-│   └── Baiting
-└── Technical attack
-    ├── Exploit a vulnerability in the web server
-    ├── Exploit a vulnerability in the firewall
-    ├── Exploit a vulnerability in the LAN
-    └── Exploit a vulnerability in the dial-up server
-```
+*Adapted from Network security essentials: applications and standards (Stallings 2017), pages 43-44*
 
 
-### 2.2.3 Compare attack surfaces and attack trees
+#### 2.2.3 Compare attack surfaces and attack trees
 
-Approx. 30 minutes to complete this task
-
-
-#### Discussing attack surfaces and attack trees
+##### Discussing attack surfaces and attack trees
 
 In this task you’ll compare attack surfaces and attack trees and reflect on their similarities and 
 differences. This will help consolidate your understanding of these key aspects of cyber security.
@@ -302,9 +311,7 @@ Consider your understanding of attack trees and attack surfaces.
   professional.
 
 
-## 2.3.0 Activity: Exploring the model of network security and risk-based security
-
-Approx. 2 hours 25 minutes to complete all tasks in this activity
+### 2.3.0 Activity: Exploring the model of network security and risk-based security
 
 In this activity you’ll read about a model for network security and analyse and discuss the model. 
 You’ll then use a risk metric to analyse a scenario and determine the level of risk involved.
@@ -312,12 +319,9 @@ You’ll then use a risk metric to analyse a scenario and determine the level of
 Understanding risk analysis in cyber security will help you to provide risk-based security solutions.
 
 
-### 2.3.1 Explore network security
+#### 2.3.1 Explore network security
 
-Approx. 40 minutes to complete this task
-
-
-#### What models are there for network security?
+##### What models are there for network security?
 
 In this task you’ll read about a model for network security. You’ll apply this knowledge in Task 
 2.3.2.
@@ -327,7 +331,7 @@ routers need to have good protection, while information systems need to be prote
 
 Read - The following reading will help you learn more about the model of network security.
 
-> Read pages 39-42 (Chapter 1) of: Network security essentials: applications and standards (Stallings 2017)
+> Read Chapter 1 pages 39-42 from chapter-01_introduction.txt
 
 As you read, consider the following:
 
@@ -335,12 +339,9 @@ As you read, consider the following:
 - What are the main tasks in designing a security system?
 
 
-### 2.3.2 Analyse the model
+#### 2.3.2 Analyse the model
 
-Approx. 1 hour to complete this task
-
-
-#### Discussing the network security model
+##### Discussing the network security model
 
 In this task you’ll analyse and discuss the model for network security. This model demonstrates the 
 key security mechanisms and security services discussed in this course.
@@ -354,12 +355,9 @@ Discuss - Examine the model for network security below. Consider the following:
 ![Model for network security](2.3.2_model-for-network-security.svg)
 
 
-### 2.3.3 Analyse the risk level
+#### 2.3.3 Analyse the risk level
 
-Approx. 45 minutes to complete this task
-
-
-#### Assessing the risk level in a scenario
+##### Assessing the risk level in a scenario
 
 In this task you’ll use a risk metric to analyse a scenario and determine the level of risk involved. 
 This will help you learn about risk metrics as a tool to analyse the risk profile of any system, a 
@@ -385,7 +383,7 @@ a process that may include multiple steps for identifying and calculating risk.
 7. Consult Risk Appetite => Consult the organisation’s risk appetite for accepting residual risks.
 
 
-#### Solve the problem
+##### Solve the problem
 
 Imagine you are a risk analyst. You’ll use a metric to determine the level of risk for a system 
 and make recommendations to the company.
@@ -399,7 +397,7 @@ Use the metric below to determine the level of risk to the company. Consider:
 - Whether it would be a low, moderate, medium or high risk
 
 
-#### Scenario
+#### Scenario example
 
 A clean electric company generates electricity and distributes it to regional and remote communities. 
 The communities use the electricity to support their local manufacturing systems. The clean electricity 
@@ -429,4 +427,4 @@ based on the metric, this scenario would be classified as a **high risk**.
 
 ---
 
-END OF WEEK 2 MODULE => Move on to Week 1-2 Lab/Workshop
+END OF WEEK 2 MODULE => MOVE ON TO LAB WORKSHOP WEEKS 1-2
