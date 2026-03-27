@@ -1,8 +1,6 @@
-# INTE2665 - Week 03 - Cryptography Concepts (Part 1)
+# INTE2665 | Week 3: Cryptography Concepts - Part 1
 
 ## 3.0.0 Week overview: Cryptography concepts – part 1
-
-Approx. 6 hours 15 minutes to complete all tasks in this week
 
 ## Welcome to Week 3 of Introduction to Cyber Security
 
@@ -32,18 +30,16 @@ This week you’ll:
 - Solve a problem about AES and discuss the results
 - Practise encrypting/decrypting files using GPG.
 
-## 3.1.0 Activity: Investigating symmetric encryption principles
 
-Approx. 1 hour 55 minutes to complete all tasks in this activity
+## 3.1.0 Activity: Investigating symmetric encryption principles
 
 In this activity you’ll read about symmetric encryption principles and discuss issues around 
 security. The idea of confidentiality is a key concept in cyber security, and symmetric encryption 
 is a widely used method of confidential information transmission. The content in this activity will
 support Assessment 1.
 
-### 3.1.1 Explore symmetric encryption principles
 
-Approx. 40 minutes to complete this task
+### 3.1.1 Explore symmetric encryption principles
 
 #### What are symmetric encryption principles?
 
@@ -57,9 +53,9 @@ can be possible if the encryption key has been securely delivered to the communi
 
 ![Symmetric encryption Model](3.1.1_Model-of-Symmetric-Encryption.svg)
 
-#### Read - The following about symmetric encryption principles.
+Read - About symmetric encryption principles.
 
-> Read Chapter-2: Symmetric Encryption and Message Confidentiality: pages 46-52
+>> Read Chapter-2 pages 46-52 from chapter-02_symmetric-encryption-and-message-confidentiality.txt
 
 As you read, consider the following:
 
@@ -82,9 +78,8 @@ of the algorithm.
 - It should use enough rounds and enough internal complexity to make attacks difficult.
 - But it should not be unnecessarily obscure; it should still be analyzable and defensible.
 
-### 3.1.2 Practise using symmetric encryption
 
-Approx. 45 minutes to complete this task
+### 3.1.2 Practise using symmetric encryption
 
 #### Using a real-world symmetric cipher
 
@@ -210,6 +205,7 @@ G       . . . . . . . . . . . . . . . . . . . . . . C . . .
 H       . . . . . . . . . . . . . . . . . . . . . . D . . .
 ```
 
+
 #### Solve the problem
 
 Solve the following encryption and decryption tasks.
@@ -227,20 +223,21 @@ When you’re finished, decrypt the ciphertext to get back the original message:
 ANS: The encrypted message is: `NSNFHUQHUUFRBWZYMF`
 ANS: The decrypted message is: `BEATTHETHIRDPILLAR`.
 
+
 #### Decryption task
 
 Use the Vigenère cipher to decrypt the following message, using the key MOON: `UKWYXKOVFTCEKCI`.
 
 ANS: The decrypted message is: `I WILL WAIT FOR YOU`.
 
-### 3.1.3 Reflect on symmetric block ciphers
 
-Approx. 30 minutes to complete this task
+### 3.1.3 Reflect on symmetric block ciphers
 
 #### Your thoughts on symmetric block ciphers
 
 In Task 3.1.2 you used a symmetric block cipher to encrypt a message. In this task you’ll reflect on 
 the use of symmetric block ciphers. This will help with Assessment 1.
+
 
 #### Reflect - Think back to Task 3.1.2.
 
@@ -255,15 +252,12 @@ You may wish to answer the following questions in your reflection:
 
 ## 3.2.0 Activity: Exploring the Advanced Encryption Standard (AES)
 
-Approx. 2 hours 10 minutes to complete all tasks in this activity
-
 In this activity you’ll read about the Advanced Encryption Standard (AES) and watch a video to deepen 
 your understanding. Then, you’ll apply your understanding to and solve a problem about AES and discuss 
 the results. AES is a widely used encryption algorithm in the industry.
 
-### 3.2.1 Explore AES
 
-Approx. 40 minutes to complete this task
+### 3.2.1 Explore AES
 
 #### What is AES?
 
@@ -276,7 +270,7 @@ encryption/decryption using principles of substitutions and permutations.
 
 Read - The following will help you learn more about AES.
 
-> Read Chapter-2: Symmetric Encryption and Message Confidentiality: pages 56-59
+>> Read Chapter-2 pages 56-59 from chapter-02_symmetric-encryption-and-message-confidentiality.txt
 
 As you read, consider the following:
 
@@ -292,11 +286,11 @@ _During decryption, AES uses the expanded keys in reverse order.  So encryption 
 keys in forward order, while decryption works backward through the same expanded key schedule. 
 This helps AES reverse the encryption process and recover the original plaintext._
 
+
 **Q: What is the structure and operation of the AES encryption round?**
 
 _AES is not a Feistel cipher.  Instead of splitting the data block into two halves, it processes the 
 entire 128-bit block in parallel during each round.  Each AES encryption round uses four main stages:_
-
 
 1. _Substitute Bytes: each byte is replaced using an S-box._
 2. _Shift Rows: the rows of the state are shifted._
@@ -308,14 +302,14 @@ containing all four stages.  The final round is slightly different because it om
 step. Only the Add Round Key step directly uses the key, while the other steps transform and scramble 
 the data to strengthen security._
 
-### 3.2.2 Investigate AES
 
-Approx. 30 minutes to complete this task
+### 3.2.2 Investigate AES
 
 #### Why is AES the standard?
 
 In Task 3.2.1 you read about AES. In this task you’ll investigate this area of symmetric encryption in 
 more detail. This will give you greater understanding and support Assessment 1.
+
 
 #### Watch the video
 
@@ -330,9 +324,8 @@ As you watch, consider the following:
 
 **Q: Why has it become the ‘standard’ for advanced encryption?**
 
-### 3.2.3 Discuss an encryption scenario
 
-Approx. 1 hour to complete this task
+### 3.2.3 Discuss an encryption scenario
 
 #### A Feistel cipher encryption scenario
 
@@ -342,6 +335,7 @@ Discuss - Consider the scenario below:
 
 **Q: Explain how, with access to an encryption oracle, you can decrypt c and determine m using just a single 
   oracle query.**
+
 
 #### Here is a Scenario Example
 
@@ -374,25 +368,23 @@ identical. We are given a ciphertext c. Let m' = c. Ask the encryption oracle to
 returned by the oracle will be the decryption of c.
 ```
 
-## 3.3.0 Activity: Applying GPG and cryptography – part 1
 
-Approx. 2 hours 10 minutes to complete all tasks in this activity
+## 3.3.0 Activity: Applying GPG and cryptography – part 1
 
 In this activity you’ll be introduced to GNU Privacy Guard (GPG), a tool for secure communication. 
 You’ll practise encrypting and decrypting a file using GPG and reflect on this task. Next week, 
 you’ll continue to practise using GPG.
 
-This tool will be used in Assessment 1. Please raise any questions or problems you are having with 
-your facilitator.
+This tool will be used in Assessment 1.
+
 
 ### 3.3.1 Practise GPG
-
-Approx. 1 hour 30 minutes to complete this task
 
 #### Practising using GPG
 
 In this task you’ll be introduced to GPG and start practising encrypting and decrypting files using 
 GPG. This provides an opportunity to use the direct skills that you’ll need for Assessment 1.
+
 
 #### Introduction to GNU Privacy Guard (GPG)
 
@@ -405,6 +397,7 @@ You’ll practise using the package, learning what functionality can be supporte
 how it works, and how it can be used as a cryptography system to provide confidentiality, integrity 
 and availability (the CIA triad).
 
+
 #### Read (optional)
 
 You can refer to the following manuals for more information about GPG.
@@ -414,6 +407,7 @@ The GNU privacy handbookLinks to an external site. https://www.gnupg.org/gph/en/
 PGP user’s guide, volume I: essential topicsLinks to an external site. https://web.pa.msu.edu/reference/pgpdoc1.html
 
 PGP user’s guide, volume II: special topicsLinks to an external site. https://web.pa.msu.edu/reference/pgpdoc2.html
+
 
 #### Practise
 
@@ -439,12 +433,11 @@ NOTE:
 
 ### 3.3.2 Reflect on using GPG
 
-Approx. 40 minutes to complete this task
-
 #### Assessing your progress
 
 In this task you’ll reflect on your practising of using GPG. This will help you to consolidate your 
 understanding and use of this important tool and prepare you for Assessment 1.
+
 
 #### Reflect
 

@@ -38,7 +38,6 @@ you’ll compare cloud-based data services in key areas and research security br
 
 #### 7.1.1 Explore cloud computing architecture and security risks
 
-
 ##### Security risks in cloud computing architecture
 
 In this task you’ll read about cloud computing architecture, and about security risks and countermeasures. 
@@ -53,7 +52,7 @@ so countermeasures need to consider any danger to the data during storage and tr
 ![Cloud computing architecture](7.1.1_cloud-computing-context.svg)
 
 
-##### Read - To learn more about cloud computing architecture and cloud security risks
+##### READ - To learn more about cloud computing architecture and cloud security risks
 
 > Read Chapter-5 Network_Access-Control-and-Cloud-Security pages 170-182 
 
@@ -274,7 +273,55 @@ Source: Adapted from Problem 10.2 in Network security essentials: applications a
 
 #### 7.3.1  Assessment 3: Exam preparation
 
-TODO Exam Prep – Week 9 ?
 - Points = 5
 - Questions = 5
 - No time limit
+
+
+Question 1 - 1 / 1 pts
+
+Which one of the following deployment models in the cloud is operated solely for an organisation?
+- Public cloud 
+- Private cloud (ANS)
+- Hybrid cloud 
+- Personal cloud 
+
+
+Question 2 - 0.5 / 1 pts
+
+Which of the following is/are cloud-specific security threats listed by the Cloud Security Alliance? (click any that apply)
+- Data loss or leakage (ANS)
+- Insecure design (UNKNOWN)
+- Malicious insiders (ANS)
+- Secure interfaces and APIs (WRONG ANS)
+
+
+Question 3 - 1 / 1 pts
+
+Which one of the following refers to a computer program that collects information from a computer and transmits it to another system?
+- Spyware (ANS)
+- Virus 
+- Trojan horse 
+- Worm 
+ 
+
+Question 4 - 0.5 / 1 pts
+
+Which of the following statements about Advanced Persistent Threats (APTs) is/are true? (Click any that apply)
+- Attackers use a wide variety of intrusion technologies and malware, including the development of custom malware if required. (ANS)
+- All individual components are technically advanced and carefully selected to suit the chosen target. (UNKNOWN)
+- A variety of attacks are often stealthily applied over a short period of time. (WRONG ANS)
+- Attackers intend to compromise the specifically chosen targets. (ANS)
+
+
+Question 5 - 1 / 1 pts
+
+Which of the following is/are not the components of a computer virus?
+- Kit (ANS)
+- Trigger 
+- Payload 
+- Infection mechanism 
+
+---
+
+END OF WEEK-7 MODULE -> MOVE ON TO LAB WORKSHOP WEEKS 7-8

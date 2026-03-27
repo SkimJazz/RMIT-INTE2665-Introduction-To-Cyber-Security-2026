@@ -33,7 +33,7 @@ for Assessment 1 and Assessment 2.
 - Practise using basic Kali Linux commands.
 
 
-### 2.1.0 Activity: Exploring security design principles
+## 2.1.0 Activity: Exploring security design principles
 
 In this activity you’ll explore security design principles and check your understanding before applying 
 your knowledge to a real-life scenario. Security design principles are developed based on industry 
@@ -41,9 +41,9 @@ experiences. Following design principles can result in the development of trustw
 systems. This is essential knowledge for any cyber security professional.
 
 
-#### 2.1.1 Explore security design principles
+### 2.1.1 Explore security design principles
 
-##### What are security design principles?
+#### What are security design principles?
 
 In this task you’ll read about security design principles. This will provide the context for the 
 remaining tasks in this activity and will continue to build your foundational understanding of security 
@@ -58,7 +58,7 @@ Some of these principles are:
 - Encapsulation
 - Modularity
 
-Read - The following reading will help you learn about more security design principles.
+Read - About more security design principles.
 
 >> Read Chapter 1 pages 32-36 from chapter-01_introduction.txt
 
@@ -68,9 +68,9 @@ As you read, consider the following:
 - Which security design principles are most important? Why?
 
 
-#### 2.1.2 Identifying security principles
+### 2.1.2 Identifying security principles
 
-##### Checking your understanding
+#### Checking your understanding
 
 In this task you’ll complete a short activity to check your understanding of the 13 security design 
 principles discussed in the reading. You’ll apply this knowledge in Task 2.1.3.
@@ -97,9 +97,9 @@ in the text box below.
 13. A program or user interface should behave in a predictable way. => **Least astonishment**
 
 
-#### 2.1.3 Apply design principles
+### 2.1.3 Apply design principles
 
-##### Relating design principles to a scenario
+#### Relating design principles to a scenario
 
 In Task 2.1.2 you reviewed the 13 security design principles discussed by Stallings (2017). In this 
 task you’ll apply these design principles to a real-life scenario. This will help you relate theory 
@@ -130,7 +130,7 @@ Consider the design principles from Task 2.1.2.
 Choose two to three design principles that might apply and justify your answers.
 
 
-### 2.2.0 Activity: Examining cyber-attack surfaces and attack trees
+## 2.2.0 Activity: Examining cyber-attack surfaces and attack trees
 
 In this activity you’ll read about cyber-attack surfaces and attack trees, and will practise creating 
 an attack tree. You’ll also reflect on the differences and similarities between attack surfaces and 
@@ -140,9 +140,9 @@ This is a key skill in cyber security. Skills in constructing attack trees can a
 interconnected information and operational systems to determine any dependency-linked cyber vulnerabilities.
 
 
-#### 2.2.1 Examine cyber-attack surfaces and attack trees
+### 2.2.1 Examine cyber-attack surfaces and attack trees
 
-##### What are cyber-attack surfaces and attack trees? (ASSESSMENT-3)
+#### What are cyber-attack surfaces and attack trees? (ASSESSMENT-3)
 
 In this task you’ll read about cyber-attack surfaces and attack trees. You’ll apply this knowledge in 
 Task 2.2.2 and Task 2.2.3. Your understanding of this information will be tested as part of your 
@@ -207,15 +207,15 @@ operating systems, and web server code. The human attack surface involves people
 such as social engineering, human error, and insider threats._
 
 
-#### 2.2.2 Create an attack tree
+### 2.2.2 Create an attack tree
 
-##### Designing an attack tree for a scenario
+#### Designing an attack tree for a scenario
 
 In Task 2.2.1 you read about attack trees. In this task you’ll design an attack tree in response to a 
 real-life scenario. This will demonstrate your understanding of attack trees.
 
 
-##### Create - Read the scenario below.
+#### Create - Read the scenario below.
 
 Develop an attack tree for a scenario in which the root node represents the disclosure of proprietary 
 secrets. Follow these rules:
@@ -225,7 +225,7 @@ secrets. Follow these rules:
 - The tree should have at least 15 leaf nodes.
 
 
-##### Scenario example
+#### Scenario example
 
 _Consider a company whose operations are housed in two buildings on the same property; one building is 
 the headquarters, the other contains the network and computer services. The property is physically 
@@ -291,9 +291,9 @@ OR
 *Adapted from Network security essentials: applications and standards (Stallings 2017), pages 43-44*
 
 
-#### 2.2.3 Compare attack surfaces and attack trees
+### 2.2.3 Compare attack surfaces and attack trees
 
-##### Discussing attack surfaces and attack trees
+#### Discussing attack surfaces and attack trees
 
 In this task you’ll compare attack surfaces and attack trees and reflect on their similarities and 
 differences. This will help consolidate your understanding of these key aspects of cyber security.
@@ -311,7 +311,7 @@ Consider your understanding of attack trees and attack surfaces.
   professional.
 
 
-### 2.3.0 Activity: Exploring the model of network security and risk-based security
+## 2.3.0 Activity: Exploring the model of network security and risk-based security
 
 In this activity you’ll read about a model for network security and analyse and discuss the model. 
 You’ll then use a risk metric to analyse a scenario and determine the level of risk involved.
@@ -319,9 +319,9 @@ You’ll then use a risk metric to analyse a scenario and determine the level of
 Understanding risk analysis in cyber security will help you to provide risk-based security solutions.
 
 
-#### 2.3.1 Explore network security
+### 2.3.1 Explore network security
 
-##### What models are there for network security?
+#### What models are there for network security?
 
 In this task you’ll read about a model for network security. You’ll apply this knowledge in Task 
 2.3.2.
@@ -339,9 +339,9 @@ As you read, consider the following:
 - What are the main tasks in designing a security system?
 
 
-#### 2.3.2 Analyse the model
+### 2.3.2 Analyse the model
 
-##### Discussing the network security model
+#### Discussing the network security model
 
 In this task you’ll analyse and discuss the model for network security. This model demonstrates the 
 key security mechanisms and security services discussed in this course.
@@ -355,9 +355,9 @@ Discuss - Examine the model for network security below. Consider the following:
 ![Model for network security](2.3.2_model-for-network-security.svg)
 
 
-#### 2.3.3 Analyse the risk level
+### 2.3.3 Analyse the risk level
 
-##### Assessing the risk level in a scenario
+#### Assessing the risk level in a scenario
 
 In this task you’ll use a risk metric to analyse a scenario and determine the level of risk involved. 
 This will help you learn about risk metrics as a tool to analyse the risk profile of any system, a 
@@ -383,7 +383,7 @@ a process that may include multiple steps for identifying and calculating risk.
 7. Consult Risk Appetite => Consult the organisation’s risk appetite for accepting residual risks.
 
 
-##### Solve the problem
+#### Solve the problem
 
 Imagine you are a risk analyst. You’ll use a metric to determine the level of risk for a system 
 and make recommendations to the company.
