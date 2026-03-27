@@ -1,4 +1,4 @@
-# INTE2665 | Week 8 | Wireless Security
+# INTE2665 | Week 8: Wireless Security
 
 ## 8.0.0 Week overview: Wireless security
 
@@ -35,7 +35,7 @@ improve the security of systems.
 - Practise using commands in Wireshark.
 
 
-### 8.1.0 Activity: Exploring wireless security and mobile device security
+## 8.1.0 Activity: Exploring wireless security and mobile device security
 
 In this activity you’ll read about wireless security and mobile device security and then listen to a 
 podcast with a cyber security professional discussing these types of security. You’ll also participate
@@ -45,9 +45,9 @@ can connect with WLANs and mobile networks (3G/4G/5G/6G, etc.) which requires th
 type of infrastructure to another thus exposing the mobile devices to cyber risks.
 
 
-#### 8.1.1 Explore Wireless Security
+### 8.1.1 Explore Wireless Security
 
-##### How does Wireless Security prevent attacks?
+#### How does Wireless Security prevent attacks?
 
 In this task you’ll read about Wireless Security and mobile device security. This will provide the 
 context for this activity and will be **ASSESSED IN ASSESSMENT 3**.
@@ -56,9 +56,9 @@ Wireless Security can prevent accidental and malicious associations with malicio
 the possibility of cyber-attacks on wireless devices. Wireless Security can prevent attackers from
 locating wireless access points, and further encryption can prevent eavesdropping on wireless communication.
 
-##### READ - To learn more about Wireless Security
+READ - To learn more about Wireless Security
 
-> Read Chapter-7_Pages_223-230_Wireless-security-and-mobile-device-security pages 223-230 
+>> Read Chapter-7 pages 223-230 from: chapter-07_p223-230_wireless-security-and-mobile-device-security.txt
 
 As you read, consider the following:
 
@@ -95,9 +95,9 @@ As you read, consider the following:
    -  Use of location services
 
 
-#### 8.1.2 Compare and contrast wireless security and mobile device security
+### 8.1.2 Compare and contrast wireless security and mobile device security
 
-##### Wireless security versus mobile device security
+#### Wireless security versus mobile device security
 
 In this task you’ll compare wireless security and mobile device security. This will help you prepare 
 for **ASSESSMENT 3**.
@@ -160,9 +160,9 @@ Mobile device security is more vulnerable.
 but organizations can more easily control access points, enforce encryption, and monitor network activity.
 
 
-#### 8.1.3 Task 3: Learn from cyber security professionals
+### 8.1.3 Task 3: Learn from cyber security professionals
 
-##### Wireless security real-world use
+#### Wireless security real-world use
 
 In this task you’ll listen to an interview with a cyber security professional discussing wireless
 security and mobile device security. This will give you a better real-world understanding of this
@@ -172,7 +172,7 @@ Wireless security enables the delivery of a flexible business model on the go. C
 considered vital for business continuity, and wireless security makes new types of business models 
 possible, as secure business can be conducted anytime and anywhere.
 
-##### LISTEN
+#### LISTEN
 
 Wireless security and mobile device security (9:22 min)
 
@@ -234,7 +234,7 @@ settings and lack of security. Prevention involves enabling encryption, changing
 and keeping devices updated.
 
 
-### 8.2.0 Activity: Exploring WLAN and WLAN security
+## 8.2.0 Activity: Exploring WLAN and WLAN security
 
 In this activity you’ll read about wireless LAN and wireless LAN security and participate in a discussion
 about the benefits and weaknesses of an authentication scheme. Then, you’ll do a deeper analysis of 
@@ -242,9 +242,9 @@ another authentication scheme. This is an important area as authentication mecha
 undesired attackers masquerading as legitimate users.
 
 
-#### 8.2.1 Exploring WLAN and WLAN Security
+### 8.2.1 Exploring WLAN and WLAN Security
 
-##### Why is wireless LAN security challenging?
+#### Why is wireless LAN security challenging?
 
 In this task you’ll read about **Wireless LAN and Wireless LAN Security**. This will provide the context 
 for this activity and will be **ASSESSED IN ASSESSMENT 3**.
@@ -256,9 +256,9 @@ cybercriminals by setting up malicious WLAN base stations or by installing malic
 existing WLANs.
 
 
-##### READ - More about wireless LAN and wireless LAN security
+#### READ - More about wireless LAN and wireless LAN security
 
-> Read Chapter 7 pages 230-236 Wireless LAN and wireless LAN security
+>> Read Chapter 7 pages 230-250 from: chapter-07_p230-250_ieee802-11.txt
 
 As you read, consider the following:
 
@@ -291,14 +291,14 @@ As you read, consider the following:
    so data can move between wireless and wired devices.*
 
 
-#### 8.2.2 Discuss an Authentication Scheme
+### 8.2.2 Discuss an Authentication Scheme
 
-##### Analysing security effectiveness
+#### Analysing security effectiveness
 
 In this task you’ll discuss an authentication scheme and consider its benefits and drawbacks. 
 This will support your learning for **ASSESSMENT 3**.
 
-##### DISCUSS
+#### DISCUSS
 
 Read the authentication scheme description below:
 
@@ -324,14 +324,14 @@ Note: You’ll continue to analyse authentication schemes in Task 8.2.3.
 Source: Adapted from Problem 7.1 in Network security essentials: applications and standards (Stallings 2017), page 251.
 
 
-#### 8.2.3 Analyse an authentication scheme
+### 8.2.3 Analyse an authentication scheme
 
-##### Discussing an encryption scenario
+#### Discussing an encryption scenario
 
 In Task 8.2.2 you discussed IEEE 802.11. In this task you’ll analyse the previous security scheme that was
 used: Wired Equivalent Privacy (WEP). This will help you prepare for **ASSESSMENT 3**.
 
-##### SOLVE THE PROBLEM
+#### SOLVE THE PROBLEM
 
 Read the authentication scheme description below:
 
@@ -344,7 +344,7 @@ the challenge with the shared key and returns it to the AP. The AP decrypts the 
 it to the challenge that it sent. If there is a match, the AP confirms that authentication has succeeded."
 
 
-##### CONSIDER - the following questions:
+#### CONSIDER - the following questions:
 
 1. **Q: What are the benefits of this authentication scheme?**
 
@@ -376,7 +376,7 @@ LECTURERS ANSWERS:
    2017), pages 251-252.
 
 
-### 8.3.0 Activity 3: Applying packet analysis with Wireshark
+## 8.3.0 Activity 3: Applying packet analysis with Wireshark
 
 In this activity you’ll be introduced to Wireshark, the world’s foremost and most widely used network
 protocol analyser. You’ll practise using Wireshark and reflect on this. Although you won’t be assessed
@@ -385,28 +385,28 @@ traffic analysis. In the case of a cyber-attack, traffic packets will have infor
 so tools such as Wireshark can help to collect evidence and then do the analysis.
 
 
-#### 8.3.1 Practise Wireshark
+### 8.3.1 Practise Wireshark
 
-##### Practising using Wireshark
+#### Practising using Wireshark
  
 In this task you’ll be introduced to Wireshark and start practising using this key tool. It can be used
 to carry out a cyber-attack analysis in response to an incident. There is a shortage of these skills in
 the industry.
 
 
-##### Introduction to Wireshark
+#### Introduction to Wireshark
 
 Wireshark is one of the most popular network protocol analysers. It lets you inspect protocols on your
 network more deeply and allows for live packet capture and offline analysis with display filters.
 
 
-##### READ (optional) - Manuals for more information about Wireshark:
+#### READ (optional) - Manuals for more information about Wireshark:
 
 1. [Wireshark](https://www.wireshark.org/)
 2. [Wireshark user’s guide](https://www.wireshark.org/docs/wsug_html_chunked/)
 
 
-##### PRACTISE
+#### PRACTISE
 
 Go to the Lab manual and navigate to Week 7-8: Packet analysis with Wireshark. Over this
 week, practise the following:
@@ -424,14 +424,14 @@ NOTE:
 
 
 
-#### 8.3.2 Reflect on using Wireshark
+### 8.3.2 Reflect on using Wireshark
 
-##### Assessing your progress
+#### Assessing your progress
 
 In this task you’ll reflect on your use of Wireshark. This will help you to consolidate your understanding
 and use of this important tool.
 
-##### REFLECT
+#### REFLECT
 
 Consider your work using Wireshark this week. Write a reflection in your journal considering the following:
 
@@ -441,14 +441,14 @@ Consider your work using Wireshark this week. Write a reflection in your journal
 - In which areas could you improve?
 
 
-### 8.4.0 Activity: Preparing for Assessment 3
+## 8.4.0 Activity: Preparing for Assessment 3
 
 In this activity you’ll complete a summary of the exam information in Assessment 3. Then you’ll practise 
 taking a short quiz on the content of Week 8 to prepare for your exam. This will help you to consolidate 
 your understanding of this exam and support your preparation.
 
 
-#### 8.4.1 Prepare for Assessment 3
+### 8.4.1 Prepare for Assessment 3
 
 - Points = 5
 - Questions = 5
@@ -504,3 +504,7 @@ Which of the following services is/are not provided by the IEEE 802.11i RSN?
 - Authentication 
 - Access control 
 - Privacy with message integrity 
+
+---
+
+END OF WEEK 8 MODULE => MOVE ON TO LAB WORKSHOP WEEKS 7-8: Packet analysis with Wireshark
