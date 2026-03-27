@@ -1,0 +1,1564 @@
+Part Five: LegaL and ethicaL issues 
+
+CHAPTER 
+Legal and Ethical Aspects 
+
+14.1 Cybercrime and Computer Crime 
+Types of Computer Crime 
+Law Enforcement Challenges 
+Working with Law Enforcement 
+
+14.2 Intellectual Property 
+Types of Intellectual Property 
+Intellectual Property Relevant to Network and Computer Security 
+Digital Millennium Copyright Act 
+Digital Rights Management 
+
+14.3 Privacy 
+Privacy Law and Regulation 
+Organizational Response 
+Computer Usage Privacy 
+Privacy and Data Surveillance 
+
+14.4 Ethical Issues 
+Ethics and the IS Professions 
+Ethical Issues Related to Computers and Information Systems 
+Codes of Conduct 
+The Rules 
+
+14.5 Recommended Reading 
+14.6 References 
+14.7 Key Terms, Review Questions, and Problems 
+Key Terms 
+Review Questions 
+Problems 
+
+14.A Information Privacy 
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+2 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+LEARNING OBJECTIVES 
+
+After studying this chapter, you should be able to: 
+◆■ Discuss the different types of computer crime. 
+◆■ Understand the types of intellectual property. 
+◆■ Present an overview of key issues in the area of privacy. 
+◆■ Compare and contrast various approaches to codifying computer ethics. 
+
+The legal and ethical aspects of computer security encompass a broad range of topics, 
+and a full discussion is well beyond the scope of this text. In this chapter, we touch on a 
+few important topics in this area. 
+
+14.1 CYBERCRIME AND COMPUTER CRIME 
+The bulk of this text examines technical approaches to the detection, prevention, 
+and recovery from computer and network attacks. One other tool is the deterrent 
+factor of law enforcement. Many types of computer attacks can be considered 
+crimes and, as such, carry criminal sanctions. This section begins with a classification 
+of types of computer crime and then looks at some of the unique law-enforcement 
+challenges of dealing with computer crime. 
+
+Types of Computer Crime 
+
+Computer crime, or cybercrime, is a term used broadly to describe criminal activity 
+in which computers or computer networks are a tool, a target, or a place of criminal 
+activity.1 These categories are not exclusive, and many activities can be characterized 
+as falling in one or more categories. The term cybercrime has a connotation of 
+the use of networks specifically, whereas computer crime may or may not involve 
+networks. 
+
+The U.S. Department of Justice [DOJ00] categorizes computer crime based 
+on the role that the computer plays in the criminal activity, as follows: 
+
+■■ Computers as targets: This form of crime targets a computer system, to acquire 
+information stored on that computer system, to control the target system without 
+authorization or payment (theft of service), or to alter the integrity of 
+data or interfere with the availability of the computer or server. This form of 
+crime involves an attack on data integrity, system integrity, data confidentiality, 
+privacy, or availability. 
+
+1This definition is from the New York Law School Course on Cybercrime, Cyberterrorism, and Digital 
+Law Enforcement (information-retrieval.info/cybercrime/index.html). 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.1 / CybERCRimE And ComPuTER CRimE 3 
+■■ Computers as storage devices: Computers can be used to further unlawful 
+activity by using a computer or a computer device as a passive storage medium. 
+For example, the computer can be used to store stolen password lists, credit 
+card or calling card numbers, proprietary corporate information, pornographic 
+image files, or “warez” (pirated commercial software). 
+
+■■ Computers as communications tools: Many of the crimes falling within this 
+category are simply traditional crimes that are committed online. Examples 
+include the illegal sale of prescription drugs, controlled substances, alcohol, 
+and guns; fraud; gambling; and child pornography. 
+
+A more specific list of crimes, shown in Table 14.1, is defined in the international 
+Convention on Cybercrime.2 This is a useful list because it represents an 
+international consensus on what constitutes computer crime, or cybercrime, and 
+what crimes are considered important. 
+
+Yet another categorization is used in the CERT 2007 E-crime Survey, the 
+results of which are shown in Table 14.2. The figures in the second column indicate 
+the percentage of respondents who report at least one incident in the corresponding 
+row category. Entries in the remaining three columns indicate the percentage of 
+respondents who reported a given source for an attack.3 
+
+Law Enforcement Challenges 
+
+The deterrent effect of law enforcement on computer and network attacks correlates 
+with the success rate of criminal arrest and prosecution. The nature of cybercrime 
+is such that consistent success is extraordinarily difficult. To see this, consider what 
+[KSHE06] refers to as the vicious cycle of cybercrime, involving law enforcement 
+agencies, cybercriminals, and cybercrime victims. 
+
+For law enforcement agencies, cybercrime presents some unique difficulties. 
+Proper investigation requires a fairly sophisticated grasp of the technology. 
+Although some agencies, particularly larger agencies, are catching up in this area, 
+many jurisdictions lack investigators knowledgeable and experienced in dealing 
+with this kind of crime. Lack of resources represents another handicap. Some cybercrime 
+investigations require considerable computer processing power, communications 
+capacity, and storage capacity, which may be beyond the budget of individual 
+jurisdictions. The global nature of cybercrime is an additional obstacle: Many crimes 
+will involve perpetrators who are remote from the target system, in another jurisdiction 
+or even another country. A lack of collaboration and cooperation with remote 
+
+2 The 2001 Convention on Cybercrime (European Treaty Series - No. 185, Budapest 23.X1.2001) is the 
+first international treaty seeking to address Internet crimes by harmonizing national laws, improving 
+investigative techniques, and increasing cooperation among nations. It was developed by the Council of 
+Europe and has been ratified by 43 nations, including the United States.The Convention includes a list of 
+crimes that each signatory state must transpose into its own law. 
+
+3Note that the sum of the figures in the last three columns for a given row may exceed 100%, because a 
+respondent may report multiple incidents in multiple source categories (e.g., a respondent experiences 
+both insider and outsider denial-of-service attacks). 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+4 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+Table 14.1 Cybercrimes Cited in the Convention on Cybercrime 
+
+Article 2 Illegal access 
+The access to the whole or any part of a computer system without right. 
+Article 3 Illegal interception 
+The interception without right, made by technical means, of non-public transmissions of computer 
+data to, from or within a computer system, including electromagnetic emissions from a computer 
+system carrying such computer data. 
+Article 4 Data interference 
+The damaging, deletion, deterioration, alteration or suppression of computer data without right. 
+Article 5 System interference 
+The serious hindering without right of the functioning of a computer system by inputting, 
+transmitting, damaging, deleting, deteriorating, altering or suppressing computer data. 
+Article 6 Misuse of devices 
+a. The production, sale, procurement for use, import, distribution or otherwise making available of: 
+i. A device, including a computer program, designed or adapted primarily for the purpose of 
+committing any of the offences established in accordance with the above Articles 2 through 5; 
+ii. A computer password, access code, or similar data by which the whole or any part of a 
+computer system is capable of being accessed, with intent that it be used for the purpose of 
+committing any of the offences established in the above Articles 2 through 5; and 
+b. The possession of an item referred to in paragraphs (a.i) or (ii) above, with intent that it be used 
+for the purpose of committing any of the offences established in the above Articles 2 through 5. 
+A Party may require by law that a number of such items be possessed before criminal liability 
+attaches. 
+Article 7 Computer-related forgery 
+The input, alteration, deletion, or suppression of computer data, resulting in inauthentic data with 
+the intent that it be considered or acted upon for legal purposes as if it were authentic, regardless 
+whether or not the data is directly readable and intelligible. 
+Article 8 Computer-related fraud 
+The causing of a loss of property to another person by: 
+a. Any input, alteration, deletion or suppression of computer data; 
+b. Any interference with the functioning of a computer system, with fraudulent or dishonest intent 
+of procuring, without right, an economic benefit for oneself or for another person. 
+Article 9 Offenses related to child pornography 
+a. Producing child pornography for the purpose of its distribution through a computer system; 
+b. Offering or making available child pornography through a computer system; 
+c. Distributing or transmitting child pornography through a computer system; 
+d. Procuring child pornography through a computer system for oneself or for another person; 
+e. Possessing child pornography in a computer system or on a computer-data storage medium. 
+Article 10 Infringements of copyright and related rights 
+Article 11 Attempt and aiding or abetting 
+Aiding or abetting the commission of any of the offences established in accordance with the above 
+Articles 2 through 10 of the present Convention with intent that such offence be committed. An 
+attempt to commit any of the offences established in accordance with Articles 3 through 5, 7, 8, and 
+(9..a) and (c) of this Convention. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.1 / CybERCRimE And ComPuTER CRimE 5 
+Table 14.2 CERT 2006 E-Crime Watch Survey Results 
+
+Committed 
+(net %) Insider (%) 
+Outsider 
+(%) 
+Source 
+Unknown 
+(%) 
+Theft of intellectual property 30 63 45 5 
+Theft of other (proprietary) info 
+including customer records, financial 
+records, etc. 
+36 56 49 9 
+Denial of service attacks 36 0 84 20 
+Virus, worms or other malicious code 72 23 80 16 
+Fraud (credit card fraud, etc.) 29 47 69 18 
+Identity theft of customer 19 46 79 4 
+Illegal generation of spam e-mail 40 10 78 20 
+Phishing (someone posing as your 
+company online in an attempt to gain 
+personal data from your subscribers or 
+employees) 
+31 0 77 26 
+Unauthorized access to/use of 
+information, systems or networks 
+60 47 60 13 
+Sabotage: deliberate disruption, 
+deletion, or destruction of information, 
+systems, or networks 
+33 49 41 15 
+Extortion 33 49 41 15 
+Web site defacement 14 22 78 6 
+Zombie machines on organization’s 
+network/bots/use of network by 
+BotNets 
+20 16 72 28 
+Intentional exposure of private or 
+sensitive information 
+11 71 36 7 
+Spyware (not including adware) 51 17 73 17 
+Other 11 50 43 21 
+
+law enforcement agencies can greatly hinder an investigation. Initiatives such as 
+international Convention on Cybercrime are a promising sign. The Convention at 
+least introduces a common terminology for crimes and a framework for harmonizing 
+laws globally. 
+
+The relative lack of success in bringing cybercriminals to justice has led to an 
+increase in their numbers, boldness, and the global scale of their operations. It is 
+difficult to profile cybercriminals in the way that is often done with other types of 
+repeat offenders. The cybercriminal tends to be young and very computer-savvy, 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+6 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+but the range of behavioral characteristics is wide. Further, there exist no cybercriminal 
+databases that can point investigators to likely suspects. 
+
+The success of cybercriminals, and the relative lack of success of law enforcement, 
+influences the behavior of cybercrime victims. As with law enforcement, 
+many organizations that may be the target of attack have not invested sufficiently 
+in technical, physical, and human-factor resources to prevent attacks. Reporting 
+rates tend to be low because of a lack of confidence in law enforcement, a concern 
+about corporate reputation, and a concern about civil liability. The low reporting 
+rates and the reluctance to work with law enforcement on the part of victims feeds 
+into the handicaps under which law enforcement works, completing the vicious 
+cycle. 
+
+Working with Law Enforcement 
+
+Executive management and security administrators need to look upon law enforcement 
+as another resource and tool, alongside technical, physical, and human-factor 
+resources. The successful use of law enforcement depends much more on people 
+skills than technical skills. Management needs to understand the criminal investigation 
+process, the inputs that investigators need, and the ways in which the victim can 
+contribute positively to the investigation. 
+
+14.2 INTELLECTUAL PROPERTY 
+The U.S. legal system, and legal systems generally, distinguish three primary types 
+of property: 
+
+■■ Real property: Land and things permanently attached to the land, such as 
+trees, buildings, and stationary mobile homes. 
+
+■■ Personal property: Personal effects, moveable property and goods, such as cars, 
+bank accounts, wages, securities, a small business, furniture, insurance policies, 
+jewelry, patents, pets, and season baseball tickets. 
+
+■■ Intellectual property: Any intangible asset that consists of human knowledge 
+and ideas. Examples include software, data, novels, sound recordings, the 
+design of a new type of mousetrap, or a cure for a disease. 
+
+This section focuses on the computer security aspects of intellectual property. 
+
+Types of Intellectual Property 
+
+There are three main types of intellectual property for which legal protection is 
+available: copyrights, trademarks, and patents. The legal protection is against 
+infringement, which is the invasion of the rights secured by copyrights, trademarks, 
+and patents. The right to seek civil recourse against anyone infringing his or her 
+property is granted to the IP owner. Depending upon the type of IP, infringement 
+may vary (Figure 14.1). 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.2 / inTELLECTuAL PRoPERTy 7 
+Patents 
+Unauthorized 
+making, 
+using or selling 
+Trademarks 
+Unauthorized use or 
+colorable imitation 
+Copyrights 
+Unauthorized use 
+Figure 14.1 Intellectual Property Infringement 
+
+Copyrights Copyright law protects the tangible or fixed expression of an idea, not 
+the idea itself. A creator can claim copyright, and file for the copyright at a national 
+government copyright office, if the following conditions are fulfilled:4 
+
+■■ The proposed work is original. 
+
+■■ The creator has put this original idea into a concrete form, such as hard copy 
+(paper), software, or multimedia form. 
+
+Examples of items that may be copyrighted include the following [BRAU01]: 
+
+■■ Literary works: Novels, nonfiction prose, poetry, newspaper articles and newspapers, 
+magazine articles and magazines, catalogs, brochures, ads (text), and 
+compilations such as business directories 
+
+■■ Musical works: Songs, advertising jingles, and instrumentals 
+
+■■ Dramatic works: Plays, operas, and skits 
+
+■■ Pantomimes and choreographic works: Ballets, modern dance, jazz dance, and 
+mime works 
+
+■■ Pictorial, graphic, and sculptural works: Photographs, posters, maps, paintings, 
+drawings, graphic art, display ads, cartoon strips and cartoon characters, stuffed 
+animals, statues, paintings, and works of fine art 
+
+■■ Motion pictures and other audiovisual works: Movies, documentaries, travelogues, 
+training films and videos, television shows, television ads, and interactive 
+multimedia works 
+
+4Copyright is automatically assigned to newly created works in countries that subscribe to the Berne 
+convention, which encompasses the vast majority of nations. Some countries, such as the United States, 
+provide additional legal protection if the work is registered. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+8 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+■■ Sound recordings: Recordings of music, sound, or words 
+■■ Architectural works: Building designs, whether in the form of architectural 
+plans, drawings, or the constructed building itself 
+■■ Software-related works: Computer software, software documentation and 
+manuals, training manuals, and other manuals 
+The copyright owner has the following exclusive rights, protected against 
+
+infringement: 
+■■ Reproduction right: Lets the owner make copies of a work 
+■■ Modification right: Also known as the derivative-works right, concerns modi
+
+
+fying a work to create a new or derivative work 
+■■ Distribution right: Lets the owner publicly sell, rent, lease, or lend copies of 
+
+the work 
+■■ Public-performance right: Applies mainly to live performances 
+■■ Public-display right: Lets the owner publicly show a copy of the work directly 
+
+or by means of a film, slide, or television image 
+
+patents A patent for an invention is the grant of a property right to the inventor. 
+The right conferred by the patent grant is, in the language of the U.S. statute and 
+of the grant itself, “the right to exclude others from making, using, offering for sale, 
+or selling” the invention in the United States or “importing” the invention into the 
+United States. Similar wording appears in the statutes of other nations. There are 
+three types of patents: 
+
+■■ Utility patents: May be granted to anyone who invents or discovers any new 
+and useful process, machine, article of manufacture, or composition of matter, 
+or any new and useful improvement thereof; 
+
+■■ Design patents: May be granted to anyone who invents a new, original, and 
+ornamental design for an article of manufacture; and 
+■■ Plant patents: May be granted to anyone who invents or discovers and asexually 
+reproduces any distinct and new variety of plant. 
+
+An example of a patent from the computer security realm is the RSA public-
+key cryptosystem. From the time it was granted in 1983 until the patent expired in 
+2000, the patent holder, RSA Security, was entitled to receive a fee for each implementation 
+of RSA. 
+
+trademarks A trademark is a word, name, symbol, or device that is used in trade 
+with goods to indicate the source of the goods and to distinguish them from the 
+goods of others. A servicemark is the same as a trademark except that it identifies 
+and distinguishes the source of a service rather than a product. The terms trademark 
+and mark are commonly used to refer to both trademarks and servicemarks. 
+Trademark rights may be used to prevent others from using a confusingly similar 
+mark, but not to prevent others from making the same goods or from selling the 
+same goods or services under a clearly different mark. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.2 / inTELLECTuAL PRoPERTy 9 
+Intellectual Property Relevant to Network and Computer 
+Security 
+
+A number of forms of intellectual property are relevant in the context of network 
+and computer security. Here we mention some of the most prominent: 
+
+■■ Software: This includes programs produced by vendors of commercial software 
+(e.g., operating systems, utility programs, applications) as well as shareware, 
+proprietary software created by an organization for internal use, and 
+software produced by individuals. For all such software, copyright protection 
+is available if desired. In some cases, a patent protection may also be 
+appropriate. 
+
+■■ Databases: A database may consist of data that is collected and organized in 
+such a fashion that it has potential commercial value. An example is an economic 
+forecasting database. Such databases may be protected by copyright. 
+
+■■ Digital content: This category includes audio files, video files, multimedia, 
+courseware, Web site content, and any other original digital work that can be 
+presented in some fashion using computers or other digital devices. 
+
+■■ Algorithms: An example of a patentable algorithm, previously cited, is the 
+RSA public-key cryptosystem. 
+
+Digital Millennium Copyright Act 
+
+The U.S. Digital Millennium Copyright Act (DMCA) has had a profound effect 
+on the protection of digital content rights in both the United States and worldwide. 
+The DMCA, signed into law in 1998, is designed to implement World Intellectual 
+Property Organization (WIPO) treaties, signed in 1996. In essence, DMCA 
+strengthens the protection of copyrighted materials in digital format. 
+
+The DMCA encourages copyright owners to use technological measures 
+to protect copyrighted works. These measures fall into two categories: measures 
+that prevent access to the work and measures that prevent copying of the work. 
+Further, the law prohibits attempts to bypass such measures. Specifically, the 
+law states that “no person shall circumvent a technological measure that effectively 
+controls access to a work protected under this title.” Among other effects 
+of this clause, it prohibits almost all unauthorized decryption of content. The 
+law further prohibits the manufacture, release, or sale of products, services, and 
+devices that can crack encryption designed to thwart either access to or copying 
+of material unauthorized by the copyright holder. Both criminal and civil penalties 
+apply to attempts to circumvent technological measures and to assist in such 
+circumvention. 
+
+Certain actions are exempted from the provisions of the DMCA and other 
+copyright laws, including the following: 
+
+■■ Fair use: This concept is not tightly defined. It is intended to permit others to 
+perform, show, quote, copy, and otherwise distribute portions of the work for 
+certain purposes. These purposes include review, comment, and discussion of 
+copyrighted works. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+10 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+■■ Reverse engineering: Reverse engineering of a software product is allowed if 
+the user has the right to use a copy of the program and if the purpose of the 
+reverse engineering is not to duplicate the functionality of the program but 
+rather to achieve interoperability. 
+
+■■ Encryption research: “Good faith” encryption research is allowed. In essence, 
+this exemption allows decryption attempts to advance the development of 
+encryption technology. 
+
+■■ Security testing: This is the access of a computer or network for the good faith 
+testing, investigating, or correcting a security flaw or vulnerability, with the 
+authorization of the owner or operator. 
+
+■■ Personal privacy: It is generally permitted to bypass technological measures if 
+that is the only reasonable way to prevent the access to result in the revealing 
+or recording of personally identifying information. 
+
+Despite the exemptions built into the Act, there is considerable concern, 
+especially in the research and academic communities, that the act inhibits legitimate 
+security and encryption research. These parties feel that DMCA stifles innovation 
+and academic freedom and is a threat to open source software development 
+[ACM04]. 
+
+Digital Rights Management 
+
+Digital Rights Management (DRM) refers to systems and procedures that ensure 
+that holders of digital rights are clearly identified and receive the stipulated payment 
+for their works. The systems and procedures may also impose further restrictions 
+on the use of digital objects, such as inhibiting printing or prohibiting further 
+distribution. 
+
+There is no single DRM standard or architecture. DRM encompasses a variety 
+of approaches to intellectual property management and enforcement by providing 
+secure and trusted automated services to control the distribution and use of 
+content. In general, the objective is to provide mechanisms for the complete content 
+management life cycle (creation, subsequent contribution by others, access, 
+distribution, use), including the management of rights information associated with 
+the content. 
+
+DRM systems should meet the following objectives: 
+
+1. Provide persistent content protection against unauthorized access to the digital 
+content, limiting access to only those with the proper authorization. 
+2. Support a variety of digital content types (e.g., music files, video streams, digital 
+books, images). 
+3. Support content use on a variety of platforms, (e.g., PCs, PDAs, iPods, mobile 
+phones). 
+4. Support content distribution on a variety of media, including CD-ROMs, 
+DVDs, and flash memory. 
+Figure 14.2, based on [LIU03], illustrates a typical DRM model in terms of the 
+principal users of DRM systems: 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.2 / inTELLECTuAL PRoPERTy 11 
+Protectedcontent 
+Paying 
+royalty fees 
+Usagerules 
+Digitallicense 
+Protectedcontent 
+Requiringlicense and paying 
+Information ow 
+Paying distribution 
+Money ow 
+Figure 14.2 DRM Components 
+
+■■ Content provider: Holds the digital rights of the content and wants to protect 
+these rights. Examples are a music record label and a movie studio. 
+
+■■ Distributor: Provides distribution channels, such as an online shop or a Web 
+retailer. For example, an online distributor receives the digital content from 
+the content provider and creates a Web catalog presenting the content and 
+rights metadata for the content promotion. 
+
+■■ Consumer: Uses the system to access the digital content by retrieving downloadable 
+or streaming content through the distribution channel and then paying 
+for the digital license. The player/viewer application used by the consumer 
+takes charge of initiating license request to the clearinghouse and enforcing 
+the content usage rights. 
+
+■■ Clearinghouse: Handles the financial transaction for issuing the digital license 
+to the consumer and pays royalty fees to the content provider and distribution 
+fees to the distributor accordingly. The clearinghouse is also responsible for 
+logging license consumptions for every consumer. 
+
+In this model, the distributor need not enforce the access rights. Instead, the 
+content provider protects the content in such a way (typically encryption) that the 
+consumer must purchase a digital license and access capability from the clearinghouse. 
+The clearinghouse consults usage rules provided by the content provider 
+to determine what access is permitted and the fee for a particular type of access. 
+Having collected the fee, the clearinghouse credits the content provider and distributor 
+appropriately. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+12 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+Figure 14.3 shows a generic system architecture to support DRM functionality. 
+The system is access by parties in three roles. Rights holders are the content 
+providers, who either created the content or have acquired rights to the content. 
+Service providers include distributors and clearinghouses. Consumers are those 
+who purchase the right to access to content for specific uses. There is system interface 
+to the services provided by the DRM system: 
+
+■■ Identity management: Mechanisms to uniquely identify entities, such as parties 
+and content 
+■■ Content management: Processes and functions needed to manage the content 
+lifestyle 
+■■ Rights management: Processes and functions needed to manage rights, rights 
+holders, and associated requirements 
+
+Below these management modules are a set of common functions. The 
+security/encryption module provides functions to encrypt content and to sign license 
+agreements. The identity management service makes use of the authentication and 
+authorization functions to identify all parties in the relationship. Using these functions, 
+the identity management service includes the following: 
+
+■■ Allocation of unique party identifiers 
+■■ User profile and preferences 
+■■ User’s device management 
+■■ Public-key management 
+
+ROLESSERVICESFUNCTIONS
+Figure 14.3 DRM System Architecutre 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.3 / PRivACy 13 
+Billing/payments functions deal with the collection of usage fees from consumers 
+and the distribution of payments to rights holders and distributors. Delivery 
+functions deal with the delivery of content to consumers. 
+
+14.3 PRIVACY 
+An issue with considerable overlap with computer security is that of privacy. On 
+the one hand, the scale and interconnectedness of personal information collected 
+and stored in information systems has increased dramatically, motivated by law 
+enforcement, national security, and economic incentives. The last mentioned has 
+been perhaps the main driving force. In a global information economy, it is likely 
+that the most economically valuable electronic asset is aggregations of information 
+on individuals [HAYE09]. On the other hand, individuals have become increasingly 
+aware of the extent to which government agencies, businesses, and even Internet 
+users have access to their personal information and private details about their lives 
+and activities. 
+
+Concerns about the extent to which personal privacy has been and may be 
+compromised have led to a variety of legal and technical approaches to reinforcing 
+privacy rights. 
+
+Privacy Law and Regulation 
+
+A number of international organizations and national governments have introduced 
+laws and regulations intended to protect individual privacy. We look at two 
+such initiatives in this subsection. 
+
+european union data proteCtion direCtive In 1998, the EU adopted the 
+Directive on Data Protection to both (1) ensure that member states protected fundamental 
+privacy rights when processing personal information, and (2) prevent 
+member states from restricting the free flow of personal information within the EU. 
+The Directive is not itself a law, but requires member states to enact laws encompassing 
+its terms. The Directive is organized around the following principles of personal 
+information use: 
+
+■■ Notice: Organizations must notify individuals what personal information they 
+are collecting, the uses of that information, and what choices the individual 
+may have. 
+
+■■ Consent: Individuals must be able to choose whether and how their personal 
+information is used by, or disclosed to, third parties. They have the right not to 
+have any sensitive information collected or used without express permission, 
+including race, religion, health, union membership, beliefs, and sex life. 
+
+■■ Consistency: Organizations may use personal information only in accordance 
+with the terms of the notice given the data subject and any choices with respect 
+to its use exercised by the subject. 
+
+■■ Access: Individuals must have the right and ability to access their information 
+and correct, modify, or delete any portion of it. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+■■ Security: Organizations must provide adequate security, using technical and 
+other means, to protect the integrity and confidentiality of personal information. 
+
+■■ Onward transfer: Third parties receiving personal information must provide 
+the same level of privacy protection as the organization from whom the information 
+is obtained. 
+
+■■ Enforcement: The Directive grants a private right of action to data subjects 
+when organizations do not follow the law. In addition, each EU member has 
+a regulatory enforcement agency concerned with privacy rights enforcement. 
+
+united states privaCy initiatives The first comprehensive privacy legislation 
+adopted in the United States was the Privacy Act of 1974, which dealt with personal 
+information collected and used by federal agencies. The Act is intended to 
+
+1. Permit individuals to determine what records pertaining to them are collected, 
+maintained, used, or disseminated. 
+2. Permit individuals to forbid records obtained for one purpose to be used for 
+another purpose without consent. 
+3. Permit individuals to obtain access to records pertaining to them and to correct 
+and amend such records as appropriate. 
+4. Ensure that agencies collect, maintain, and use personal information in a manner 
+that ensures that the information is current, adequate, relevant, and not 
+excessive for its intended use. 
+5. Create a private right of action for individuals whose personal information is 
+not used in accordance with the Act. 
+As with all privacy laws and regulations, there are exceptions and conditions 
+
+attached to this Act, such as criminal investigations, national security concerns, and 
+
+conflicts between competing individual rights of privacy. 
+
+While the 1974 Privacy Act covers government records, a number of other 
+
+U.S. laws have been enacted that cover other areas, including the following: 
+■■ Banking and financial records: Personal banking information is protected 
+in certain ways by a number of laws, including the recent Financial Services 
+Modernization Act. 
+
+■■ Credit reports: The Fair Credit Reporting Act confers certain rights on individuals 
+and obligations on credit reporting agencies. 
+
+■■ Medical and health insurance records: A variety of laws have been in place for 
+decades dealing with medical records privacy.The Health Insurance Portability 
+and Accountability Act (HIPPA) created significant new rights for patients to 
+protect and access their own health information. 
+
+■■ Children’s privacy: The Children’s Online Privacy Protection Act places restrictions 
+on online organizations in the collection of data from children under the 
+age of 13. 
+
+■■ Electronic communications: The Electronic Communications Privacy Act generally 
+prohibits unauthorized and intentional interception of wire an electronic 
+communications during the transmission phase and unauthorized accessing of 
+electronically stored wire and electronic communications. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.3 / PRivACy 15 
+Organizational Response 
+
+Organizations need to deploy both management controls and technical measures 
+to comply with laws and regulations concerning privacy as well as to implement 
+corporate policies concerning employee privacy. ISO 27002 (Code of Practice for 
+Information Security Management) states the requirement as follows: 
+
+ISO 27002: Data protection and privacy of personal information 
+
+An organizational data protection and privacy policy should be developed and 
+implemented. This policy should be communicated to all persons involved in the 
+processing of personal information. Compliance with this policy and all relevant 
+data protection legislation and regulations requires appropriate management 
+structure and control. Often this is best achieved by the appointment of a responsible 
+person, such as a data protection officer, who should provide guidance to 
+managers, users, and service providers on their individual responsibilities and the 
+specific procedures that should be followed. Responsibility for handling personal 
+information and ensuring awareness of the data protection principles should be 
+dealt with in accordance with relevant legislation and regulations. Appropriate 
+technical and organizational measures to protect personal information should be 
+implemented. 
+
+An excellent, detailed list of considerations for organizational implementation 
+of privacy controls is provided in The Standard of Good Practice for Information 
+Security, from the Information Security Forum [ISF12]. This material is reproduced 
+in Appendix 14A. 
+
+Computer Usage Privacy 
+
+The Common Criteria specification [CCPS09] includes a definition of a set of functional 
+requirements in a Privacy Class, which should be implemented in a trusted 
+system. The purpose of the privacy functions is to provide a user protection against 
+discovery and misuse of identity by other users. This specification is a useful guide 
+to how to design privacy support functions as part of a computer system. Figure 14.4 
+shows a breakdown of privacy into four major areas, each of which has one or more 
+specific functions: 
+
+■■ Anonymity: Ensures that a user may use a resource or service without disclosing 
+the user’s identity. Specifically, this means that other users or subjects are 
+unable to determine the identity of a user bound to a subject (e.g., process 
+or user group) or operation. It further means that the system will not solicit 
+the real name of a user. Anonymity need not conflict with authorization and 
+access control functions, which are bound to computer-based user IDs, not to 
+personal user information. 
+
+■■ Pseudonymity: Ensures that a user may use a resource or service without 
+disclosing its user identity, but can still be accountable for that use. The system 
+shall provide an alias to prevent other users from determining a user’s 
+identity, but the system shall be able to determine the user’s identity from an 
+assigned alias. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+16 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+Privacy 
+Anonymity 
+Unobservability Unobservability without soliciting information 
+Unobservability 
+Authorised user observability 
+Unlinkability Unlinkability 
+Reversible pseudonymity 
+Alias pseudonymity 
+Anonymity 
+Pseudonymity 
+Anonymity without soliciting information 
+Allocation of information impacting unobservability 
+Pseudonymity 
+Figure 14.4 Common Criteria Privacy Class Decomposition 
+
+■■ Unlinkability: Ensures that a user may make multiple uses of resources or 
+services without others being able to link these uses together. 
+
+■■ Unobservability: Ensures that a user may use a resource or service without 
+others, especially third parties, being able to observe that the resource or service 
+is being used. Unobservability requires that users and/or subjects cannot 
+determine whether an operation is being performed. Allocation of information 
+impacting unobservability requires that the security function provide specific 
+mechanisms to avoid the concentration of privacy related information within 
+the system. Unobservability without soliciting information requires that the 
+security function does not try to obtain privacy-related information that might 
+be used to compromise unobservability. Authorized user observability requires 
+the security function to provide one or more authorized users with a capability 
+to observe the usage of resources and/or services. 
+
+Note that the Common Criteria specification is primarily concerned with the privacy 
+of an individual with respect to that individual’s use of computer resources, 
+rather than the privacy of personal information concerning that individual. 
+
+Privacy and Data Surveillance 
+
+The demands of homeland security and counterterrorism have imposed new threats 
+to personal privacy. Law enforcement and intelligence agencies have become 
+increasingly aggressive in using data surveillance techniques to fulfill their mission. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.3 / PRivACy 17 
+In addition, private organization are exploiting a number of trends to increase their 
+ability to build detailed profiles of individuals, including the spread of the Internet, 
+the increase in electronic payment methods, near-universal use of cellular phone 
+communications, ubiquitous computation, sensor webs, and so on. 
+
+Both policy and technical approaches are needed to protect privacy when 
+both government and nongovernment organizations seek to learn as much as possible 
+about individuals. In terms of technical approaches, the requirements for privacy 
+protection for information systems can be addressed in the context of database 
+security. That is, the approaches that are appropriate for privacy protection involve 
+technical means that have been developed for database security. 
+
+A specific proposal for a database security approach to privacy protection is 
+outlined in [POPP06]. The privacy appliance is a tamper-resistant, cryptographically 
+protected device that is interposed between a database and the access interface, analogous 
+to a firewall or intrusion prevention device. The device implements privacy protection 
+functions, including verifying the user’s access permissions and credentials and 
+creating an audit log. Some of the specific functions of the appliance are as follows: 
+
+■■ Data transformation: This function encodes or encrypts portions of the data 
+so as to preserver privacy but still allow data analysis functions needed for 
+effective use. An example of such data analysis functions is the detection of 
+terrorist activity patterns. 
+
+■■ Anonymization: This function removes specific identifying information from 
+query results, such as last name and telephone number, but creates some 
+sort of anonymized unique identifier so that analysts can detect connections 
+between queries. 
+
+■■ Selective revelation: This is a method for minimizing exposure of individual 
+information while enabling continuous analysis of potentially interconnected 
+data. The function initially reveals information to the analyst only in sanitized 
+form, that is, in terms of statistics and categories that do not reveal (directly or 
+indirectly) anyone’s private information. If the analyst sees reason for concern, he 
+or she can follow up by seeking permission to get more precise information. This 
+permission would be granted if the initial information provides sufficient cause 
+to allow the revelation of more information, under appropriate legal and policy 
+guidelines. 
+
+■■ Immutable audit: A tamper-resistant method that identifies where data go 
+and who has seen the data. The audit function automatically and permanently 
+records all data accesses, with strong protection against deletion, modification, 
+and unauthorized use. 
+
+■■ Associative memory: This is a software module that can recognize patterns 
+and make connections between pieces of data that the human user may have 
+missed or didn’t know existed. With this method, it can discover relationships 
+quickly between data points found in massive amounts of data. 
+
+The owner of a database installs a privacy appliance tailored to the database 
+content and structure and to its intended use by outside organizations. An independently 
+operated privacy appliance can interact with multiple databases from multiple 
+organizations to collect and interconnect data for their ultimate use by law 
+enforcement, an intelligence user, or other appropriate user. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+18 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+14.4 ETHICAL ISSUES 
+Because of the ubiquity and importance of information systems in organization of 
+all types, there are many potential misuses and abuses of information and electronic 
+communication that create privacy and security problems. In addition to questions 
+of legality, misuse and abuse raise concerns of ethics. Ethics refers to a system of 
+moral principles that relates to the benefits and harms of particular actions, and to 
+the rightness and wrongness of motives and ends of those actions. In this section, 
+we look at ethical issues as they relate to computer and information system security. 
+
+Ethics and the IS Professions 
+
+To a certain extent, a characterization of what constitutes ethical behavior for those 
+who work with or have access to information systems is not unique to this context. 
+The basic ethical principles developed by civilizations apply. However, there 
+are some unique considerations surrounding computers and information systems. 
+First, computer technology makes possible a scale of activities not possible before. 
+This includes a larger scale of recordkeeping, particularly on individuals, with the 
+ability to develop finer-grained personal information collection and more precise 
+data mining and data matching. The expanded scale of communications and the 
+expanded scale of interconnection brought about by the Internet magnify the power 
+of an individual to do harm. Second, computer technology has involved the creation 
+of new types of entities for which no agreed ethical rules have previously been 
+formed, such as databases, Web browsers, chat rooms, cookies, and so on. 
+
+Further, it has always been the case that those with special knowledge or special 
+skills have additional ethical obligations beyond those common to all humanity. 
+We can illustrate this in terms of an ethical hierarchy (Figure 14.5), based on one 
+discussed in [GOTT99]. At the top of the hierarchy are the ethical values professionals 
+share with all human beings, such as integrity, fairness, and justice. Being a 
+professional with special training imposes additional ethical obligations with respect 
+to those affected by his or her work. General principles applicable to all professionals 
+arise at this level. Finally, each profession has associated with it specific ethical 
+values and obligations related to the specific knowledge of those in the profession 
+and the powers that they have to affect others. Most professions embody all of these 
+levels in a professional code of conduct, a subject discussed subsequently. 
+
+Ethical Issues Related to Computers and Information 
+Systems 
+
+Let us turn now more specifically to the ethical issues that arise from computer 
+technology. Computers have become the primary repository of both personal 
+information and negotiable assets, such as bank records, securities records, and 
+other financial information. Other types of databases, both statistical and otherwise, 
+are assets with considerable value. These assets can only be viewed, created, and 
+altered by technical and automated means. Those who can understand and exploit 
+the technology, plus those who have obtained access permission, have power related 
+to those assets. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.4 / ETHiCAL issuEs 19 
+Figure 14.5 The Ethical Hierarchy 
+
+A classic paper on computers and ethics [PARK88] points out that ethical 
+issues arise as the result of the roles of computers, such as the following: 
+
+■■ Repositories and processors of information: Unauthorized use of otherwise 
+unused computer services or of information stored in computers raises questions 
+of appropriateness or fairness. 
+
+■■ Producers of new forms and types of assets: For example, computer programs 
+are entirely new types of assets, possibly not subject to the same concepts of 
+ownership as other assets. 
+
+■■ Instruments of acts: To what degree must computer services and users of computers, 
+data, and programs be responsible for the integrity and appropriateness 
+of computer output? 
+
+■■ Symbols of intimidation and deception: The images of computers as thinking 
+machines, absolute truth producers, infallible, subject to blame, and as anthropomorphic 
+replacements of humans who err should be carefully considered. 
+
+We are concerned with balancing professional responsibilities with ethical or 
+moral responsibilities. We cite two areas here of the types of ethical questions that face 
+a computing or IS professional. The first is that IS professionals may find themselves in 
+situations where their ethical duty as professionals comes into conflict with loyalty to 
+their employer. Such a conflict may give rise for an employee to consider “blowing the 
+whistle,” or exposing a situation that can harm the public or a company’s customers. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+20 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+For example, a software developer may know that a product is scheduled to ship with 
+inadequate testing to meet the employer’s deadlines. The decision of whether to blow 
+the whistle is one of the most difficult that an IS professional can face. Organizations 
+have a duty to provide alternative, less extreme opportunities for the employee, such 
+as an in-house ombudsperson coupled with a commitment not to penalize employees 
+for exposing problems in-house. Additionally, professional societies should provide a 
+mechanism whereby society members can get advice on how to proceed. 
+
+Another example of an ethical question concerns a potential conflict of interest. 
+For example, if a consultant has a financial interest in a certain vendor, this 
+should be revealed to any client if that vendor’s products or services might be recommended 
+by the consultant. 
+
+Codes of Conduct 
+
+Unlike scientific and engineering fields, ethics cannot be reduced to precise laws 
+or sets of facts. Although an employer or a client of a professional can expect that 
+the professional has an internal moral compass, many areas of conduct may present 
+ethical ambiguities. To provide guidance to professionals and to articulate what 
+employers and customers have a right to expect, a number of professional societies 
+have adopted ethical codes of conduct. 
+
+A professional code of conduct can serve the following functions [GOTT99]: 
+
+1. A code can serve two inspirational functions: as a positive stimulus for ethical 
+conduct on the part of the professional, and to instill confidence in the 
+customer or user of an IS product or service. However, a code that stops at 
+just providing inspirational language is likely to be vague and open to an abundance 
+of interpretations. 
+2. A code can be educational. It informs professionals about what should be their 
+commitment to undertake a certain level of quality of work and their responsibility 
+for the well-being of users of their product and the public, to the extent 
+the product may affect nonusers. The code also serves to educate managers on 
+their responsibility to encourage and support employee ethical behavior and 
+on their own ethical responsibilities. 
+3. A code provides a measure of support for a professional whose decision to act 
+ethically in a situation may create conflict with an employer or customer. 
+4. A code can be a means of deterrence and discipline.A professional society can 
+use a code as a justification for revoking membership or even a professional 
+license. An employee can use a code as a basis for a disciplinary action. 
+5. A code can enhance the profession’s public image, if it is seen to be widely 
+honored. 
+We illustrate the concept of a professional code of ethics for computer 
+professionals with three specific examples. The ACM (Association for Computing 
+Machinery) Code of Ethics and Professional Conduct (Figure 14.6) applies to 
+computer scientists. The IEEE (Institute of Electrical and Electronic Engineers) 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.4 / ETHiCAL issuEs 21 
+1.GENERAL MORAL IMPERATIVES. 
+1.1 Contribute to society and human well-being. 
+1.2 Avoid harm to others. 
+1.3 Be honest and trustworthy. 
+1.4 Be fair and take action not to discriminate. 
+1.5 Honor property rights including copyrights and patent. 
+1.6 Give proper credit for intellectual property. 
+1.7 Respect the privacy of others. 
+1.8 Honor confidentiality. 
+2.MORE SPECIFIC PROFESSIONAL RESPONSIBILITIES. 
+2.1 Strive to achieve the highest quality, effectiveness and dignity in both the process 
+and products of professional work. 
+2.2 Acquire and maintain professional competence. 
+2.3 Know and respect existing laws pertaining to professional work. 
+2.4 Accept and provide appropriate professional review. 
+2.5 Give comprehensive and thorough evaluations of computer systems and their impacts, 
+including analysis of possible risks. 
+2.6 Honor contracts, agreements, and assigned responsibilities. 
+2.7 Improve public understanding of computing and its consequences. 
+2.8 Access computing and communication resources only when authorized to do so. 
+3.ORGANIZATIONAL LEADERSHIP IMPERATIVES. 
+3.1 Articulate social responsibilities of members of an organizational unit and encourage full 
+acceptance of those responsibilities. 
+3.2 Manage personnel and resources to design and build information systems that enhance the 
+quality of working life. 
+3.3 Acknowledge and support proper and authorized uses of an organization’s computing and 
+communication resources. 
+3.4 Ensure that users and those who will be affected by a system have their needs clearly 
+articulated during the assessment and design of requirements; later the system must be 
+validated to meet requirements. 
+3.5 Articulate and support policies that protect the dignity of users and others affected by a 
+computing system. 
+3.6 Create opportunities for members of the organization to learn the principles and limitations of 
+computer systems. 
+4. COMPLIANCE WITH THE CODE. 
+4.1 Uphold and promote the principles of this Code. 
+4.2 Treat violations of this code as inconsistent with membership in the ACM. 
+Figure 24.6 ACM Code of Ethics and Professional Conduct 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+Code of Ethics (Figure 14.7) applies to computer engineers as well as other types 
+of electrical and electronic engineers. The AITP (Association of Information 
+Technology Professionals, formerly the Data Processing Management Association) 
+Standard of Conduct (Figure 14.8) applies to managers of computer systems and 
+projects. 
+
+A number of common themes emerge from these codes, including (1) dignity 
+and worth of other people; (2) personal integrity and honesty; (3) responsibility for 
+work; (4) confidentiality of information; (5) public safety, health, and welfare; (6) 
+participation in professional societies to improve standards of the profession; and 
+
+(7) the notion that public knowledge and access to technology is equivalent to social 
+power. 
+All three codes place their emphasis on the responsibility of professionals to 
+other people, which, after all, is the central meaning of ethics. This emphasis on 
+people rather than machines or software is to the good. However, the codes make 
+little specific mention of the subject technology, namely computers and information 
+systems. That is, the approach is quite generic and could apply to most 
+professions and does not fully reflect the unique ethical problems related to the 
+development and use of computer and IS technology. For example, these codes 
+do not specifically deal with the issues raised by [PARK88] listed in the preceding 
+subsection. 
+
+We, the members of the IEEE, in recognition of the importance of our technologies in affecting 
+the quality of life throughout the world, and in accepting a personal obligation to our profession, 
+its members and the communities we serve, do hereby commit ourselves to the highest ethical and 
+professional conduct and agree: 
+
+1. to accept responsibility in making decisions consistent with the safety, health, and welfare of the 
+public, and to disclose promptly factors that might endanger the public or the environment; 
+2. to avoid real or perceived conflicts of interest whenever possible, and to disclose them to 
+affected parties when they do exist; 
+3. to be honest and realistic in stating claims or estimates based on available data; 
+4. to reject bribery in all its forms; 
+5. to improve the understanding of technology, its appropriate application, and potential 
+consequences; 
+6. to maintain and improve our technical competence and to undertake technological tasks for 
+others only if qualified by training or experience, or after full disclosure of pertinent limitations; 
+7. to seek, accept, and offer honest criticism of technical work, to acknowledge and correct errors, 
+and to credit properly the contributions of others; 
+8. to treat fairly all persons regardless of such factors as race, religion, gender, disability, age, or 
+national origin; 
+9. to avoid injuring others, their property, reputation, or employment by false or malicious action; 
+10. to assist colleagues and co-workers in their professional development and to support them in 
+following this code of ethics 
+Figure 14.7 IEEE Code of Ethics 
+(Copyright © 2006, Institute of Electrical and Electronics Engineers) 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.4 / ETHiCAL issuEs 23 
+In recognition of my obligation to management I shall: 
+
+■■ Keep my personal knowledge up-to-date and insure that proper expertise is available 
+when needed. 
+
+■■ Share my knowledge with others and present factual and objective information to management 
+to the best of my ability. 
+
+■■ Accept full responsibility for work that I perform. 
+
+■■ Not misuse the authority entrusted to me. 
+
+■■ Not misrepresent or withhold information concerning the capabilities of equipment, software 
+or systems. 
+
+■■ Not take advantage of the lack of knowledge or inexperience on the part of others. 
+
+In recognition of my obligation to my fellow members and the profession I shall: 
+
+■■ Be honest in all my professional relationships. 
+
+■■ Take appropriate action in regard to any illegal or unethical practices that come to my 
+attention. However, I will bring charges against any person only when I have reasonable 
+
+basis for believing in the truth of the allegations and without any regard to personal interest. 
+
+■■ Endeavor to share my special knowledge. 
+
+■■ Cooperate with others in achieving understanding and in identifying problems. 
+
+■■ Not use or take credit for the work of others without specific acknowledgement and 
+
+authorization. 
+
+■■ Not take advantage of the lack of knowledge or inexperience on the part of others for 
+personal gain. 
+
+In recognition of my obligation to society I shall: 
+
+■■ Protect the privacy and confidentiality of all information entrusted to me. 
+■■ Use my skill and knowledge to inform the public in all areas of my expertise. 
+■■ To the best of my ability, insure that the products of my work are used in a socially 
+
+responsible way. 
+
+■■ Support, respect, and abide by the appropriate local, state, provincial, and federal laws. 
+
+■■ Never misrepresent or withhold information that is germane to a problem or situation of 
+
+public concern nor will I allow any such known information to remain unchallenged. 
+
+■■ Not use knowledge of a confidential or personal nature in any unauthorized manner or to 
+achieve personal gain. 
+
+In recognition of my obligation to my employer I shall: 
+
+■■ Make every effort to ensure that I have the most current knowledge and that the proper 
+expertise is available when needed. 
+
+■■ Avoid conflict of interest and insure that my employer is aware of any potential conflicts. 
+
+■■ Present a fair, honest, and objective viewpoint. 
+
+■■ Protect the proper interests of my employer at all times. 
+
+■■ Protect the privacy and confidentiality of all information entrusted to me. 
+
+■■ Not misrepresent or withhold information that is germane to the situation. 
+
+■■ Not attempt to use the resources of my employer for personal gain or for any purpose 
+without proper approval. 
+
+■■ Not exploit the weakness of a computer system for personal gain or personal satisfaction. 
+
+Figure 14.8 AITP Standard of Conduct 
+(Copyright © 2006, Association of Information Technology Professionals) 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+The Rules 
+
+A different approach from the ones so far discussed is a collaborative effort to 
+develop a short list of guidelines on the ethics of developing computer systems. The 
+guidelines, which continue to evolve, are the product of the Ad Hoc Committee 
+on Responsible Computing. Anyone can join this committee and suggest changes 
+to the guidelines. The committee has published a document, regularly updated, 
+entitled Moral Responsibility for Computing Artifacts, and is generally referred to 
+as The Rules. The current version of The Rules is version 27, reflecting the thought 
+and effort that has gone into this project. 
+
+The term computing artifact refers to any artifact that includes an executing 
+computer program. This includes software applications running on a general-
+purpose computer, programs burned into hardware and embedded in mechanical 
+devices, robots, phones, web bots, toys, programs distributed across more than one 
+machine, and many other configurations. The Rules apply to, among other types, 
+software that is commercial, free, open source, recreational, an academic exercise 
+or a research tool. 
+
+As of this writing, the rules are as follows: 
+
+1. The people who design, develop, or deploy a computing artifact are morally 
+responsible for that artifact, and for the foreseeable effects of that artifact. 
+This responsibility is shared with other people who design, develop, deploy, or 
+knowingly use the artifact as part of a sociotechnical system. 
+2. The shared responsibility of computing artifacts is not a zero-sum game. The 
+responsibility of an individual is not reduced simply because more people 
+become involved in designing, developing, deploying or using the artifact. 
+Instead, a person’s responsibility includes being answerable for the behaviors 
+of the artifact and for the artifact’s effects after deployment, to the degree to 
+which these effects are reasonably foreseeable by that person. 
+3. People who knowingly use a particular computing artifact are morally responsible 
+for that use. 
+4. People who knowingly design, develop, deploy, or use a computing artifact 
+can do so responsibly only when they make a reasonable effort to take into 
+account the sociotechnical systems in which the artifact is embedded. 
+5. People who design, develop, deploy, promote, or evaluate a computing artifact 
+should not explicitly or implicitly deceive users about the artifact or its foreseeable 
+effects, or about the sociotechnical systems in which the artifact is embedded. 
+Compared to the codes of ethics discussed earlier, The Rules are few in number 
+and quite general in nature. They are intended to apply to a broad spectrum 
+of people involved in computer system design and development. The Rules have 
+gathered broad support as useful guidelines by academics, practitioners, computer 
+scientists, and philosophers from a number of countries [MILL11]. It seems likely 
+that The Rules will influence future versions of codes of ethics by computer-related 
+professional organizations. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.5 / RECommEndEd REAding 25 
+14.5 RECOMMENDED READING 
+The following are useful articles on computer crime and cybercrime: [KSHE06], 
+[CYMR06], and [TAVA00]. [BRAU01] provides a good introduction to copyrights, 
+patents, and trademarks. [GIBB00] provides a concise description of the Digital 
+Millennium Copyright Act. A useful introduction to Digital Rights Management is 
+[LIU03]. [CAMP03] discusses legal aspects of DRM and describes some commercially 
+available systems. 
+
+[ISAT02] is an illuminating discussion of the relationship between security 
+and privacy with suggestions on technical security measures to protect privacy. 
+[GOTT99] provides a detailed discussion of the software engineering code of ethics 
+and what it means to individuals in the profession. [CHAP06] is a thoughtful discussion 
+of basic ethical issues related to the creation and use of information systems. 
+[HARR90] is a detailed discussion of training employees on how to integrate ethics 
+into decision making and behavior related to the use of information systems and 
+computers. [ANDE93] is a very useful analysis of the practical implications of the 
+ACM Code of Ethics, with a number of illustrative case studies. 
+
+ANDE93 Anderson, R., et al.“Using the New ACM Code of Ethics in Decision Making.” 
+Communications of the ACM, February 1993. 
+
+BRAU01 Braunfeld,R.,and Wells, T. “Protecting Your Most Valuable Asset:Intellectual 
+Property.” IT Pro, March/April 2000. 
+
+CAMP03 Camp, L. “First Principles of Copyright for DRM Design.” IEEE Internet 
+Computing, May/June 2003. 
+
+CHAP06 Chapman, C. “Fundamental Ethics in Information Systems.” Proceedings of 
+the 39th Hawaii International Conference on System Sciences, 2006. 
+
+CYMR06 Team Cymru, “Cybercrime: An Epidemic.” ACM Queue, November 2006. 
+
+GIBB00 Gibbs, J.“The Digital Millennium Copyright Act.” ACM Ubiquity, August 2000. 
+
+GOTT99 Gotterbarn, D. “How the New Software Engineering Code of Ethics Affects 
+You.” IEEE Software, November/ December 1999. 
+
+HARR90 Harrington, S., and McCollum, R. “Lessons from Corporate America Applied 
+to Training in Computer Ethics.” Proceedings of the ACM Conference on Computers 
+and the Quality of Life (SIGCAS and SIGCAPH), September 1990. 
+
+ISAT02 Information Science and Technology Study Group. “Security with Privacy,” 
+DARPA Briefing on Security and Privacy, Dec. 2002. www.cs.berkeley.edu/~tygar/ 
+papers/ISAT-final-briefing.pdf 
+
+KSHE06 Kshetri, N. “The Simple Economics of Cybercrimes.” IEEE Security and 
+Privacy, January/February 2006. 
+
+LIU03 Liu, Q.; Safavi-Naini, R.; and Sheppard, N. “Digital Rights Management for 
+Content Distribution.” Proceedings, Australasian Information Security Workshop 
+2003 (AISW2003), 2003. 
+
+TAVA00 Tavani, H. “ Defining the Boundaries of Computer Crime: Piracy, Break-Ins, 
+and Sabotage in Cyberspace.” Computers and Society, September 2000. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.6 REFERENCES 14.6 REFERENCES 
+ACM04 The Association for Computing Machinery. DMCA Revisited. June 16, 2004. 
+http://usacm.acm.org/ip/category.cfm?cat=0&Intellectual%20Property 
+
+CCPS09 Common Criteria Project Sponsoring Organisations. Common Criteria for 
+Information Technology Security Evaluation, Part 2: Security Functional Components. 
+CCIMB-2009-07-002, July 2009. 
+
+DOJ00 U.S. Department of Justice. The Electronic Frontier: The Challenge of Unlawful 
+Conduct Involving the Use of the Internet. March 2000. http://www.justice.gov/ 
+publications/publications_e.html 
+
+HAYE09 Hayes, B.; Judy, H.; and Ritter, J. “Privacy in Cyberspace.” In Bosworth, S.; Kabay, M.; 
+and Whyne, E., eds. Computer Security Handbook. New York: Wiley, 2009. 
+
+ISF12 Information Security Forum. The Standard of Good Practice for Information Security. 
+2012. www.securityforum.org 
+
+MILL11 Miller, K. “Moral Responsibility for Computing Artifacts: The Rules.” ITPro, May/ 
+June 2011. 
+
+PARK88 Parker, D.; Swope, S.; and Baker, B. Ethical Conflicts in Information and Computer 
+Science, Technology and Business. Final Report, SRI Project 2609, SRI International 
+1988. 
+
+POPP06 Popp, R., and Poindexter, J. “Countering Terrorism through Information and Privacy 
+Protection Technologies.” IEEE Security and Privacy, November/December 2006. 
+
+14.7 KEY TERMS, REVIEW QUESTIONS, AND PROBLEMS 
+Key Terms 
+
+code of conduct Digital Millennium Copyright intellectual property 
+computer crime Act (DMCA) patent 
+copyright digital rights management privacy 
+cybercrime ethics trademark 
+infringement 
+
+Review Questions 
+
+14.1 Describe a classification of computer crime based on the role that the computer plays 
+in the criminal activity. 
+14.2 Define three types of property. 
+14.3 Define three types of intellectual property. 
+14.4 What are the basic conditions that must be fulfilled to claim a copyright? 
+14.5 What rights does a copyright confer? 
+14.6 Briefly describe the Digital Millennium Copyright Act. 
+14.7 What is digital rights management? 
+14.8 Describe the principal categories of users of digital rights management systems. 
+14.9 What are the key principles embodied in the EU Directive on Data Protection? 
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.7 / KEy TERms, REviEw QuEsTions, And PRobLEms 27 
+14.10 How do the concerns relating to privacy in the Common Criteria differ from the concerns 
+usually expressed in official documents, standards, and organizational policies? 
+14.11 What functions can a professional code of conduct serve to fulfill? 
+Problems 
+
+14.1 For each of the cybercrimes cited in Table 14.1, indicate whether it falls into the category 
+of computer as target, computer as storage device, or computer as communications 
+tool. In the first case, indicate whether the crime is primarily an attack on data 
+integrity, system integrity, data confidentiality, privacy, or availability. 
+14.2 Repeat Problem 14.1 for Table 14.2. 
+14.3 Review the results of a recent Computer Crime Survey such as the CSI/FBI or 
+AusCERT surveys. What changes do they note in the types of crime reported? What 
+differences are there between their results and those shown in Table 14.2? 
+14.4 An early controversial use of the DCMA was its use in a case in the United States 
+brought by the Motion Picture Association of America (MPAA) in 2000 to attempt 
+to suppress distribution of the DeCSS program and derivatives. These could be used 
+circumvent the copy protection on commercial DVDs. Search for a brief description 
+of this case and it’s outcome. Determine whether the MPAA was successful in suppressing 
+details of the DeCSS descrambling algorithm. 
+14.5 Consider a popular DRM system like Apple’s FairPlay, used to protect audio 
+tracks purchased from the iTunes music store. If a person purchases a track from 
+the iTunes store by an artist managed by a record company such as EMI, identify 
+which company or person fulfils each of the DRM component roles discussed in 
+Section 14.2. 
+14.6 Table 14.3 lists the privacy guidelines issued by the Organization for Economic 
+Cooperation and Development (OECD). Compare these guidelines to the categories 
+the EU adopted in the Directive on Data Protection. 
+14.7 Many countries now require organizations that collect personal information to publish 
+a privacy policy detailing how they will handle and use such information. Obtain 
+a copy of the privacy policy for an organization to which you have provided your 
+personal details. Compare this policy with the lists of principles given in Section 14.3. 
+Does this policy address all of these principles? 
+14.8 A management briefing lists the following as the top five actions that to improve privacy. 
+Compare these recommendations to the Information Privacy Standard of Good 
+Practice in Appendix H.4. Comment on the differences. 
+1. Show visible and consistent management support. 
+2. Establish privacy responsibilities. Privacy requirements need to be incorporated 
+into any position that handles personally identifiable information (PII). 
+3. Incorporate privacy and security into the systems and application life cycle. 
+This includes a formal privacy impact assessment. 
+4. Provide continuous and effective awareness and training. 
+5. Encrypt moveable PII. This includes transmission as well as mobile devices. 
+14.9 Assume you are a midlevel systems administrator for one section of a larger organization. 
+You try to encourage your users to have good password policies and you 
+regularly run password-cracking tools to check that those in use are not guessable. 
+You have become aware of a burst of hacker password-cracking activity recently. 
+In a burst of enthusiasm you transfer the password files from a number of other 
+sections of the organization and attempt to crack them. To your horror, you find that 
+in one section for which you used to work (but now have rather strained relationships 
+with), something like 40% of the passwords are guessable (including that of the Vice-
+President of the section, whose password is “pre$ident”!). You quietly sound out a 
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+28 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+Table 14.3 OECD Guidelines on the Protection of Privacy and Transborder Flows of 
+Information 
+
+Collection limitation 
+There should be limits to the collection of personal data and any such data should be obtained by 
+lawful and fair means and, where appropriate, with the knowledge or consent of the data subject. 
+Data quality 
+Personal data should be relevant to the purposes for which they are to be used and to the extent 
+necessary for those purposes, should be accurate, complete and kept up-to-date. 
+Purpose specification 
+The purposes for which personal data are collected should be specified not later than at the time of 
+data collection and the subsequent use limited to the fulfillment of those purposes or such others 
+as are not incompatible with those purposes and as are specified on each occasion of change of 
+purpose. 
+Use limitation 
+Personal data should not be disclosed, made available or otherwise used for purposes other than 
+those specified in accordance with the preceding principle, except with the consent of the data 
+subject or by the authority of law. 
+Security safeguards 
+Personal data should be protected by reasonable security safeguards against such risks as loss or 
+unauthorized access, destruction, use, modification or disclosure of data. 
+Openness 
+There should be a general policy of openness about developments, practices and policies with 
+respect to personal data. Means should be readily available of establishing the existence and nature 
+of personal data, and the main purposes of their use, as well as the identity and usual residence of 
+the data controller. 
+Individual participation 
+An individual should have the right: 
+a. to obtain from a data controller, or otherwise, confirmation of whether or not the data controller 
+has data relating to him. 
+b. to have communicated to him, data relating to him within a reasonable time; at a charge, if any, 
+that is not excessive; in a reasonable manner; and in a form that is readily intelligible to him; 
+c. to be given reasons if a request made under subparagraphs(a) and (b) is denied, and to be able 
+to challenge such denial; and 
+d. to challenge data relating to him and, if the challenge is successful to have the data erased, 
+rectified, completed or amended. 
+Accountability 
+A data controller should be accountable for complying with measures which give effect to the 
+principles stated above. 
+
+few former colleagues and drop hints in the hope things might improve. A couple of 
+weeks later you again transfer the password file over to analyze in the hope things 
+have improved. They haven’t. Unfortunately, this time one of your colleagues notices 
+what you are doing. Being a rather “by the book” person, he notifies senior management, 
+and that evening you find yourself being arrested on a charge of hacking and 
+thrown out of a job. Did you do anything wrong? Briefly indicate what arguments 
+you might use to defend your actions, Make reference to the Professional Codes of 
+Conduct shown in Figures 14.6 through 14.8. 
+
+14.10 Section 14.4 stated that the three ethical codes illustrated in this chapter (ACM, 
+IEEE, AITP) share the common themes of dignity and worth of people; personal 
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14A / infoRmATion PRivACy 29 
+
+integrity; responsibility for work; confidentiality of information; public safety, health, 
+and welfare; participation in professional societies; and knowledge about technology 
+related to social power. Construct a table that shows for each theme and for each 
+code, the relevant clause or clauses in the code that address the theme. 
+
+14.11 This book’s Premium Content site includes a copy of the ACM Code of Professional 
+Conduct from 1982. Compare this Code with the 1997 ACM Code of Ethics and 
+Professional Conduct (Figure 14.6). 
+a. Are there any elements in the 1982 Code not found in the 1997 Code? Propose 
+a rationale for excluding these. 
+b. Are there any elements in the 1997 Code not found in the 1982 Code? Propose a 
+rationale for adding these. 
+14.12 This book’s Premium Content site includes a copy of the IEEE Code Ethics from 
+1979. Compare this Code with the 2006 IEEE Code of Ethics (Figure 14.7). 
+a. Are there any elements in the 1979 Code not found in the 2006 Code? Propose 
+a rationale for excluding these. 
+b. Are there any elements in the 2006 Code not found in the 1979 Code? Propose a 
+rationale for adding these. 
+14.13 This book’s Premium Content site includes a copy of the 1999 Software Engineering 
+Code of Ethics and Professional Practice (Version 5.2) as recommended by an ACM/ 
+IEEE-CS Joint Task Force. Compare this Code each of the three codes reproduced 
+in this chapter (Figures 14.6 through 14.8). Comment in each case on the differences. 
+14A INFORMATION PRIVACY 
+Principle: Responsibility for managing information privacy 
+should be established and security controls for handling 
+personally identifiable information (i.e. information that 
+can be used to identify an individual person) applied. 
+
+Objective: To prevent information about individuals being 
+used in an inappropriate manner, and ensure compliance with 
+legal and regulatory requirements for information privacy. 
+
+1. A high-level working group, committee or equivalent body should be established 
+to be responsible for managing information privacy issues, and an 
+individual appointed to co-ordinate information privacy activity (e.g. a Chief 
+Privacy Officer, Data Protection Manager or equivalent). 
+2. The high-level working group should be aware of: 
+a. privacy-related legislation and regulation with which the organisation needs 
+to comply 
+b. the location(s) of personally identifiable information held about individuals 
+(e.g. application and database servers, computing devices, consumer devices 
+and portable storage devices) 
+c. how and when personally identifiable information (i.e. information that can 
+be used to identify an individual person) is used. 
+3. An information privacy programme should be established which includes: 
+a. identifying individuals (or a group of individuals) within the organisation 
+who are responsible for implementing the programme 
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+30 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+b. establishing an awareness programme to make staff and external parties (e.g. 
+customers, clients and suppliers) aware of the importance of information 
+privacy (or integrating the topic into existing awareness campaigns) 
+c. performing privacy assessments against critical business processes and critical 
+business applications across the organisation to identify privacy-related 
+risks 
+d. undertaking privacy audits to determine the level of compliance with relevant 
+legislation, regulation and internal policies. 
+4. There should be a documented information privacy policy that covers the: 
+a. acceptable use of personally identifiable information (i.e. information that 
+can be used to identify an individual person) 
+b. rights of individuals about whom personally identifiable information is held 
+c. legal and regulatory requirements for privacy 
+d. need for privacy assessments, awareness and compliance programmes 
+e. technical controls (including privacy enhancing technologies (PETs)). 
+5. The information privacy policy should require that where personally identifiable 
+information is stored, processed or transmitted, there should be a process 
+to ensure that it is: 
+a. classified and labelled (e.g. as personal or personally identifiable information 
+(PII)) 
+b. adequate, relevant and not excessive for the purposes for which it is collected 
+c. accurate (i.e. recorded correctly and kept up-to-date) 
+d. kept confidential (i.e. protected against unauthorised disclosure) 
+e. processed fairly and legally, and used only for specified, explicit and legitimate 
+purposes 
+f. held in a format that permits identification of individuals for no longer than 
+is necessary 
+g. only provided to external parties that can demonstrate compliance with legal 
+and regulatory requirements for handling personally identifiable information 
+h. retrievable in the event of a legitimate request for access (e.g. a subject 
+access request under UK Data Protection law or under the EU Directive 
+for Data Protection). 
+6. The information privacy policy should be aligned with other information 
+security-related policies, such as those covering document retention and cloud 
+computing (e.g. as part of an information security policy framework). 
+7. Individuals about whom personally identifiable information is held (e.g. the 
+‘data subject’ according to the EU Directive for Data Protection) should: 
+a. have their approval sought before this information is collected, processed, 
+stored or disclosed to external parties 
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14A / infoRmATion PRivACy 31 
+
+b. be informed of who is collecting this information, how this information will 
+be used, allowed to check its accuracy and be able to have their records corrected 
+or removed 
+c. have the ability to opt-out of the collection and disclosure of this information 
+(e.g. to external parties) 
+d. have a method available to them to hold the organisation accountable for 
+following information privacy principles (i.e. those common to the majority 
+of privacy-related legislation). 
+8. Personally identifiable information should be: 
+a. handled in accordance with relevant legislation (e.g. the EU Directive for 
+Data Protection and the US Health Insurance Portability and Accountability 
+Act (HIPAA)) 
+b. protected throughout its lifecycle (i.e. through creation, processing, storage, 
+transmission and destruction). 
+9. Technical controls (often referred to as privacy enhancing technologies 
+(PETs)) should be used to help protect privacy-related information, including: 
+a. encryption (to prevent unauthorised disclosure during storage and transmission) 
+and effective encryption key management (e.g. when handling, storing 
+and archiving keys) 
+b. data masking (also known as data obfuscation, data de-identification, data 
+depersonalisation, data scrubbing, and data scrambling), which involves 
+concealing parts of information (e.g. names, addresses, social security numbers 
+and credit card numbers) when being stored or transmitted 
+c. tokenisation, which substitutes valid information (e.g. database fields, 
+records) with random information and provides authorised access to this 
+information via the use of tokens 
+d. protecting privacy-related metadata (e.g. document attributes or descriptive 
+information that may contain personal information such as the name of the 
+person who last updated a file). 
+10. A method of dealing with data privacy breaches should be established, which 
+includes: 
+a. identifying when a data privacy breach occurs (typically by monitoring event 
+logs or using intrusion detection and information leakage protection tools) 
+b. responding to a data privacy breach (typically as part of the organisation’s 
+information security incident management process) 
+c. notifying relevant authorities of a security breach (e.g. as required by data 
+breach notification laws, such as the California Security Breach Notification 
+Law (SB 1386) or the EU Directive on Privacy and Electronic Communications 
+2009). 
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
