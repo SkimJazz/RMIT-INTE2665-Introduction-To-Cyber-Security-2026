@@ -447,3 +447,7 @@ Consider your work using GPG this week. Write a reflection in your journal consi
 - What technique did you use to ensure the key was sent securely?
 - Which commands do you feel most confident in using?
 - In which areas could you improve?
+
+---
+
+END OF WEEK 3 MODULE -> MOVE ON TO LAB WORKSHOP WEEKS 3-4

@@ -1,8 +1,6 @@
-# INTE2665 - Week 04 - Cryptography Concepts (Part 2)
+# INTE2665 | Week 4: Cryptography Concepts - Part 2
 
 ## 4.0.0 Week overview: Cryptography concepts part 2
-
-Approx. 5 hours 40 minutes to complete all tasks in this week
 
 ## Welcome to Week 4 of Introduction to Cyber Security
 
@@ -41,9 +39,8 @@ This week, you will:
 - Complete a cryptanalysis to determine the private key of a user
 - Practise encrypting/decrypting files using GPG.
 
-### 4.1.0 Activity: Exploring public key cryptography and signatures
 
-Approx. 3 hours 30 minutes to complete all tasks in this activity
+## 4.1.0 Activity: Exploring public key cryptography and signatures
 
 In this activity you’ll read about public key cryptography and you’ll practise cryptography through 
 performing various tasks, including encrypting, decrypting and retrieving text from a cipher. Finally, 
@@ -54,10 +51,8 @@ Public key cryptography is commonly used by the industry for secure operations. 
 various programming environments to develop customised applications. Learning about public key 
 cryptography can help you in designing secure applications for flexible environments.
 
+
 ### 4.1.1 Investigate public key cryptography
-
-Approx. 1 hour to complete this task
-
 
 #### What is public key cryptography?
 
@@ -70,19 +65,18 @@ If the data is encrypted using a public key, then it needs to be decrypted using
 
 ![Public key cryptography](4.1.1_encryption-with-public-vs-private-key.svg)
 
-
 Read - The following reading will help you learn more about public key cryptography.
 
-> Read Chapter-3: Public-key Cryptography and Message Authentication: pages 96-111 
+>> Read Chapter-3 pages 96-111 from chapter-03_public-key-cryptography-and_message-authentication.txt
 
 As you read, consider the following:
 
 **Q: What are the differences between asymmetric and symmetric encryption schemes?**
+
 **Q: Which type of scheme would be more expensive?**
 
-### 4.1.2 Apply the RSA algorithm
 
-Approx. 1 hour to complete this task
+### 4.1.2 Apply the RSA algorithm
 
 #### Practising encryption and decryption
 
@@ -103,59 +97,59 @@ When you’ve finished, check your answers below.
 
 Here is the RSA Algorithm
 
-Key generation
+**Key generation**
 
-Select p, q	p and q both prime, p ≠ q
-Calculate n = p × q	
-Calculate Փ (n) = (p – 1) (q – 1)	
-Select integer e	gcd (Փ (n), e) = 1; 1<e< Փ(n)
-Calculate d	de mod Փ(n) = 1
-Public key	KU = {e, n}
-Private key	KR = {d, n}
+| Step                | Description                                      |
+|---------------------|--------------------------------------------------|
+| Select p, q         | p and q both prime, p ≠ q                        |
+| Calculate n         | n = p × q                                        |
+| Calculate Փ(n)      | Փ(n) = (p – 1) × (q – 1)                         |
+| Select integer e    | gcd(Փ(n), e) = 1; 1 < e < Փ(n)                   |
+| Calculate d         | d·e mod Փ(n) = 1                                 |
+| Public key          | KU = {e, n}                                      |
+| Private key         | KR = {d, n}                                      |
 
-Encryption
 
-Plaintext:	M < n
-Ciphertext:	C = Me (mod n)
+**Encryption**
 
-Decryption
+| Step        | Description               |
+|-------------|---------------------------|
+| Plaintext   | M < n                     |
+| Ciphertext  | C = M^e (mod n)           |
 
-Plaintext:	C
-Ciphertext:	M = Cd (mod n)
+
+**Decryption**
+
+| Step        | Description               |
+|-------------|---------------------------|
+| Plaintext   | C                         |
+| Ciphertext  | M = C^d (mod n)           |
 
 
 #### Answers
 
+1. n = pq = 33, Փ(n) = (p – 1)(q – 1) = 20, e = 7, de mod 20 = 1, so d = 3.
+   PU = {7, 33}, PR = {3, 33}
+   C = 2^7 mod 33 = 29
 
-1. n = pq = 33, ϕ(n) = (p – 1)(q – 1) = 20, e = 7, de mod 20 = 1, so d = 3.
-PU = {7, 33}, PR = {3, 33}
+2. n = pq = 55, Փ(n) = (p – 1)(q – 1) = 40, e = 3, de mod 40 = 1, so d = 27.
+   PU = {3, 55}, PR = {27, 55}
+   C = 5^3 mod 55 = 15
 
-C = 27 mod 33 = 29
+3. n = pq = 77, Փ(n) = (p – 1)(q – 1) = 60, e = 17, de mod 60 = 1, so d = 53.
+   PU = {17, 77}, PR = {53, 77}
+   C = 2^17 mod 77 = 18
 
-2. n = pq = 55, ϕ(n) = (p – 1)(q – 1) = 40, e = 3, de mod 40 = 1, so d = 27.
-PU = {3, 55}, PR = {27, 55}
+4. n = pq = 143, Փ(n) = (p – 1)(q – 1) = 120, e = 11, de mod 120 = 1, so d = 11.
+   PU = {11, 143}, PR = {11, 143}
+   C = 3^11 mod 143 = 113
 
-C = 53 mod 55 = 15
-
-3. n = pq = 77, ϕ(n) = (p – 1)(q – 1) = 60, e = 17, de mod 60 = 1, so d = 53.
-PU = {17, 77}, PR = {53, 77}
-
-C = 217 mod 77 = 18
-
-4. n = pq = 143, ϕ(n) = (p – 1)(q – 1) = 120, e = 11, de mod 120 = 1, so d = 11.
-PU = {11, 143}, PR = {11, 143}
-
-C = 311 mod 143 = 113
-
-5. n = pq = 187, ϕ(n) = (p – 1)(q – 1) = 160, e = 7, de mod 160 = 1, so d = 23.
-PU = {7, 187}, PR = {23, 187}
-
-C = 887 mod 187 = 11
+5. n = pq = 187, Փ(n) = (p – 1)(q – 1) = 160, e = 7, de mod 160 = 1, so d = 23.
+   PU = {7, 187}, PR = {23, 187}
+   C = 88^7 mod 187 = 11
 
 
 ### 4.1.3 Discuss encryption problems
-
-Approx. 1 hour to complete this task
 
 #### Solving RSA encryption problems
 
@@ -169,7 +163,8 @@ Discuss - Consider the two encryption problems.
 2. In an RSA system, the public key of a given user is e = 7, n = 137. What is the private key of this user?
 
 
->Check the RSA arithmetic directly and also verify if the given public keys are actually valid 
+> Check the RSA arithmetic directly and also verify if the given public keys are actually valid 
+
 RSA parameters, because one of these examples has a structural issue that affects whether there is a 
 unique answer. These two examples are not valid RSA setups as written, so the strict RSA answer matters:
 
@@ -219,7 +214,7 @@ with distinct primes $p$ and $q$.
 
 But $137$ is itself prime, so this is not a valid RSA modulus in the usual RSA setup. Strictly speaking, there is no proper RSA private key.
 
-If your instructor expects you to proceed anyway as a modular inverse exercise, then use:
+Proceed anyway as a modular inverse exercise, then use:
 
 - since $137$ is prime, $\varphi(137)=136$
 - find $d$ such that
@@ -238,15 +233,11 @@ and the private key would be:
 
 $$K_R = \{39, 137\}$$
 
-Final answers you can submit, depending on how strict your class expects RSA to be:
-
 1. Problem 1: invalid RSA key, so no unique plaintext; possible values are $M = 4,6,14,16,24,26,34,36 \pmod{40}$
 2. Problem 2: if treated as a modular inverse exercise, private key is $\{39,137\}$; strictly speaking, $n=137$ is not a valid RSA modulus
 
 
 ### 4.1.4 Learn from cyber security professionals
-
-Approx. 30 minutes to complete this task
 
 #### Cryptography real-world use
 
@@ -296,20 +287,19 @@ brute-force attacks far less practical, so it is considered much safer for moder
 - DES used 56-bit keys, which are now relatively easy to brute force
 - AES at 256 bits has a vastly larger key space and is much harder to crack
 
-### 4.2.0 Activity: Applying GPG and cryptography – part 2
 
-Approx. 2 hours 10 minutes to complete all tasks in this activity
+## 4.2.0 Activity: Applying GPG and cryptography – part 2
 
 Last week you started practising commands using GNU Privacy Guard (GPG) for encryption and decryption.
 
 This week you’ll continue working with this tool, which will be used for Assessment 1. This is the 
 final week to work with encryptions.
 
+
 ### 4.2.1 Practise GPG
 
-Approx. 1 hour 30 minutes to complete this task
-
 #### Practising using GPG
+
 In this task you’ll continue practising encrypting and decrypting files using GPG. This utilises 
 the direct skills that you’ll need for Assessment 1.
 
@@ -340,9 +330,8 @@ NOTE:
 - This is your last week to practise encryption.
 - You may wish to divide your time over multiple sessions.
 
-### 4.2.2 Reflect on using GPG
 
-Approx. 40 minutes to complete this task
+### 4.2.2 Reflect on using GPG
 
 #### Assessing your progress
 
@@ -356,3 +345,7 @@ Consider your work using GPG this week. Write a reflection in your journal consi
 - How have you improved since you started practising encryption?
 - Which commands do you feel most confident using?
 - Which areas would you like to continue to work on after this course?
+
+---
+
+END OF WEEK 4 MODULE -> MOVE ON TO LAB WORKSHOP WEEKS 3-4
