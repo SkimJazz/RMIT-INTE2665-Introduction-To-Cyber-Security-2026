@@ -1,0 +1,452 @@
+6 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+but the range of behavioral characteristics is wide. Further, there exist no cybercriminal 
+databases that can point investigators to likely suspects. 
+
+The success of cybercriminals, and the relative lack of success of law enforcement, 
+influences the behavior of cybercrime victims. As with law enforcement, 
+many organizations that may be the target of attack have not invested sufficiently 
+in technical, physical, and human-factor resources to prevent attacks. Reporting 
+rates tend to be low because of a lack of confidence in law enforcement, a concern 
+about corporate reputation, and a concern about civil liability. The low reporting 
+rates and the reluctance to work with law enforcement on the part of victims feeds 
+into the handicaps under which law enforcement works, completing the vicious 
+cycle. 
+
+Working with Law Enforcement 
+
+Executive management and security administrators need to look upon law enforcement 
+as another resource and tool, alongside technical, physical, and human-factor 
+resources. The successful use of law enforcement depends much more on people 
+skills than technical skills. Management needs to understand the criminal investigation 
+process, the inputs that investigators need, and the ways in which the victim can 
+contribute positively to the investigation. 
+
+14.2 INTELLECTUAL PROPERTY 
+The U.S. legal system, and legal systems generally, distinguish three primary types 
+of property: 
+
+■■ Real property: Land and things permanently attached to the land, such as 
+trees, buildings, and stationary mobile homes. 
+
+■■ Personal property: Personal effects, moveable property and goods, such as cars, 
+bank accounts, wages, securities, a small business, furniture, insurance policies, 
+jewelry, patents, pets, and season baseball tickets. 
+
+■■ Intellectual property: Any intangible asset that consists of human knowledge 
+and ideas. Examples include software, data, novels, sound recordings, the 
+design of a new type of mousetrap, or a cure for a disease. 
+
+This section focuses on the computer security aspects of intellectual property. 
+
+Types of Intellectual Property 
+
+There are three main types of intellectual property for which legal protection is 
+available: copyrights, trademarks, and patents. The legal protection is against 
+infringement, which is the invasion of the rights secured by copyrights, trademarks, 
+and patents. The right to seek civil recourse against anyone infringing his or her 
+property is granted to the IP owner. Depending upon the type of IP, infringement 
+may vary (Figure 14.1). 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.2 / inTELLECTuAL PRoPERTy 7 
+Patents 
+Unauthorized 
+making, 
+using or selling 
+Trademarks 
+Unauthorized use or 
+colorable imitation 
+Copyrights 
+Unauthorized use 
+Figure 14.1 Intellectual Property Infringement 
+
+Copyrights Copyright law protects the tangible or fixed expression of an idea, not 
+the idea itself. A creator can claim copyright, and file for the copyright at a national 
+government copyright office, if the following conditions are fulfilled:4 
+
+■■ The proposed work is original. 
+
+■■ The creator has put this original idea into a concrete form, such as hard copy 
+(paper), software, or multimedia form. 
+
+Examples of items that may be copyrighted include the following [BRAU01]: 
+
+■■ Literary works: Novels, nonfiction prose, poetry, newspaper articles and newspapers, 
+magazine articles and magazines, catalogs, brochures, ads (text), and 
+compilations such as business directories 
+
+■■ Musical works: Songs, advertising jingles, and instrumentals 
+
+■■ Dramatic works: Plays, operas, and skits 
+
+■■ Pantomimes and choreographic works: Ballets, modern dance, jazz dance, and 
+mime works 
+
+■■ Pictorial, graphic, and sculptural works: Photographs, posters, maps, paintings, 
+drawings, graphic art, display ads, cartoon strips and cartoon characters, stuffed 
+animals, statues, paintings, and works of fine art 
+
+■■ Motion pictures and other audiovisual works: Movies, documentaries, travelogues, 
+training films and videos, television shows, television ads, and interactive 
+multimedia works 
+
+4Copyright is automatically assigned to newly created works in countries that subscribe to the Berne 
+convention, which encompasses the vast majority of nations. Some countries, such as the United States, 
+provide additional legal protection if the work is registered. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+8 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+■■ Sound recordings: Recordings of music, sound, or words 
+■■ Architectural works: Building designs, whether in the form of architectural 
+plans, drawings, or the constructed building itself 
+■■ Software-related works: Computer software, software documentation and 
+manuals, training manuals, and other manuals 
+The copyright owner has the following exclusive rights, protected against 
+
+infringement: 
+■■ Reproduction right: Lets the owner make copies of a work 
+■■ Modification right: Also known as the derivative-works right, concerns modi
+
+
+fying a work to create a new or derivative work 
+■■ Distribution right: Lets the owner publicly sell, rent, lease, or lend copies of 
+
+the work 
+■■ Public-performance right: Applies mainly to live performances 
+■■ Public-display right: Lets the owner publicly show a copy of the work directly 
+
+or by means of a film, slide, or television image 
+
+patents A patent for an invention is the grant of a property right to the inventor. 
+The right conferred by the patent grant is, in the language of the U.S. statute and 
+of the grant itself, “the right to exclude others from making, using, offering for sale, 
+or selling” the invention in the United States or “importing” the invention into the 
+United States. Similar wording appears in the statutes of other nations. There are 
+three types of patents: 
+
+■■ Utility patents: May be granted to anyone who invents or discovers any new 
+and useful process, machine, article of manufacture, or composition of matter, 
+or any new and useful improvement thereof; 
+
+■■ Design patents: May be granted to anyone who invents a new, original, and 
+ornamental design for an article of manufacture; and 
+■■ Plant patents: May be granted to anyone who invents or discovers and asexually 
+reproduces any distinct and new variety of plant. 
+
+An example of a patent from the computer security realm is the RSA public-
+key cryptosystem. From the time it was granted in 1983 until the patent expired in 
+2000, the patent holder, RSA Security, was entitled to receive a fee for each implementation 
+of RSA. 
+
+trademarks A trademark is a word, name, symbol, or device that is used in trade 
+with goods to indicate the source of the goods and to distinguish them from the 
+goods of others. A servicemark is the same as a trademark except that it identifies 
+and distinguishes the source of a service rather than a product. The terms trademark 
+and mark are commonly used to refer to both trademarks and servicemarks. 
+Trademark rights may be used to prevent others from using a confusingly similar 
+mark, but not to prevent others from making the same goods or from selling the 
+same goods or services under a clearly different mark. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.2 / inTELLECTuAL PRoPERTy 9 
+Intellectual Property Relevant to Network and Computer 
+Security 
+
+A number of forms of intellectual property are relevant in the context of network 
+and computer security. Here we mention some of the most prominent: 
+
+■■ Software: This includes programs produced by vendors of commercial software 
+(e.g., operating systems, utility programs, applications) as well as shareware, 
+proprietary software created by an organization for internal use, and 
+software produced by individuals. For all such software, copyright protection 
+is available if desired. In some cases, a patent protection may also be 
+appropriate. 
+
+■■ Databases: A database may consist of data that is collected and organized in 
+such a fashion that it has potential commercial value. An example is an economic 
+forecasting database. Such databases may be protected by copyright. 
+
+■■ Digital content: This category includes audio files, video files, multimedia, 
+courseware, Web site content, and any other original digital work that can be 
+presented in some fashion using computers or other digital devices. 
+
+■■ Algorithms: An example of a patentable algorithm, previously cited, is the 
+RSA public-key cryptosystem. 
+
+Digital Millennium Copyright Act 
+
+The U.S. Digital Millennium Copyright Act (DMCA) has had a profound effect 
+on the protection of digital content rights in both the United States and worldwide. 
+The DMCA, signed into law in 1998, is designed to implement World Intellectual 
+Property Organization (WIPO) treaties, signed in 1996. In essence, DMCA 
+strengthens the protection of copyrighted materials in digital format. 
+
+The DMCA encourages copyright owners to use technological measures 
+to protect copyrighted works. These measures fall into two categories: measures 
+that prevent access to the work and measures that prevent copying of the work. 
+Further, the law prohibits attempts to bypass such measures. Specifically, the 
+law states that “no person shall circumvent a technological measure that effectively 
+controls access to a work protected under this title.” Among other effects 
+of this clause, it prohibits almost all unauthorized decryption of content. The 
+law further prohibits the manufacture, release, or sale of products, services, and 
+devices that can crack encryption designed to thwart either access to or copying 
+of material unauthorized by the copyright holder. Both criminal and civil penalties 
+apply to attempts to circumvent technological measures and to assist in such 
+circumvention. 
+
+Certain actions are exempted from the provisions of the DMCA and other 
+copyright laws, including the following: 
+
+■■ Fair use: This concept is not tightly defined. It is intended to permit others to 
+perform, show, quote, copy, and otherwise distribute portions of the work for 
+certain purposes. These purposes include review, comment, and discussion of 
+copyrighted works. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+10 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+■■ Reverse engineering: Reverse engineering of a software product is allowed if 
+the user has the right to use a copy of the program and if the purpose of the 
+reverse engineering is not to duplicate the functionality of the program but 
+rather to achieve interoperability. 
+
+■■ Encryption research: “Good faith” encryption research is allowed. In essence, 
+this exemption allows decryption attempts to advance the development of 
+encryption technology. 
+
+■■ Security testing: This is the access of a computer or network for the good faith 
+testing, investigating, or correcting a security flaw or vulnerability, with the 
+authorization of the owner or operator. 
+
+■■ Personal privacy: It is generally permitted to bypass technological measures if 
+that is the only reasonable way to prevent the access to result in the revealing 
+or recording of personally identifying information. 
+
+Despite the exemptions built into the Act, there is considerable concern, 
+especially in the research and academic communities, that the act inhibits legitimate 
+security and encryption research. These parties feel that DMCA stifles innovation 
+and academic freedom and is a threat to open source software development 
+[ACM04]. 
+
+Digital Rights Management 
+
+Digital Rights Management (DRM) refers to systems and procedures that ensure 
+that holders of digital rights are clearly identified and receive the stipulated payment 
+for their works. The systems and procedures may also impose further restrictions 
+on the use of digital objects, such as inhibiting printing or prohibiting further 
+distribution. 
+
+There is no single DRM standard or architecture. DRM encompasses a variety 
+of approaches to intellectual property management and enforcement by providing 
+secure and trusted automated services to control the distribution and use of 
+content. In general, the objective is to provide mechanisms for the complete content 
+management life cycle (creation, subsequent contribution by others, access, 
+distribution, use), including the management of rights information associated with 
+the content. 
+
+DRM systems should meet the following objectives: 
+
+1. Provide persistent content protection against unauthorized access to the digital 
+content, limiting access to only those with the proper authorization. 
+2. Support a variety of digital content types (e.g., music files, video streams, digital 
+books, images). 
+3. Support content use on a variety of platforms, (e.g., PCs, PDAs, iPods, mobile 
+phones). 
+4. Support content distribution on a variety of media, including CD-ROMs, 
+DVDs, and flash memory. 
+Figure 14.2, based on [LIU03], illustrates a typical DRM model in terms of the 
+principal users of DRM systems: 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.2 / inTELLECTuAL PRoPERTy 11 
+Protectedcontent 
+Paying 
+royalty fees 
+Usagerules 
+Digitallicense 
+Protectedcontent 
+Requiringlicense and paying 
+Information ow 
+Paying distribution 
+Money ow 
+Figure 14.2 DRM Components 
+
+■■ Content provider: Holds the digital rights of the content and wants to protect 
+these rights. Examples are a music record label and a movie studio. 
+
+■■ Distributor: Provides distribution channels, such as an online shop or a Web 
+retailer. For example, an online distributor receives the digital content from 
+the content provider and creates a Web catalog presenting the content and 
+rights metadata for the content promotion. 
+
+■■ Consumer: Uses the system to access the digital content by retrieving downloadable 
+or streaming content through the distribution channel and then paying 
+for the digital license. The player/viewer application used by the consumer 
+takes charge of initiating license request to the clearinghouse and enforcing 
+the content usage rights. 
+
+■■ Clearinghouse: Handles the financial transaction for issuing the digital license 
+to the consumer and pays royalty fees to the content provider and distribution 
+fees to the distributor accordingly. The clearinghouse is also responsible for 
+logging license consumptions for every consumer. 
+
+In this model, the distributor need not enforce the access rights. Instead, the 
+content provider protects the content in such a way (typically encryption) that the 
+consumer must purchase a digital license and access capability from the clearinghouse. 
+The clearinghouse consults usage rules provided by the content provider 
+to determine what access is permitted and the fee for a particular type of access. 
+Having collected the fee, the clearinghouse credits the content provider and distributor 
+appropriately. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+12 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+Figure 14.3 shows a generic system architecture to support DRM functionality. 
+The system is access by parties in three roles. Rights holders are the content 
+providers, who either created the content or have acquired rights to the content. 
+Service providers include distributors and clearinghouses. Consumers are those 
+who purchase the right to access to content for specific uses. There is system interface 
+to the services provided by the DRM system: 
+
+■■ Identity management: Mechanisms to uniquely identify entities, such as parties 
+and content 
+■■ Content management: Processes and functions needed to manage the content 
+lifestyle 
+■■ Rights management: Processes and functions needed to manage rights, rights 
+holders, and associated requirements 
+
+Below these management modules are a set of common functions. The 
+security/encryption module provides functions to encrypt content and to sign license 
+agreements. The identity management service makes use of the authentication and 
+authorization functions to identify all parties in the relationship. Using these functions, 
+the identity management service includes the following: 
+
+■■ Allocation of unique party identifiers 
+■■ User profile and preferences 
+■■ User’s device management 
+■■ Public-key management 
+
+ROLESSERVICESFUNCTIONS
+Figure 14.3 DRM System Architecutre 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14.3 / PRivACy 13 
+Billing/payments functions deal with the collection of usage fees from consumers 
+and the distribution of payments to rights holders and distributors. Delivery 
+functions deal with the delivery of content to consumers. 
+
+14.3 PRIVACY 
+An issue with considerable overlap with computer security is that of privacy. On 
+the one hand, the scale and interconnectedness of personal information collected 
+and stored in information systems has increased dramatically, motivated by law 
+enforcement, national security, and economic incentives. The last mentioned has 
+been perhaps the main driving force. In a global information economy, it is likely 
+that the most economically valuable electronic asset is aggregations of information 
+on individuals [HAYE09]. On the other hand, individuals have become increasingly 
+aware of the extent to which government agencies, businesses, and even Internet 
+users have access to their personal information and private details about their lives 
+and activities. 
+
+Concerns about the extent to which personal privacy has been and may be 
+compromised have led to a variety of legal and technical approaches to reinforcing 
+privacy rights. 
+
+Privacy Law and Regulation 
+
+A number of international organizations and national governments have introduced 
+laws and regulations intended to protect individual privacy. We look at two 
+such initiatives in this subsection. 
+
+european union data proteCtion direCtive In 1998, the EU adopted the 
+Directive on Data Protection to both (1) ensure that member states protected fundamental 
+privacy rights when processing personal information, and (2) prevent 
+member states from restricting the free flow of personal information within the EU. 
+The Directive is not itself a law, but requires member states to enact laws encompassing 
+its terms. The Directive is organized around the following principles of personal 
+information use: 
+
+■■ Notice: Organizations must notify individuals what personal information they 
+are collecting, the uses of that information, and what choices the individual 
+may have. 
+
+■■ Consent: Individuals must be able to choose whether and how their personal 
+information is used by, or disclosed to, third parties. They have the right not to 
+have any sensitive information collected or used without express permission, 
+including race, religion, health, union membership, beliefs, and sex life. 
+
+■■ Consistency: Organizations may use personal information only in accordance 
+with the terms of the notice given the data subject and any choices with respect 
+to its use exercised by the subject. 
+
+■■ Access: Individuals must have the right and ability to access their information 
+and correct, modify, or delete any portion of it. 
+
+© 2017 Pearson Education, Inc., Hoboken, NJ. All rights reserved.
+
+14 CHAPTER 14 / LEgAL And ETHiCAL AsPECTs 
+
+■■ Security: Organizations must provide adequate security, using technical and 
+other means, to protect the integrity and confidentiality of personal information. 
+
+■■ Onward transfer: Third parties receiving personal information must provide 
+the same level of privacy protection as the organization from whom the information 
+is obtained. 
+
+■■ Enforcement: The Directive grants a private right of action to data subjects 
+when organizations do not follow the law. In addition, each EU member has 
+a regulatory enforcement agency concerned with privacy rights enforcement. 
+
+united states privaCy initiatives The first comprehensive privacy legislation 
+adopted in the United States was the Privacy Act of 1974, which dealt with personal 
+information collected and used by federal agencies. The Act is intended to 
+
+1. Permit individuals to determine what records pertaining to them are collected, 
+maintained, used, or disseminated. 
+2. Permit individuals to forbid records obtained for one purpose to be used for 
+another purpose without consent. 
+3. Permit individuals to obtain access to records pertaining to them and to correct 
+and amend such records as appropriate. 
+4. Ensure that agencies collect, maintain, and use personal information in a manner 
+that ensures that the information is current, adequate, relevant, and not 
+excessive for its intended use. 
+5. Create a private right of action for individuals whose personal information is 
+not used in accordance with the Act. 
+As with all privacy laws and regulations, there are exceptions and conditions 
+
+attached to this Act, such as criminal investigations, national security concerns, and 
+
+conflicts between competing individual rights of privacy. 
+
+While the 1974 Privacy Act covers government records, a number of other 
+
+U.S. laws have been enacted that cover other areas, including the following: 
+■■ Banking and financial records: Personal banking information is protected 
+in certain ways by a number of laws, including the recent Financial Services 
+Modernization Act. 
+
+■■ Credit reports: The Fair Credit Reporting Act confers certain rights on individuals 
+and obligations on credit reporting agencies. 
+
+■■ Medical and health insurance records: A variety of laws have been in place for 
+decades dealing with medical records privacy.The Health Insurance Portability 
+and Accountability Act (HIPPA) created significant new rights for patients to 
+protect and access their own health information. 
+
+■■ Children’s privacy: The Children’s Online Privacy Protection Act places restrictions 
+on online organizations in the collection of data from children under the 
+age of 13. 
+
+■■ Electronic communications: The Electronic Communications Privacy Act generally 
+prohibits unauthorized and intentional interception of wire an electronic 
+communications during the transmission phase and unauthorized accessing of 
+electronically stored wire and electronic communications. 
+
