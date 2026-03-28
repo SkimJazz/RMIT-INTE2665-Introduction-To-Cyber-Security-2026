@@ -593,7 +593,7 @@ Qualitative methods focus on categorising risks by likelihood and impact severit
 Refer to the following reading to understand the key differences between qualitative and quantitative
 methods and how they apply to prioritisation.
 
-> > Chapter 5: Defining risk assessment approaches (pp. 240-25)
+> > Chapter 5: Defining risk assessment approaches (pp. 240-250)
 
 ![Understanding quantitative and qualitative risk assessment](9.3.3_Qualitive_And_Quantitative_risk.svg)
 
@@ -623,10 +623,6 @@ Consult the following reading for examples of CBA in prioritising risk elements:
 
 > > Performing a cost-benefit analysis on the identified risk elements (pp. 551-554)
 
-Week 9 - Activity 4: Applying advanced tools from Kali Linux
-
-Approx. 2 hours 10 minutes to complete all tasks in this activity
-In this activity you’ll be introduced to a variety of advanced tools in Kali Linux. You’ll practise using these tools and reflect on this. Although you won’t be assessed on your skills in this area, these tools can help in analysing network traffic and determining vulnerabilities in cyber systems.
 
 ## 9.4.0 Activity: Applying advanced tools from Kali Linux
 
@@ -692,9 +688,10 @@ Details for Assessment 3 (online quiz):
 
 The following where the practice exam questions for Week-9 content, Cyber Security Risk Management.
 
+
 **Question 1:**
 
-A **\*\***\_**\_\_****\*\*** policy governs how patches are understood, tested and rolled out to systems
+A ___________ policy governs how patches are understood, tested and rolled out to systems
 and clients.
 
 - Patch management (ANS)
